@@ -27,5 +27,12 @@ To derive the Current Asset value, Phyllis must sum the values of the Cash, Acco
 
 5. To link an account category to a main account, select the Link main accounts button. Or link a Main account category to an account from the Main account details form. 
 
+o	On linking main accounts, the following popup occurs.
+
+![image](https://user-images.githubusercontent.com/36937661/112088874-4e709880-8bdc-11eb-94b7-c6a0bfd41c40.png)
+
+
+
+
 
 
