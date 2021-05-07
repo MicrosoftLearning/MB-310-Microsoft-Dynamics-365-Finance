@@ -4,6 +4,7 @@ lab:
     module: 'Module 2: Set up and configure financial management'
 ---
 
+<Note: If you cannot stop the service while provisioning, restart the machine.>
 
 ## **Exercise 1: Configure a new legal entity**
 
