@@ -12,7 +12,7 @@ The goal of the lab exercise is to apply the knowledge we’ve learned regarding
 
 1. In **USMF**, Navigate to **Accounts receivable &gt; Invoices &gt; All free text invoices**.
 
-2. Select **New**.
+2. Select **+New**.
 
 3. In the **Customer account** field, select **US-003**. The invoice account will default to the same account used for the customer account.
 
@@ -129,7 +129,7 @@ Recurring invoices are used to invoice customers regularly for the same amount. 
 
 1. Navigate to **Accounts receivable &gt; Invoices &gt; All free text invoices**. 
 
-2. Select **New**.
+2. Select **+New**.
 
 3. In the **Customer account** field, enter or select **US-013**.
 
@@ -151,7 +151,7 @@ Recurring invoices are used to invoice customers regularly for the same amount. 
 
 12. Navigate to **Accounts receivable &gt; Payments &gt; Customer payment journal**.
 
-13. Select **New**.
+13. Select **+New**.
 
 14. In the **Name** field, enter or select **CustPay** then press tab.
 
@@ -180,7 +180,7 @@ Recurring invoices are used to invoice customers regularly for the same amount. 
 
 1. Select **Accounts receivable &gt; Charges setup &gt; Charges code**.
 
-2. Select **New**. In the **Charges code** field, type a code for the charge.
+2. Select **+New**. In the **Charges code** field, type a code for the charge.
 
 3. In the **Description** field, type a description of the charge.
 
@@ -196,7 +196,7 @@ Recurring invoices are used to invoice customers regularly for the same amount. 
 
 1. Select **Accounts receivable &gt; Charges setup &gt; Customer charge groups**.
 
-2. Select **New**.
+2. Select **+New**.
 
 3. In the **Charges group** field, enter a code for the charges group. The code can contain both letters and numbers.
 
@@ -208,7 +208,7 @@ Recurring invoices are used to invoice customers regularly for the same amount. 
 
 1. Select **Accounts receivable &gt; Charges setup &gt; Item charge groups**.
 
-2. Select **New** to create an item charge group.
+2. Select **+New** to create an item charge group.
 
 3. In the **Charges group** field, enter a code for the group. The code can be alphanumeric.
 
@@ -266,7 +266,7 @@ Recurring invoices are used to invoice customers regularly for the same amount. 
 
 1. Navigate to **Credit and collections &gt; Setup &gt; Customer pools**. Use this page to set up customer pools, which are queries that define a group of customer accounts that can be displayed and managed for collections or aging processes. Use customer pools to filter information on the Collections list page and on related list pages. You can also use customer pools to filter the customer accounts that are included when aging snapshots are created. You can use customer pools to filter the customer accounts that are included when aging snapshots are created.
 
-2. Select **New**.
+2. Select **+New**.
 
 3. In the **Pool ID** field, type a value.
 
@@ -284,15 +284,15 @@ Recurring invoices are used to invoice customers regularly for the same amount. 
 
 1. Navigate to **Credit and collections &gt; Setup &gt; Collections agents**. Use this page to set up workers as collections agents and optionally assign customer pools to them. A collections agent is a person who works with customers to make sure that payments are collected in a timely manner. Collections agents that are set up in this page are automatically added to a collections team. If a team is selected in the Team field in the Accounts receivable parameters page, collections agents are added to that team. If a team is not selected, a new team named Collections is created automatically and the collections agents are added to that team.
 
-2. Select **New**.
+2. Select **+New**.
 
-3. Select **Add**.
+3. Select **+Add**.
 
 4. Select the users of your choice.
 
-5. Select **Add**.
+5. Select **+Add**.
 
-6. Under Collection agent pools select **Add**.
+6. Under Collection agent pools select **+Add**.
 
 7. In the **Pool ID** field, select the drop-down button to open the lookup.
 
@@ -304,7 +304,7 @@ Recurring invoices are used to invoice customers regularly for the same amount. 
 
 1. Navigate to **Credit and collections &gt; Setup &gt; Aging period definitions**. You can use aging period definitions to analyze the maturity of customer accounts and vendor accounts, based on a date that you enter. Each aging period that you set up for the aging period definition corresponds to a column on the list page or in the form or report when the analysis is performed.
 
-2. Select **New**.
+2. Select **+New**.
 
 3. In the **Aging period definition** field, type a value.
 
@@ -322,7 +322,7 @@ Recurring invoices are used to invoice customers regularly for the same amount. 
 
 1. Navigate to **Credit and collections &gt; Interest &gt; Set up interest codes**.
 
-2. Select **New**.
+2. Select **+New**.
 
 3. In the **Interest code** field, enter **3M-9%**.
 
@@ -336,7 +336,7 @@ Recurring invoices are used to invoice customers regularly for the same amount. 
 
 8. Expand the **Earnings by currency** section.
 
-9. Select **Add**.
+9. Select **+Add**.
 
 10. In the **Description** field, enter a **US dollar**.
 
@@ -344,17 +344,17 @@ Recurring invoices are used to invoice customers regularly for the same amount. 
 
 12. Select **Ranges**.
 
-13. Select **New**.
+13. Select **+New**.
 
 14. Enter the **From** value as **0** and then enter the interest percent per month that will be used to calculate the interest. For our example, it is **1.5**.
 
-15. Select **New**.
+15. Select **+New**.
 
 16. Enter the next **From** value as **3**, which is the first month that you will be calculating a new interest amount.
 
 17. Enter the interest percent per month that will be used to calculate the interest starting in month **3**. For this example, it is **2.5**.
 
-18. Select **New**.
+18. Select **+New**.
 
 19. Enter the next **From** value as **6**, which is the next month that you will be calculating a new interest amount.
 
@@ -366,7 +366,7 @@ Recurring invoices are used to invoice customers regularly for the same amount. 
 
 1. Navigate to **Credit and collections &gt; Setup &gt; Set up collection letter sequence**.
 
-2. Select **New**.
+2. Select **+New**.
 
 3. In the **Collection letter sequence** field, enter a sequence ID that will represent the sequence. It will be used when you set up a posting profile.
 
@@ -382,7 +382,7 @@ Recurring invoices are used to invoice customers regularly for the same amount. 
 
 9. The currency for the fee defaults to the customer currency. This currency code can be different than the invoice currency.
 
-10. Select **Add** to add the next collection letter that will be sent in the sequence.
+10. Select **+Add** to add the next collection letter that will be sent in the sequence.
 
 11. In many cases, the first collection letter is just a warning. You can add fees if needed.
 
@@ -402,7 +402,7 @@ Recurring invoices are used to invoice customers regularly for the same amount. 
 
 19. Enter the number of grace **Days** that you will allow. This is the number of days after the due date that a collection letter can be generated. 
 
-20. Select **Add** to add the last collection letter in the sequence. You can add up to five collection letter codes for a collection letter sequence. In the collection letter code field, select the next collection letter that will be sent in the sequence.
+20. Select **+Add** to add the last collection letter in the sequence. You can add up to five collection letter codes for a collection letter sequence. In the collection letter code field, select the next collection letter that will be sent in the sequence.
 
 21. In the **Description** field, type a value.
 
