@@ -12,7 +12,7 @@ You need to configure the basic budgeting for your company. Select USMF to pract
 
 1. Navigate to **General ledger &gt; Journal setup &gt; Journal names**.
 
-2. Select **New**.
+2. Select **+New**.
 
 3. In the **Name** field, enter **'CPBud'**.
 
@@ -26,7 +26,7 @@ You need to configure the basic budgeting for your company. Select USMF to pract
 
 8. Navigate to **Organization administration &gt; Setup &gt; Financial reasons**.
 
-9. Select **New**.
+9. Select **+New**.
 
 10. In the **Reason code** field, enter **'Bud'**.
 
@@ -38,19 +38,19 @@ You need to configure the basic budgeting for your company. Select USMF to pract
 
 14. Navigate to **Budgeting &gt; Setup &gt; Basic budgeting &gt; Budget models**.
 
-15. Select **New**.
+15. Select **+New**.
 
 16. In the **Budget model** field, enter **'Sales'**.
 
 17. In the **Name** field, enter **'Sales Department'**.
 
-18. Select **New**.
+18. Select **+New**.
 
 19. In the **Budget model** field, enter **'Marketing'**.
 
 20. In the **Name** field, enter **'Marketing Department'**.
 
-21. Select **New**.
+21. Select **+New**.
 
 22. In the **Budget model** field, enter **'HQ'**.
 
@@ -60,7 +60,7 @@ You need to configure the basic budgeting for your company. Select USMF to pract
 
 25. Navigate to **Budgeting &gt; Setup &gt; Basic budgeting &gt; Budget codes**.
 
-26. Select **New**.
+26. Select **+New**.
 
 27. In the **Budget code** field, enter **'OB'**.
 
@@ -74,7 +74,7 @@ You need to configure the basic budgeting for your company. Select USMF to pract
 
 32. In the **Workflow** field, select **Budget register entry workflow**.
 
-33. Select **New**.
+33. Select **+New**.
 
 34. In the **Budget code** field, enter **'Rev'**.
 
@@ -86,7 +86,7 @@ You need to configure the basic budgeting for your company. Select USMF to pract
 
 38. In the **Reason code** field, select a value.
 
-39. Select **New**.
+39. Select **+New**.
 
 40. In the **Budget code** field, enter **'Trn'**.
 
@@ -114,19 +114,19 @@ You need to configure the basic budgeting for your company. Select USMF to pract
 
 52. Navigate to **Budgeting &gt; Setup &gt; Basic budgeting &gt; Budget allocation terms**.
 
-53. Select **New**.
+53. Select **+New**.
 
 54. In the **Budget allocation term** field, enter **'6040'**.
 
 55. In the **Description** field, enter **'60% 40%**.'
 
-56. Select **Add**.
+56. Select **+Add**.
 
 57. Set **Percent** to '60'.
 
 58. In the **Department** field, enter or select a value.
 
-59. Select **Add**.
+59. Select **+Add**.
 
 60. Set **Percent** to '40'.
 
