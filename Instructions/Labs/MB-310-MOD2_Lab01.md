@@ -14,7 +14,7 @@ A legal entity is an organization that is identified through registration with a
 
 1. Navigate to **Organization administration &gt; Organizations &gt; Legal entities.** Note that most of the navigation in our exercises is under Modules on the left side of the screen.
 
-2. Select **New**
+2. Select **+New**
 
 3. In the **Name** field, type 'Contoso Pharmaceuticals'.
 
