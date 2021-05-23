@@ -13,7 +13,7 @@ The following steps show you how to use the invoice register to create invoices 
 
 1. In **USMF**, navigate to **Accounts payable &gt; Invoices &gt; Invoice register**.
 
-2. Select **New**.
+2. Select **+New**.
 
 3. Select the name of the invoice register that you want to use.
 
@@ -39,7 +39,7 @@ The following steps show you how to use the invoice register to create invoices 
 
 1. Navigate to **Accounts payable &gt; Invoices &gt; Invoice approval**.
 
-2. Select **New**.
+2. Select **+New**.
 
 3. Select the name of the invoice approval journal that you want to use.
 
@@ -69,9 +69,9 @@ Let’s now see how to record vendor invoices that are not associated with purch
 
 1. Navigate to **Accounts payable &gt; Workspaces &gt; Vendor invoice entry**.
 
-2. Select **New invoice journal**.
+2. Select **+New invoice journal**.
 
-3. Select **New**.
+3. Select **N+ew**.
 
 4. In the **Name** field, enter the journal name or select the drop-down button to open the lookup.
 
