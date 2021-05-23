@@ -13,7 +13,7 @@ The goal of the lab exercise is to apply the knowledge we’ve learned regarding
 
 1. Navigate to **Tax &gt; Setup &gt; Sales tax &gt; Ledger posting groups**.
 
-2. Select **New**
+2. Select **+New**
 
 3. In the **Ledger posting group** field, type **DynLPG**.
 
@@ -39,7 +39,7 @@ The goal of the lab exercise is to apply the knowledge we’ve learned regarding
 
 1. Navigate to **Tax &gt; Indirect taxes &gt; Sales tax &gt; Sales tax authorities**.
 
-2. Select **New**
+2. Select **+New**
 
 3. In the **Authority** field, type **DynA**.
 
@@ -58,7 +58,7 @@ The goal of the lab exercise is to apply the knowledge we’ve learned regarding
 
 1. Navigate to **Tax &gt; Indirect taxes &gt; Sales tax &gt; Sales tax settlement periods**.
 
-2. Select **New**
+2. Select **+New**
 
 3. In the **Settlement period** field, type **DynSP**.
 
@@ -76,7 +76,7 @@ The goal of the lab exercise is to apply the knowledge we’ve learned regarding
 
 10. Expand the **Period intervals** tab.
 
-11. Select **Add**
+11. Select **+Add**
 
 12. In the **From date** field, enter **01/01/2020**.
 
@@ -96,7 +96,7 @@ Sales tax codes are created for every indirect tax or duty that the legal entity
 
 1. Navigate to **Tax &gt; Indirect taxes &gt; Sales tax &gt; Sales tax codes**.
 
-2. Select **New**
+2. Select **+New**
 
 3. In the **Sales tax code** field, type **DynSTC**.
 
@@ -126,7 +126,7 @@ Sales tax codes are created for every indirect tax or duty that the legal entity
 
 1. Navigate to **Tax &gt; Indirect taxes &gt; Sales tax &gt; Sales tax groups**.
 
-2. Select **New**
+2. Select **+New**
 
 3. In the **Sales tax group** field, type **DynSTG**.
 
@@ -134,7 +134,7 @@ Sales tax codes are created for every indirect tax or duty that the legal entity
 
 5. Expand the **Setup** section.
 
-6. Select **Add**
+6. Select **+Add**
 
 7. In the **Sales tax code** field, select **DynSTC**.
 
@@ -144,13 +144,13 @@ Sales tax codes are created for every indirect tax or duty that the legal entity
 
 10. Navigate to **Tax &gt; Indirect taxes &gt; Sales tax &gt; Item sales tax groups**.
 
-11. Select **New**
+11. Select **+New**
 
 12. In the **Item sales tax group** field, type **DynISTG**.
 
 13. In the **Description** field, type **Demo Item sales tax group**.
 
-14. Select **Add**
+14. Select **+Add**
 
 15. In the **Sales tax code** field, type **DynSTC**.
 
@@ -162,7 +162,7 @@ Sales tax codes are created for every indirect tax or duty that the legal entity
 
 1. Navigate to **Tax &gt; Setup &gt; Sales tax &gt; Sales tax reporting codes**.
 
-2. Select **New**
+2. Select **+New**
 
 3. In the Report layout field select **U.S. report layout**.
 
@@ -180,7 +180,7 @@ Sales tax codes are created for every indirect tax or duty that the legal entity
 
 1. Navigate to **Tax &gt; Indirect taxes &gt; Withholding tax &gt; Withholding tax codes**.
 
-2. Select **New**
+2. Select **+New**
 
 3. In the **Withholding tax code** field, type **DynWH**.
 
