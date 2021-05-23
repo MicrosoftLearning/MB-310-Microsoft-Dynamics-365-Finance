@@ -15,7 +15,7 @@ You will deposit funds into a bank and cancel it by using deposit slips.
 
 1. Navigate to **Accounts receivable &gt; Payments &gt; Customer payment journal**.
 
-2. Select the **New** button to create a new record.
+2. Select the **+New** button to create a new record.
 
 3. In the **Name** field, select journal name **CustPay**.
 
