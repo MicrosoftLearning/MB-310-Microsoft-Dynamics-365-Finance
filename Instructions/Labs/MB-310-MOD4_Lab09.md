@@ -24,7 +24,7 @@ This fee does not require an item sales tax group.
 
 1. Navigate to **Accounts payable** **&gt;** **Setup &gt; Charges setup &gt; Charges code**.
 
-2. Select **New**.
+2. Select **+New**.
 
 3. Charges code: Enter **TRANSTO.**
 
@@ -54,7 +54,7 @@ As the Accounts Payable Administrator, you are asked to set up a new vendor char
 
 1. Navigate to **Accounts payable &gt;** **Setup &gt;** **Charges setup** **&gt;** **Vendor charges group**.
 
-2. Select **New**.
+2. Select **+New**.
 
 3. Charges group: Enter **06**. 
 
@@ -102,7 +102,7 @@ Because of the large quantity and weight of items bought, Datum Receivers (US-10
 
 1. Navigate to **Accounts payable** **&gt;** **Charges setup**, and then to **Item charge groups**.
 
-2. Select **New**.
+2. Select **+New**.
 
 3. Charges group: enter **123**.
 
@@ -120,7 +120,7 @@ Set up an automatic charge that will apply automatically to all purchases, where
 
 2. **Level**: Select **Line**.
 
-3. Select **New**.
+3. Select **+New**.
 
 4. **Account code**: select **Group**.
 
@@ -165,7 +165,7 @@ Set up an automatic charge that will apply automatically to all purchases, where
 
 1. Select **Accounts payable &gt; Charges setup &gt; Item charge groups**.
 
-2. Select **New** to create an item charges group.
+2. Select **+New** to create an item charges group.
 
 3. In the **Charges group** field, enter a code for the group. The code can be alphanumeric.
 
@@ -180,7 +180,7 @@ Set up an automatic charge that will apply automatically to all purchases, where
 
 1. Select **Accounts payable &gt; Charges setup &gt; Auto charges**.
 
-2. Select **New** to define a new auto charge.
+2. Select **+New** to define a new auto charge.
 
 3. In the **Level** field, select the level to apply the auto charge to from the following values: **Main** which applies charges to the order header, and **Line** that apply charges to the order lines.
 
