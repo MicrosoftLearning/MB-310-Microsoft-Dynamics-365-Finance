@@ -8,7 +8,7 @@ lab:
 
 1. Navigate to **Accounts receivable &gt; Payments setup &gt; Methods of payment**.
 
-2. Select **New**.
+2. Select **+New**.
 
 3. In the **Method of payment** field, type **'EPAR'**.
 
