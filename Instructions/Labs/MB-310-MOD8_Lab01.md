@@ -16,13 +16,13 @@ This task guide will set up Fixed asset posting profiles. It uses the Accountant
 
 1. Navigate to **Fixed assets &gt; Setup &gt; Fixed asset posting profiles**.
 
-2. Select **New**.
+2. Select **+New**.
 
 3. In the **Posting profile** field, enter a value.
 
 4. In the **Description** field, enter a value. You will need to create a posting profile for each fixed asset transaction type you will be using when working with fixed assets. Let’s start with the **Acquisition** transaction type.
 
-5. Select **Add**.
+5. Select **A+dd**.
 
 6. In the **Book** field, select a value.
 
@@ -36,7 +36,7 @@ This task guide will set up Fixed asset posting profiles. It uses the Accountant
 
 11. For Acquisition adjustment transactions, we will use the same accounts as used for Acquisition transactions.
 
-12. Select **Add**.
+12. Select **+Add**.
 
 13. In the **Book** field, select a value.
 
@@ -46,7 +46,7 @@ This task guide will set up Fixed asset posting profiles. It uses the Accountant
 
 16. In the **Transaction type** dropdown which says **Acquisition adjustment**, select 'Depreciation'.
 
-17. Select **Add**.
+17. Select **+Add**.
 
 18. In the **Book** field, select a value.
 
@@ -58,7 +58,7 @@ This task guide will set up Fixed asset posting profiles. It uses the Accountant
 
 22. For Depreciation adjustment transactions, we will use the same accounts as used for Depreciation transactions.
 
-23. Select **Add**.
+23. Select **+Add**.
 
 24. In the **Book** field, enter or select a value.
 
@@ -68,7 +68,7 @@ This task guide will set up Fixed asset posting profiles. It uses the Accountant
 
 27. In the **Transaction type** field, select 'Disposal - sale'.
 
-28. Select **Add**.
+28. Select **+Add**.
 
 29. In the **Book** field, enter or select a value.
 
@@ -78,7 +78,7 @@ This task guide will set up Fixed asset posting profiles. It uses the Accountant
 
 32. In the **Transaction type** field, select 'Disposal - scrap'; you will use the same accounts as for Disposal sale.
 
-33. Select **Add**.
+33. Select **+Add**.
 
 34. In the **Book** field, select a value.
 
@@ -88,7 +88,7 @@ This task guide will set up Fixed asset posting profiles. It uses the Accountant
 
 37. Expand the **Disposal** section. You must set up disposal posting profiles for both sale and scrap. 
 
-38. We will start with disposal sale transactions. Select **Add**.
+38. We will start with disposal sale transactions. Select **+Add**.
 
 39. In the **Book** field, enter or select a value.
 
@@ -102,7 +102,7 @@ This task guide will set up Fixed asset posting profiles. It uses the Accountant
 
 44. In the **Offset account** field, specify the desired value.
 
-45. Select **Add**.
+45. Select **+Add**.
 
 46. In the **Book** field, enter or select a value.
 
@@ -112,7 +112,7 @@ This task guide will set up Fixed asset posting profiles. It uses the Accountant
 
 49. In the **Offset account** field, specify the desired value.
 
-50. Select **Add**.
+50. Select **+Add**.
 
 51. In the **Book** field, enter or select a value.
 
@@ -122,7 +122,7 @@ This task guide will set up Fixed asset posting profiles. It uses the Accountant
 
 54. In the **Offset account** field, specify the desired value.
 
-55. Select **Add**.
+55. Select **+Add**.
 
 56. In the **Book field**, enter or select a value.
 
@@ -132,7 +132,7 @@ This task guide will set up Fixed asset posting profiles. It uses the Accountant
 
 59. In the **Offset account** field, specify the desired value.
 
-60. Select **Add**.
+60. Select **+Add**.
 
 61. In the **Book** field, enter or select a value.
 
@@ -142,7 +142,7 @@ This task guide will set up Fixed asset posting profiles. It uses the Accountant
 
 64. In the **Offset account** field, specify the desired values.
 
-65. Select **Add**.
+65. Select **+Add**.
 
 66. In the **Book** field, enter or select a value.
 
@@ -154,7 +154,7 @@ This task guide will set up Fixed asset posting profiles. It uses the Accountant
 
 70. In the **Sale** or **scrap** field, select 'Scrap'.
 
-71. Select **Add**.
+71. Select **+Add**.
 
 72. In the **Book** field, enter or select a value.
 
@@ -164,7 +164,7 @@ This task guide will set up Fixed asset posting profiles. It uses the Accountant
 
 75. In the **Offset account** field, specify the desired values.
 
-76. Select **Add**.
+76. Select **+Add**.
 
 77. In the **Book** field, enter or select a value. In Post value field, select 'Depreciation (prior years)'.
 
@@ -172,7 +172,7 @@ This task guide will set up Fixed asset posting profiles. It uses the Accountant
 
 79. In the **Offset account** field, specify the desired values.
 
-80. Select **Add**.
+80. Select **+Add**.
 
 81. In the **Book** field, enter or select a value.
 
@@ -182,7 +182,7 @@ This task guide will set up Fixed asset posting profiles. It uses the Accountant
 
 84. In the **Offset account** field, specify the desired values.
 
-85. Select **Add**.
+85. Select **+Add**.
 
 86. In the **Book** field, enter or select a value.
 
@@ -192,7 +192,7 @@ This task guide will set up Fixed asset posting profiles. It uses the Accountant
 
 89. In the **Offset account** field, specify the desired values.
 
-90. Select **Add**.
+90. Select **+Add**.
 
 91. In the **Book** field, enter or select a value.
 
@@ -202,7 +202,7 @@ This task guide will set up Fixed asset posting profiles. It uses the Accountant
 
 94. In the **Offset account** field, specify the desired values.
 
-95. Select **Add**.
+95. Select **+Add**.
 
 96. In the **Book** field, enter or select a value.
 
@@ -228,7 +228,7 @@ This task guide will set up Fixed asset posting profiles. It uses the Accountant
 
 1. Navigate to **Accounts payable &gt; Workspaces &gt; Vendor invoice entry**.
 
-2. Select **New vendor invoice**.
+2. Select **+New vendor invoice**.
 
 3. In the **Invoice account** field, select the drop-down to open the lookup.
 
@@ -238,7 +238,7 @@ This task guide will set up Fixed asset posting profiles. It uses the Accountant
 
 6. In the **Posting date** field, enter a date.
 
-7. Select **Add line**.
+7. Select **+Add line**.
 
 8. In the **Item number** field, select the drop-down button to open the lookup. Either non-stocked items or procurement categories can be used for fixed asset acquisition.
 
