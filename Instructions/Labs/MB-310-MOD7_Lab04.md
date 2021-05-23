@@ -48,7 +48,7 @@ As all the budgeting process happens in` the Finance department, therefore Julia
 
 1. Navigate to **Organization administration &gt; Organizations &gt; Organization hierarchies**.
 
-2. Select the **New** button.
+2. Select the **+New** button.
 
 3. In the **Name** field, enter **MyBudgetPlanningH**.
 
@@ -168,7 +168,7 @@ Now, as you’ve got columns defined to be used with our budget plan document, J
 
 20. Select the **Layouts** tab. 
 
-21. Select **Add** on the **Budget plan layouts** area to create a new layout for monthly budget entry; enter **MyLayout** in the **Name** field; choose the **MA+BU** value in the **Ledger dimension set** field to include Main accounts and Business units to the layout. 
+21. Select **+Add** on the **Budget plan layouts** area to create a new layout for monthly budget entry; enter **MyLayout** in the **Name** field; choose the **MA+BU** value in the **Ledger dimension set** field to include Main accounts and Business units to the layout. 
 
 22. Under the **Layout element** section, select **Add** and select **Actuals to date** in the **Elements** section. 
 
