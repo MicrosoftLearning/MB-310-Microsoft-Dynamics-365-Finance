@@ -12,7 +12,7 @@ Contoso Consulting USA (USSI) has decided to track Expenses for internet and pho
 
 1. Navigate to **Expense management &gt; Setup &gt; General &gt; Shared categories**.
 
-2. Select **New** to create a new expense category and then type “**Internet and Phone**” as the **Category ID** and **Category name**.
+2. Select **+New** to create a new expense category and then type “**Internet and Phone**” as the **Category ID** and **Category name**.
 
 3. Set the **Can be used in Project** and **Can be used in Expense** to **Yes**.
 
@@ -22,7 +22,7 @@ Contoso Consulting USA (USSI) has decided to track Expenses for internet and pho
 
 6. Navigate to **Expense management &gt; Setup &gt; General &gt; Expense categories**.
 
-7. Select **New** and then select Internet and Phone as the **Category ID**.
+7. Select **+New** and then select Internet and Phone as the **Category ID**.
 
 8. On the **Project** FastTab, select **ProjExp** as the **Category group** for this expense category.
 
