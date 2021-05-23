@@ -37,7 +37,7 @@ As a finance consultant follow the instructions below to help Annie.
 
 2. Verify to see if you have the account **110150** **– Bank Account GBP**. If it exists skip to step 9.
 
-3. Select the **New** button to create a new record.
+3. Select the **+New** button to create a new record.
 
 4. In the **Main account** field, enter **110150**.
 
@@ -53,7 +53,7 @@ As a finance consultant follow the instructions below to help Annie.
 
 9. Navigate to **Cash and bank management &gt; Setup &gt; Bank groups**.
 
-10. Select the **New** button to create a new record.
+10. Select the **+New** button to create a new record.
 
 11. In the **Bank groups** field, enter **RBUK**.
 
@@ -103,7 +103,7 @@ As a finance consultant follow the instructions below to help Annie.
 
 31. Select **Bank accounts** in the Setup group**.**
 
-32. Select **New**
+32. Select **+New**
 
 33. In the **Bank account** field, type a value such as **CustBank1**.
 
@@ -139,7 +139,7 @@ As a finance consultant follow the instructions below to help Annie.
 
 48. Navigate to **Accounts receivable &gt; Payments setup &gt; Methods of payment**.
 
-49. Select **New**
+49. Select **+New**
 
 50. In the **Method of payment** field, type a value such as **AREL**.
 
@@ -165,7 +165,7 @@ As a finance consultant follow the instructions below to help Annie.
 
 60. Expand the **Direct debit mandates** section.
 
-61. Select **Add**
+61. Select **+Add**
 
 62. In the **Bank account** field, note that **CustBank1** is automatically selected.
 
@@ -193,7 +193,7 @@ As a finance consultant follow the instructions below to help Annie.
 
 74. Select **OK**
 
-75. Note the value of Mandate status column is set to **New**.
+75. Note the value of Mandate status column is set to **+New**.
 
 76. Close the page
 
