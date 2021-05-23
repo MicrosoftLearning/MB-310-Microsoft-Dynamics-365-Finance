@@ -15,19 +15,19 @@ You need to configure and test ledger allocation rules in **USMF**. Per the acco
 
 1. Navigate to **General ledger &gt; Chart of accounts &gt; Accounts &gt; Main accounts**.
 
-2. Select **New**
+2. Select **+New**
 
 3. In the **Main account** field, type '100001'
 
 4. In the **Name** field, type 'Allocated Account 1'.
 
-5. Select **New**
+5. Select **+New**
 
 6. In the **Main account** field, type '100002'
 
 7. In the **Name** field, type 'Allocated Account 2'.
 
-8. Select **New**
+8. Select **+New**
 
 9. In the **Main account** field, type '100003'
 
@@ -42,7 +42,7 @@ You need to configure and test ledger allocation rules in **USMF**. Per the acco
 
 1. Navigate to **General ledger &gt; Ledger setup &gt; Date intervals**.
 
-2. Select **New**
+2. Select **+New**
 
 3. In the **Date interval code** field, type 'CurPeriod.'
 
@@ -65,7 +65,7 @@ You need to configure and test ledger allocation rules in **USMF**. Per the acco
 
 1. Navigate to **General ledger &gt; Journal setup &gt; Journal names**.
 
-2. Select **New**
+2. Select **+New**
 
 3. In the **Name** field, type 'AllocDemo'.
 
@@ -84,7 +84,7 @@ You need to configure and test ledger allocation rules in **USMF**. Per the acco
 
 1. Navigate to **General ledger &gt; Allocations &gt; Ledger allocation rules**.
 
-2. Select **New**
+2. Select **+New**
 
 3. In the **Rule** field, type ‘**AdvRule’**
 
@@ -102,11 +102,11 @@ You need to configure and test ledger allocation rules in **USMF**. Per the acco
 
 10. Select **Source** in the action pane.
 
-11. Select **New**
+11. Select **+New**
 
 12. In the **Source criteria** field, enter or select 601501 
 
-13. Select **New**
+13. Select **+New**
 
 14. In the **Field setting** field, select **'Financial dimension'**.
 
@@ -114,7 +114,7 @@ You need to configure and test ledger allocation rules in **USMF**. Per the acco
 
 16. In the **Source criteria** field, enter or select 004
 
-17. Select **New**
+17. Select **+New**
 
 18. In the **Field setting** field, select **'Financial dimension'**.
 
@@ -126,13 +126,13 @@ You need to configure and test ledger allocation rules in **USMF**. Per the acco
 
 22. Select **Destination**.
 
-23. Select **New**
+23. Select **+New**
 
 24. In the **To account** field, specify the values '100001'.
 
 25. In the **Department** field, enter or select 023.
 
-26. Select **New**
+26. Select **+New**
 
 27. In the **To account** field, specify the values '100002'.
 
@@ -147,7 +147,7 @@ You need to configure and test ledger allocation rules in **USMF**. Per the acco
 
 1. Navigate to **General ledger &gt; Journal entries &gt; General journals**.
 
-2. Select **New**
+2. Select **+New**
 
 3. In the **Name** field, enter or select **GenJrn****.**
 
