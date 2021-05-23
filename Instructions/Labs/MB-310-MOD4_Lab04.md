@@ -21,7 +21,7 @@ This procedure uses the USMF demo company. The accounts payable manager or accou
 
 1. Navigate to **Accounts payable &gt; Purchase orders &gt; All purchase orders**.
 
-2. Select **New**.
+2. Select **+New**.
 
 3. In the **Vendor account** field, select the drop-down button to open the lookup.
 
