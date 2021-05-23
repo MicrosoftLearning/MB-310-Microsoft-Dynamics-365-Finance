@@ -19,7 +19,7 @@ Contoso Pharmaceuticals (CPHQ) obtains a cash discount if it pays vendor invoice
 
 1. Navigate to **Accounts receivable &gt; Payments setup &gt; Cash discounts**.
 
-2. Select **New**.
+2. Select **+New**.
 
 3. In the **Cash discount** field, type '5D10%'.
 
@@ -31,7 +31,7 @@ Contoso Pharmaceuticals (CPHQ) obtains a cash discount if it pays vendor invoice
 
 7. In the **Main account for vendor discounts** field, specify the values '520200'.
 
-8. Select **New**.
+8. Select **+New**.
 
 9. In the **Cash discount** field, type '10D5%'.
 
@@ -45,7 +45,7 @@ Contoso Pharmaceuticals (CPHQ) obtains a cash discount if it pays vendor invoice
 
 14. Select **Save**.
 
-15. Select **New**.
+15. Select **+New**.
 
 16. In the **Cash discount** field, type '14D2%'.
 
