@@ -12,7 +12,7 @@ April is the Accounts Payable Coordinator at the USMF Company. The company has j
 
 1. Navigate to **Fixed assets &gt; Fixed assets &gt; Fixed assets**.
 
-2. Select the **New** button to create a new asset.
+2. Select the **+New** button to create a new asset.
 
 3. In the **Fixed asset group** field, select **MACH**.
 
