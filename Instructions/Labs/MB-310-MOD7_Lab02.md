@@ -14,7 +14,7 @@ You need to configure the budget control for your company. Select **USMF** to pr
 
 1. Open **Budgeting &gt; Setup &gt; Budget control &gt; Budget cycles**.
 
-2. Select **New** and enter a name for the budget cycle time span.
+2. Select **+New** and enter a name for the budget cycle time span.
 
 3. Select a fiscal calendar to associate with the budget cycle time span.
 
@@ -24,7 +24,7 @@ You need to configure the budget control for your company. Select **USMF** to pr
 
 6. If you select **Map to fiscal year**, the budget cycle time span uses the fiscal year that is defined by the starting and ending periods for the budget cycle.
 
-7. Select **Add**. Enter the name of the first period in the budget cycle time span and enter the date when that period starts. The ending date for the budget cycle is determined automatically based on the number of fiscal periods in the budget cycle time span.
+7. Select **+Add**. Enter the name of the first period in the budget cycle time span and enter the date when that period starts. The ending date for the budget cycle is determined automatically based on the number of fiscal periods in the budget cycle time span.
 
 8. Open **Budgeting &gt; Setup &gt; Budget control &gt; Budget control configuration**.
 
@@ -49,7 +49,7 @@ You need to configure the budget control for your company. Select **USMF** to pr
 
 18. Select the **Over budget permissions** tab.
 
-19. Select **Add** to create a new rule.
+19. Select **+Add** to create a new rule.
 
 20. Select the desired **User group**.
 
@@ -69,7 +69,7 @@ You need to configure the budget control for your company. Select **USMF** to pr
 
 28. Select the **Assign budget models** tab.
 
-29. Select **Add** and then select a **budget cycle time span**.
+29. Select **+Add** and then select a **budget cycle time span**.
 
 30. Select a **Budget cycle**.
 
