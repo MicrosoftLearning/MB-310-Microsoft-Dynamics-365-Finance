@@ -14,13 +14,13 @@ You need to configure the budget control for your company. Select USMF to practi
 
 1. Navigate to **Budgeting &gt; Budget register entries**.
 
-2. Select **New**.
+2. Select **+New**.
 
 3. In the **Budget model** field, enter or select a value.
 
 4. In the **Budget code** field, enter or select **OB** original budget.
 
-5. Select **Add line**.
+5. Select **+Add line**.
 
 6. Specify the desired value in the **Account structure** field.
 
@@ -28,13 +28,13 @@ You need to configure the budget control for your company. Select USMF to practi
 
 8. Set **Amount** to '3000'.
 
-9. Select **Add line**.
+9. Select **+Add line**.
 
 10. In the **Dimension values** field, specify the desired values with the same Main account and a different department value. Save this value.
 
 11. Set **Amount** to '1000'.
 
-12. Select **Add line**.
+12. Select **+Add line**.
 
 13. In the **Dimension values** field, specify the desired values with the same Main account and a different department value. Save this value.
 
@@ -90,7 +90,7 @@ You need to configure the budget control for your company. Select USMF to practi
 
 39. Navigate to **General ledger &gt; Workspaces &gt; General journal processing**.
 
-40. Select **New journal**. Save the journal number.
+40. Select **+New journal**. Save the journal number.
 
 41. In the **Name** field, enter or select a value.
 
@@ -116,13 +116,13 @@ You need to configure the budget control for your company. Select USMF to practi
 
 52. Navigate to **Budgeting &gt; Budget register entries**.
 
-53. Select **New**.
+53. Select **+New**.
 
 54. In the **Budget model** field, enter or select a value.
 
 55. In the **Budget code** field, enter or select revision.
 
-56. Select **Add line**.
+56. Select **+Add line**.
 
 57. In the **Dimension** values field, specify the value that you set in step 7.
 
@@ -158,13 +158,13 @@ You need to configure the budget control for your company. Select USMF to practi
 
 73. Navigate to **Budgeting &gt; Budget register entries**.
 
-74. Select **New**.
+74. Select **+New**.
 
 75. In the **Budget model** field, enter or select a value.
 
 76. In the **Budget code** field, enter or select **Trn** for transfer.
 
-77. Select **Add line**.
+77. Select **+Add line**.
 
 78. In the **Dimension values** field, specify the value that you set in step 7.
 
@@ -172,13 +172,13 @@ You need to configure the budget control for your company. Select USMF to practi
 
 80. Select **Save**.
 
-81. Select **Add line**.
+81. Select **+Add line**.
 
 82. In the **Dimension values** field, specify the value that you set in step 10.
 
 83. Set **Amount** to '-1050'.
 
-84. Select **Add line**.
+84. Select **+Add line**.
 
 85. In the **Dimension values** field, specify the value that you set in step 13.
 
