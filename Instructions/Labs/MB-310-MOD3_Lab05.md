@@ -11,7 +11,7 @@ lab:
 
 1. Navigate to **Accounts payable &gt; Payment setup &gt; Payment fee**.
 
-2. Select **New**.
+2. Select **+New**.
 
 3. In the **Fee ID** field, type a value. This field should describe when this fee will be used, such as "EFT_Fee".
 
@@ -54,7 +54,7 @@ lab:
 
 1. Navigate to **Accounts receivable &gt; Payments setup &gt; Payment fee**.
 
-2. Select **New**.
+2. Select **+New**.
 
 3. In the **Fee ID** field, type a value. This field should describe when this fee will be used, such as "Wire".
 
