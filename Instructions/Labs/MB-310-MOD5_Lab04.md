@@ -20,7 +20,7 @@ Use the information provided in the following table to create the expense report
 
 1. Navigate to **Expense management &gt; Setup &gt; General &gt; Optional setup &gt; Travel locations**.
 
-2. Select **New** to create a new location.
+2. Select **+New** to create a new location.
 
 3. Type “Los Angeles, CA” in the **Location** field.
 
