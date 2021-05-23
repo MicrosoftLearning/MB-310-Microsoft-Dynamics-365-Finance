@@ -12,7 +12,7 @@ lab:
 
 	a. Navigate to **Accounts payable &gt; Vendors &gt; Vendor groups**.
 
-	b. Select **New**.
+	b. Select **+New**.
 
 	c. In the **Vendor group** field, enter **'69'**.
 
@@ -28,7 +28,7 @@ lab:
 
 	a. Navigate to **Accounts payable &gt; Vendors &gt; All vendors**.
 
-	b. Select **New**.
+	b. Select **+New**.
 
 	c. In the **Vendor account** field, enter **'US-0069'**.
 
@@ -44,7 +44,7 @@ lab:
 
 	i. Select **Bank accounts** at the top in the Vendor > Set up group.
 
-	j. Select **New**.
+	j. Select **+New**.
 
 	k. In the **Bank account** field, enter **'BlueB1'**.
 
