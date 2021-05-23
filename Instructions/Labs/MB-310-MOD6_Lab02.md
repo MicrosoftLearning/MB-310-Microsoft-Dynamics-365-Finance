@@ -12,7 +12,7 @@ lab:
 
 	- Navigate to **Accounts receivable &gt; Setup &gt; Customer groups**.
 
-	- Select **New**.
+	- Select **+New**.
 
 	- In the **Customer group** field, type '17'.
 
@@ -30,7 +30,7 @@ lab:
 
 	- Navigate to **Accounts receivable &gt; Customers &gt; All customers**.
 
-	- Select **New**.
+	- Select **+New**.
 
 	- In the **Customer account** field, type 'US-0017'.
 
@@ -50,7 +50,7 @@ lab:
 
 	- Select **Bank accounts**.
 
-	- Select **New**.
+	- Select **+New**.
 
 	- In the **Bank account** field, type 'CustomerB1'.
 
