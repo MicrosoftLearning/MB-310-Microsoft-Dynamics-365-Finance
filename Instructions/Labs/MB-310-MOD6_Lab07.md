@@ -10,7 +10,7 @@ lab:
 
 1. Select **Accounts receivable &gt; Charges setup &gt; Charges code**.
 
-2. Select **New**. In the **Charges code** field, type a code for the charge.
+2. Select **+New**. In the **Charges code** field, type a code for the charge.
 
 3. In the **Description** field, type a description of the charge.
 
@@ -26,7 +26,7 @@ lab:
 
 1. Select **Accounts receivable &gt; Charges setup &gt; Customer charge groups**.
 
-2. Select **New**.
+2. Select **+New**.
 
 3. In the **Charges group** field, enter a code for the charges group. The code can contain both letters and numbers.
 
@@ -38,7 +38,7 @@ lab:
 
 1. Select **Accounts receivable &gt; Charges setup &gt; Item charge groups**.
 
-2. Select **New** to create an item charge group.
+2. Select **+New** to create an item charge group.
 
 3. In the **Charges group** field, enter a code for the group. The code can be alphanumeric.
 
