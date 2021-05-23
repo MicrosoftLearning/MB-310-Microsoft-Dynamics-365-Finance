@@ -10,7 +10,7 @@ lab:
 
 1. Navigate to **Accounts receivable &gt; Setup &gt; Customer posting profiles**.
 
-2. Select **New**.
+2. Select **+New**.
 
 3. In the **Posting profile** field, type **'ARPP'**.
 
@@ -18,7 +18,7 @@ lab:
 
 5. Add a Table profile:
 
-	- Select **Add**.
+	- Select **+Add**.
 
 	- In the **Account/Group number** field, type **US-0017**.
 
@@ -30,7 +30,7 @@ lab:
 
 6. Add a Group profile for 30:
 
-	- Select **Add**.
+	- Select **+Add**.
 
 	- In the **Account code** field, select **'Group'**.
 
@@ -42,7 +42,7 @@ lab:
 
 7. Add a Group profile for 90:
 
-	- Select **Add**.
+	- Select **+Add**.
 
 	- In the **Account code** field, select **'Group'**.
 
@@ -52,7 +52,7 @@ lab:
 
 8. Add an All profile:
 
-	- Select **Add**.
+	- Select **+Add**.
 
 	- In the **Account code** field, select **'All'**.
 
