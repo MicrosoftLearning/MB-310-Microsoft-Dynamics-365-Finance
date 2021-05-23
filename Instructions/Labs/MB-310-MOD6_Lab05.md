@@ -124,9 +124,6 @@ Recurring invoices are used to invoice customers regularly for the same amount. 
 
 11. Select **Post**. Post the selected invoices.
 
-  
-‎ 
-
 1. Navigate to **Accounts receivable &gt; Invoices &gt; All free text invoices**. 
 
 2. Select **+New**.
@@ -174,9 +171,6 @@ Recurring invoices are used to invoice customers regularly for the same amount. 
 23. Select **Post**.
 
 24. Close all pages.
-
-  
-‎ 
 
 1. Select **Accounts receivable &gt; Charges setup &gt; Charges code**.
 
