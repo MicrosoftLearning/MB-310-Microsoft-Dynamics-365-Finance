@@ -26,7 +26,7 @@ You must have completed exercise 4. This exercise will help you create a vendor 
 
 8. In the **Unit price** field in the **Lines** section, enter 1200.
 
-9. Select **Add line**.
+9. Select **+Add line**.
 
 10. In the **Item number** field, select the drop-down button to open the lookup.
 
