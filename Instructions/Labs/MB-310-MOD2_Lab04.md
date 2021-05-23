@@ -14,23 +14,23 @@ Phyllis, the Accounting Manager, wants to define calendars for different purpose
 
 1. Navigate to **General ledger &gt; Ledger setup &gt; Fiscal calendars**.
 
-2. Select the **N****e****w** **cale****n****dar** button.
+2. Select the **+New calendar** button.
 
 3. Enter the name of the calendar to be created in the **Calendar** field.
 
-4. Enter a description of the fiscal calendar in the **Descr****i****ption** field. This description may print on reports.
+4. Enter a description of the fiscal calendar in the **Description** field. This description may print on reports.
 
 
 5. Enter the **Start** and **End** dates of the initial fiscal year in the appropriate fields.
 
 
-6. Enter a **Fiscal** **year** **na****m****e** of the initial fiscal year to be associated with this fiscal calendar.
+6. Enter a **Fiscal** **year** **name** of the initial fiscal year to be associated with this fiscal calendar.
 
 
 7. Enter the **Length** **of** **the** **period** and the **Unit** of the periods. These fields work together to determine how many periods will be created.
 
 
-8. Select the **Cr****ea****te** button.
+8. Select the **Create** button.
 
 
 ### Create a date interval for month of August
