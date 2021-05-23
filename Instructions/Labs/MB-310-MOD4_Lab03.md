@@ -11,7 +11,7 @@ lab:
 
 1. Navigate to **Accounts payable &gt; Setup &gt; Vendor posting profiles**.
 
-2. Select **New**.
+2. Select **+New**.
 
 3. In the **Posting profile** field, enter **'APVP'**.
 
@@ -19,7 +19,7 @@ lab:
 
 5. Add a Table setup:
 
-	a. Select **Add**.
+	a. Select **+Add**.
 
 	b. In the **Account/Group number** field, enter or select **US-0069** Adventure Works Blue Yonder.
 
@@ -43,7 +43,7 @@ lab:
 
 6. Add a Group setup:
 
-	a. Select **Add**.
+	a. Select **+Add**.
 
 	b. In the **Account code** field, select **'Group'**.
 
@@ -55,7 +55,7 @@ lab:
 
 7. Add an All setup:
 
-	a. Select **Add**.
+	a. Select **+Add**.
 
 	b. In the **Account code** field, select **'All'**.
 
