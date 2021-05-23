@@ -8,7 +8,7 @@ lab:
 
 1. Navigate to **Accounts receivable &gt; Invoices &gt; All free text invoices**.
 
-2. Select **New**.
+2. Select **+New**.
 
 3. In the **Customer account** field, enter or select **US-013**.
 
@@ -30,7 +30,7 @@ lab:
 
 12. Navigate to **Accounts receivable &gt; Payments &gt; Customer payment journal**.
 
-13. Select **New**.
+13. Select **+New**.
 
 14. In the **Name** field, enter or select **CustPay** then press tab.
 
