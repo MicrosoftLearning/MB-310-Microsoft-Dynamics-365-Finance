@@ -14,7 +14,7 @@ You need to set up and use intercompany accounting between **USRT** and **USMF**
 
 2. Navigate to **General ledger &gt; Journal setup &gt; Journal names**
 
-3. Select **New**
+3. Select **+New**
 
 4. In the **Name** field type **USMFIntJ**
 
@@ -30,7 +30,7 @@ You need to set up and use intercompany accounting between **USRT** and **USMF**
 
 2. Navigate to **General ledger &gt; Journal setup &gt; Journal names**
 
-3. Select **New**
+3. Select **+New**
 
 4. In the **Name** field type **USP2IntJ**
 
@@ -48,7 +48,7 @@ You need to set up and use intercompany accounting between **USRT** and **USMF**
 
 2. Navigate to **General ledger &gt; Chart of accounts &gt; Accounts &gt; Main accounts**.
 
-3. Select **New**
+3. Select **+New**
 
 4. In the Main account field, type **'100100'**.
 
@@ -56,7 +56,7 @@ You need to set up and use intercompany accounting between **USRT** and **USMF**
 
 6. In the Main account type field, select **'Balance sheet'**.
 
-7. Select **New**
+7. Select **+New**
 
 8. In the Main account field, type '**100101**'.
 
@@ -74,7 +74,7 @@ You need to set up and use intercompany accounting between **USRT** and **USMF**
 
 15. Verify the two accounts that you created in the steps 4 and 8 are listed since the two companies are sharing the same chart of account.
 
-16. Select **New**
+16. Select **+New**
 
 17. In the **Main** account field, type **'100106'**.
 
@@ -90,7 +90,7 @@ You need to set up and use intercompany accounting between **USRT** and **USMF**
 
 23. Navigate to **General ledger &gt; Posting setup &gt; Intercompany accounting**.
 
-24. Select **New**
+24. Select **+New**
 
 25. In the **Originating company** field, select ‘**USMF**'.
 
