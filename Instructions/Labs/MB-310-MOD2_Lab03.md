@@ -14,7 +14,7 @@ Phyllis, the Accounting Manager, is setting up the charts of accounts for Contos
 
 1. Navigate to General **ledger &gt; Chart of accounts &gt; Structures &gt; Configure account structures**.
 
-2. On the **Action pane**, select **New** to open the drop dialog.
+2. On the **Action pane**, select **+New** to open the drop dialog.
 
 3. In the **Account structure** field, type a name “**My Acct. Structure**” to describe the purpose of the account structure.
 
@@ -30,7 +30,7 @@ Phyllis, the Accounting Manager, is setting up the charts of accounts for Contos
 
 9. At the end of the list, Select **Add segment**.
 
-10. Repeat step 6 to8 to add **Cost center** as segment.
+10. Repeat step 6 to 8 to add **Cost center** as segment.
 
 11. In the **Segments and allowed values** section, select the segment to edit the allowed values in the **Allowed value details** section. For example, Select the **Main Account** field.
 
@@ -56,7 +56,7 @@ Phyllis, the Accounting Manager, is setting up the charts of accounts for Contos
 
 22. In the **Value** field, type a value: 007..021.
 
-23. In the **Segments and allowed values**, select **Add**.
+23. In the **Segments and allowed values**, select **+Add**.
 
 24. In the **MainAccount** field, type a value:700000.699999
 
