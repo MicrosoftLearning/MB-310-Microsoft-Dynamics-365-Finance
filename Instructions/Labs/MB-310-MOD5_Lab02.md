@@ -16,7 +16,7 @@ The policy specifies that for all meal values greater than or equal to $50.00 US
 
 1. Navigate to **Expense management &gt; Setup &gt; Policies &gt; Expense report**.
 
-2. Select **New** to create a new policy.
+2. Select **+New** to create a new policy.
 
 3. In the **Name** field, type "Meals Policy West".
 
