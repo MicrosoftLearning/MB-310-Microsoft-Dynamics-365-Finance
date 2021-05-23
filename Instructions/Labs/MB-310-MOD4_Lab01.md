@@ -9,7 +9,7 @@ lab:
 
 1. Navigate to **Accounts payable &gt; Payment setup &gt; Methods of payment**.
 
-2. Select **New**.
+2. Select **+New**.
 
 3. In the **Method of payment** field, enter **'EP'**.
 
