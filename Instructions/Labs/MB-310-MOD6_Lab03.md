@@ -28,7 +28,7 @@ Select the appropriate options to ensure the following:
 
 1. In **USMF**, Navigate to **Accounts receivable &gt; Setup &gt; Customer posting profiles**.
 
-2. Select **New**.
+2. Select **+New**.
 
 3. In the **Posting Profile** field, type **Prom**.
 
@@ -42,7 +42,7 @@ Select the appropriate options to ensure the following:
 
 8. In the Setup FastTab:
 
-	- Select **Add**.
+	- Select **+Add**.
 
 	- In the **Account code** field, select **group**.
 
@@ -62,7 +62,7 @@ Select the appropriate options to ensure the following:
 
 	- In **USMF**, navigate to **Accounts receivable &gt; Payments setup &gt; Payment days**.
 
-	- Select **New**.
+	- Select **+New**.
 
 	- In the **Payment day** field, enter **17** for the Payment day in the payment day field.
 
@@ -80,7 +80,7 @@ Select the appropriate options to ensure the following:
 
 	- Navigate to **Accounts receivable &gt; Payments setup &gt; Terms of payment**.
 
-	- Select **New**. 
+	- Select **+New**. 
 
 	- Terms of payment is used to define how the due dates will be calculated. The cash discount date setup is defined in a separate page.
 
@@ -98,7 +98,7 @@ Select the appropriate options to ensure the following:
 
 	- Navigate to **Accounts receivable &gt; Payments setup &gt; Cash discounts**.
 
-	- Select **New**.
+	- Select **+New**.
 
 	- In the **Cash discount** field, enter **AWC-15D5%**.
 
@@ -120,7 +120,7 @@ Select the appropriate options to ensure the following:
 
 1. In **USMF**, Navigate to **Accounts receivable &gt; Payments setup &gt; Methods of payment**.
 
-2. Select **New**.
+2. Select **+New**.
 
 3. In the **Method of payment** field, enter **AWC-EP**. The Method of payment ID is shown on invoices and payments, so make it descriptive enough to understand what type of payment is being recorded, and for what bank account.
 
@@ -160,7 +160,7 @@ Select the appropriate options to ensure the following:
 
 	- In **USMF**, Navigate to **Accounts receivable &gt; Payments setup &gt; Payment fee**.
 
-	- Select **New**.
+	- Select **+New**.
 
 	- In the **Fee ID** field, enter **W01**. The **Fee ID** displays on payment journals, so make it descriptive to understand what fee is being assessed.
 
@@ -200,7 +200,7 @@ USMF has begun working with a new customer, Woodgrove Bank. Arnie, the Accounts 
 
 1. Navigate to **Accounts receivable &gt; Customers &gt; All customers**.
 
-2. Select **New**.
+2. Select **+New**.
 
 3. In the **Customer account** field, enter **US-069**.
 
