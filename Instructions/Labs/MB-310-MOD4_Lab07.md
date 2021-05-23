@@ -12,7 +12,7 @@ This task guide will walk you through various methods used to create vendor paym
 
 1. Navigate to **Accounts payable &gt; Payments &gt; Vendor payment journal**.
 
-2. Select **New**.
+2. Select **+New**.
 
 3. Select the payment journal in which to save the vendor payments.
 
@@ -54,7 +54,7 @@ This task guide will walk you through various methods used to create vendor paym
 18. Scan your payments and make sure the method of payment is defined for all payments. If you generate the payments, such as printing a check or creating an electronic payment, the method of payment must be defined. The method of payment will also default from the bank account from the payment will be made.  
 ‎
 
-19. Select **New** to create a one-off payment. A one-off payment can be added to a payment journal at any time prior to posting. This is done by selecting the New button and adding the payment information manually, rather than using the Payment proposal.  
+19. Select **+New** to create a one-off payment. A one-off payment can be added to a payment journal at any time prior to posting. This is done by selecting the New button and adding the payment information manually, rather than using the Payment proposal.  
 ‎
 
 20. Select the vendor to whom the payment will be made.
