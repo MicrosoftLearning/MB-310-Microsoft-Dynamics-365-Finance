@@ -12,7 +12,7 @@ Depreciation profiles determine the type and the frequency of depreciation for a
 
 1. Navigate to **Fixed assets &gt; Setup &gt; Depreciation profiles**.
 
-2. Select **New**.
+2. Select **+New**.
 
 3. In the **Depreciation** profile field, enter a value.
 
@@ -30,7 +30,7 @@ Depreciation profiles determine the type and the frequency of depreciation for a
 
 1. Navigate to **Fixed assets &gt; Setup &gt; Books**.
 
-2. Select **New**.
+2. Select **+New**.
 
 3. In the **Book** field, enter a value.
 
