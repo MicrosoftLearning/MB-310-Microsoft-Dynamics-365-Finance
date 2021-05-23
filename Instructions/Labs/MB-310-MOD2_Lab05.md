@@ -11,9 +11,9 @@ lab:
 
 1. Navigate to **General ledger &gt; Currencies &gt; Exchange rate types**.
 
-2. Select **New**
+2. Select **+New**
 
-3. In the **Exchange rate type** field, type 'Adv-exch'.
+3. In the **Exchange rate types** field, type 'Adv-exch'.
 
 4. In the **Name** field, type '**Adventure Works exchange**'.
 
@@ -27,7 +27,7 @@ lab:
 
 9. Navigate to **General ledger &gt; Currencies &gt; Configure exchange rate providers**.
 
-10. Select **New**
+10. Select **+New**
 
 11. Select **Central Bank of the Russian Federation.**
 
