@@ -16,7 +16,7 @@ As the policy runs, if any violations are found, audit cases will automatically 
 
 1. Navigate to **Audit workbench &gt; Setup &gt; Policy rule type**.
 
-2. Select **New**.
+2. Select **+New**.
 
 3. In the **Rule name** field, type “**My Duplicate expenses policy**”.
 
@@ -36,7 +36,7 @@ As the policy runs, if any violations are found, audit cases will automatically 
 
 1. Navigate to **Audit workbench &gt; Setup &gt; Audit policies**.
 
-2. Select **New**.
+2. Select **+New**.
 
 3. Enter “Expense reports USSI” in the **Name** field.
 
