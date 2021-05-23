@@ -9,7 +9,7 @@ lab:
 
 1. Navigate to **Accounts receivable &gt; Payments setup &gt; Terms of payment**.
 
-2. Select **New**.
+2. Select **+New**.
 
 3. In the **Terms of payment** field, type 'Net 45'.
 
@@ -23,7 +23,7 @@ lab:
 
 8. Select **Save**.
 
-9. Select **New**.
+9. Select **+New**.
 
 10. In the **Terms of payment** field, type 'Collect on delivery'.
 
