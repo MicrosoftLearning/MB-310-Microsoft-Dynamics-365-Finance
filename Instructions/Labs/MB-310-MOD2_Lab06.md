@@ -13,7 +13,7 @@ The goal of the lab exercise is to apply the knowledge we’ve learned regarding
 
 1. Navigate to the **USMF** company and **General ledger &gt; Journal entries &gt; General journals**. 
 
-2. Select **New**
+2. Select **+New**
 
 3. In the **Name** field, select the drop-down button to open the lookup.
 
