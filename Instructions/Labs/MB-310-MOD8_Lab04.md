@@ -12,7 +12,7 @@ Cassie is the Accountant at the Contoso Company. It is the end of the month, and
 
 1. Navigate to **Fixed assets &gt; Journal entries &gt; Fixed assets journal**.
 
-2. Select the **New** button to create a journal.
+2. Select the **+New** button to create a journal.
 
 3. In the **Name** field, select **FACur** (Fixed Asset Entries - Current).
 
@@ -48,7 +48,7 @@ Cassie is the Accountant at the Contoso Company. It is the end of the month, and
 
 1. Navigate to **Fixed assets &gt; Journal entries &gt; Fixed assets journal**.
 
-2. Select the **New** button to create a journal.
+2. Select the **+New** button to create a journal.
 
 3. In the **Name** field, select **FACur** (Fixed Asset Entries - Current).
 
