@@ -9,7 +9,7 @@ lab:
 
 1. Navigate to **Accounts payable &gt; Payment setup &gt; Payment schedules**.
 
-2. Select **New**.
+2. Select **+New**.
 
 3. In the **Payment schedule** field, type '3M'.
 
@@ -25,13 +25,13 @@ lab:
 
 9. Set **Percent** or amount value to '15.00'.
 
-10. Select **Add**
+10. Select **+Add**
 
 11. In the **Number of periods after due date** field, enter '1'.
 
 12. Set **Percent or amount** value to '50.00'.
 
-13. Select **Add**.
+13. Select **+Add**.
 
 14. In the **Number of periods after due date** field, enter '2'.
 
