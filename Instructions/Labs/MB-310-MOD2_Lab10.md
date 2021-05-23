@@ -14,7 +14,7 @@ Follow the steps below to help Annie:
 
 1. Navigate to **Cash and bank management**, expand **Setup**, and then select **Bank transaction types**.
 
-2. Select the **New** button to insert a new record.
+2. Select the **+New** button to insert a new record.
 
 3. In the **Bank transaction type** field, enter 20.
 
@@ -26,11 +26,11 @@ Follow the steps below to help Annie:
 6. Close the **Bank transaction type** form.
 
 
-### Create a bank transaction group for bank charges.
+### Create a bank transaction group for bank charges
 
 7. Navigate to **Cash and bank management**, expand **Setup**, and then select **Bank transaction groups**.
 
-8. Select the **New** button to insert a new record.
+8. Select the **+New** button to insert a new record.
 
 9. In the **Bank transaction groups** field, enter 80.
 
