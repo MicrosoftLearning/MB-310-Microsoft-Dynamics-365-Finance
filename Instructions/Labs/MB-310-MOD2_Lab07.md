@@ -16,7 +16,7 @@ You need to assist Sabrina, the accountant in USMF how to configure and use accr
 
 1. Navigate to **General ledger &gt; &gt; Journal setup &gt; &gt; Accrual schemes**.
 
-2. Select **New**
+2. Select **+New**
 
 3. In the **Accrual identification** field, type '24M'.
 
