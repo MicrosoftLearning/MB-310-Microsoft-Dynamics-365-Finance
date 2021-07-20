@@ -118,7 +118,7 @@ Set up an automatic charge that will apply automatically to all purchases, where
 
 1. Navigate to **Accounts payable &gt;** **Charges setup**, and then to **Automatic charges**.
 
-2. **Level**: Select **Line**.
+2. For **Level** on the left: Select **Line**.
 
 3. Select **New**.
 
