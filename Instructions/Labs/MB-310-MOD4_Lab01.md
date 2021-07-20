@@ -35,7 +35,7 @@ lab:
 
 14. Select **HSBC Distribution Format (CA)**.
 
-15. Select **à** to add **HSBC Distribution Format (CA)** to Selected area.
+15. Select **->** to add **HSBC Distribution Format (CA)** to Selected area.
 
 16. Select **Save**.
 
