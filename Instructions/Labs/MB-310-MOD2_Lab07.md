@@ -26,7 +26,7 @@ You need to assist Sabrina, the accountant in USMF how to configure and use accr
 
 6. In the **Credit** account field, specify the values '420200.'
 
-7. In the **Voucher field**, select 'New voucher for each transaction.'
+7. In the **Voucher field**, select 'New voucher for each accrual transaction date'
 
 8. In the **Number sequence code** field, enter or select a value.
 
