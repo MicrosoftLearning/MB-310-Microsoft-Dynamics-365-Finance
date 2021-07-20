@@ -61,7 +61,7 @@ When the adjustments are finished, she must post the closing sheet and create th
 
 17. In the **Description** field, type **2014 close**.
 
-18. In the **Offset account** field, select Account number **110110**.
+18. In the **Offset account** field, select Account number **110110** and Department **022**.
 
 19. In the Amount field, type **2500.**
 
