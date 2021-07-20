@@ -82,7 +82,7 @@ As the Accounts Payable Administrator, you are asked to set up a new vendor char
 
 8. Open the vendor record for vendor **US-104** (Fabrikam Supplier).
 
-9. Select **Edit**.
+9. Select **Edit** if available.
 
 10. Open the **Purchase order defaults** FastTab.
 
@@ -150,7 +150,7 @@ Set up an automatic charge that will apply automatically to all purchases, where
 
 1. Select **Accounts payable &gt; Charges setup &gt; Vendor charges group**.
 
-2. In the **Charges group** field, enter a code for the charges group. The code can contain both letters and numbers.
+2. Select **+New** and in the **Charges group** field, enter a code for the charges group. The code can contain both letters and numbers.
 
 3. In the **Description** field, enter a description of the charges group.
 
@@ -178,11 +178,11 @@ Set up an automatic charge that will apply automatically to all purchases, where
 
 
 
-1. Select **Accounts payable &gt; Charges setup &gt; Auto charges**.
+1. Select **Accounts payable &gt; Charges setup &gt; Automatic charges**.
 
 2. Select **New** to define a new auto charge.
 
-3. In the **Level** field, select the level to apply the auto charge to from the following values: **Main** which applies charges to the order header, and **Line** that apply charges to the order lines.
+3. In the **Level** field on the left, select the level to apply the auto charge to from the following values: **Header** which applies charges to the order header, and **Line** that apply charges to the order lines.
 
 4. Select an account in the **Account code** field to be **Table**, to assign charges to a specific vendor, **Group** to assign charges to a miscellaneous charges group, or **All** which assigns charges to all vendors.
 
