@@ -30,4 +30,3 @@ Contoso Consulting USA (USSI) has decided to track Expenses for internet and pho
 
 10. Select **601500** in the **Main account** field for this category.
 
- 
