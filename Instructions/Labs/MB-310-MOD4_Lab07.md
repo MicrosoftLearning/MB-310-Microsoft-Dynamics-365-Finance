@@ -97,3 +97,4 @@ This task guide will walk you through various methods used to create vendor paym
 34. Select Post if all the payments are approved and generated.
 
  
+
