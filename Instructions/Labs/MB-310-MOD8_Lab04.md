@@ -79,3 +79,4 @@ Cassie is the Accountant at the Contoso Company. It is the end of the month, and
 16. Select **Transactions** and review the amounts of each voucher.
 
 17. Close all forms.
+
