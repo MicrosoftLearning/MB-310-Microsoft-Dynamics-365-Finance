@@ -88,5 +88,3 @@ You need to configure the budget control for your company. Select **USMF** to pr
 37. You have started budget control by using the active configuration. The budget control status changes to Turned on, and the Turn on button is replaced with Turn off.
 
  
-
- 
