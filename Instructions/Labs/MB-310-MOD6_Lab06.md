@@ -54,4 +54,3 @@ lab:
 
 24. Close all pages.
 
- 
