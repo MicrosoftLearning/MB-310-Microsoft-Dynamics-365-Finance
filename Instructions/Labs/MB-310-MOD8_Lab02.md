@@ -67,3 +67,4 @@ Depreciation profiles determine the type and the frequency of depreciation for a
 5. You can set the depreciation convention as required for tax purposes.
 
  
+
