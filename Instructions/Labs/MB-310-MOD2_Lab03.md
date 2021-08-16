@@ -73,3 +73,4 @@ Phyllis, the Accounting Manager, is setting up the charts of accounts for Contos
 30. Select **Activate**
 
 
+
