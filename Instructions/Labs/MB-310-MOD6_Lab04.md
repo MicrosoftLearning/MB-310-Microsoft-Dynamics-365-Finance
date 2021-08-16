@@ -76,4 +76,3 @@ lab:
 
 12. Close the page.
 
- 
