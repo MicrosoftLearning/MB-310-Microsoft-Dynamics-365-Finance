@@ -76,3 +76,4 @@ Contoso Pharmaceuticals (CPHQ) obtains a cash discount if it pays vendor invoice
 29. Verify the cash discounts you just created. 
 
 30. Close the page.
+
