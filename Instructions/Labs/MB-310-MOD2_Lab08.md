@@ -193,6 +193,3 @@ You need to configure and test ledger allocation rules in **USMF**. Per the acco
 6. Select **Post**
 
 7. Close all forms
-
-
- 
