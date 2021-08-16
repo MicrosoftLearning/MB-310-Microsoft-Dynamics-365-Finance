@@ -77,3 +77,4 @@ As a collection agent in **USMF**, you need to create a write off journal, since
 6. Close the page.
 
  
+
