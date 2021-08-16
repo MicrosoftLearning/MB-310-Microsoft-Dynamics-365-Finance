@@ -37,7 +37,7 @@ Follow the steps below to help Annie:
 10. Enter Bank Charges in the **Description** field.
 
 
-11. In the **Bank transaction groups** form, navigate to the **Type** FastTab (section).
+11. From the **Bank transaction groups** form select the **Type** FastTab.
 
 
 12. Select the **Bank transaction type** dropdown and select the bank transaction type of 07 for Fees. 
