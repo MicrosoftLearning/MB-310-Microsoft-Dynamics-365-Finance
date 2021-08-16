@@ -753,3 +753,4 @@ Connie, the Credit and Collections Manager at Contoso, must process and post the
 20. Close the **Review and Process Collection Letters** form.
 
  
+
