@@ -65,4 +65,3 @@ You will explore the Bank management workspace.
 
 28. Close the **General journals** page.
 
-
