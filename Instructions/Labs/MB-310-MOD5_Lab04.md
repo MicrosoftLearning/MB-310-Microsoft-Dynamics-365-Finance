@@ -70,4 +70,3 @@ Use the information provided in the following table to create the expense report
 
 14. In the Comment box, type “Los Angeles trip expenses,” and then select **Submit**.
 
- 

@@ -196,5 +196,3 @@ As a finance consultant follow the instructions below to help Annie.
 75. Note the value of Mandate status column is set to **New**.
 
 76. Close the page
-
-

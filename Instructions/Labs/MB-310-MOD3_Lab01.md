@@ -40,5 +40,3 @@ lab:
 16. Verify the terms of payments you just created.
 
 17. Close all forms.
-
- 

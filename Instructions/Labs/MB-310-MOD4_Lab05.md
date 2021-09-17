@@ -57,3 +57,4 @@ You must have completed exercise 4. This exercise will help you create a vendor 
 23. Note that the purchase order is no longer listed in **Purchase orders received but not invoiced** list page since it has been now posted.
 
  
+

@@ -176,7 +176,3 @@ You need to set up and use intercompany accounting between **USRT** and **USMF**
 
 9. Close all pages
 
-  
-‎ 
-
- 

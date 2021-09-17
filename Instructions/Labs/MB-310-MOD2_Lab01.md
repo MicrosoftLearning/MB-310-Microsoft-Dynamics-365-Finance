@@ -4,11 +4,11 @@ lab:
     module: 'Module 2: Set up and configure financial management'
 ---
 
-<Note: If you cannot stop the service while provisioning, restart the machine.>
+
 
 ## **Exercise 1: Configure a new legal entity**
 
- 
+ <Note: If you cannot stop the service while provisioning, restart the machine.>
 
 A legal entity is an organization that is identified through registration with a legal authority. Legal entities can enter into contracts and are required to prepare statements that report on their performance. Perform the following steps to create a legal entity.
 
@@ -53,5 +53,6 @@ A legal entity is an organization that is identified through registration with a
 20. Change company to 'CPHQ' by selecting USMF in the top right and typing CPHQ in the edit box presented.
 
 21. Navigate to **Default dashboard** which is the **Home** button on the left.
+
 
  

@@ -63,6 +63,3 @@ lab:
 14. Select Save.
 
 15. Close the page.
-
-
- 

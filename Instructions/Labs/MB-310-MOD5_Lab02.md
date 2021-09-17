@@ -53,4 +53,3 @@ The policy specifies that for all meal values greater than or equal to $50.00 US
 17. Close the form.
 
   
-‎ 

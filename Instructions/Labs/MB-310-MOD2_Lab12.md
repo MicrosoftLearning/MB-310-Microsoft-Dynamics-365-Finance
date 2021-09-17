@@ -81,4 +81,3 @@ You will deposit funds into a bank and cancel it by using deposit slips.
 30. Select the journal and select **Post &gt; Post** to complete the deposit slip reversal.
 
 
- 

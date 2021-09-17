@@ -43,7 +43,7 @@ The goal of the lab exercise is to apply the knowledge we’ve learned regarding
 
 	- Select **New** to create a new line.
 
-	- In the **Account** field, select the desired values. _Note: make sure to select the same currency, or you will need to adjust for currency conversion rounding errors. Example: If your account on line 1 corresponded to **Bank Account - USD**, then do not select **Bank Account - EUR** for line 2._
+	- In the **Account** field, select the desired values.
 
 	- In the **Description** field, type a value.
 
@@ -86,5 +86,6 @@ The goal of the lab exercise is to apply the knowledge we’ve learned regarding
 	- In the **Amount** field, enter the amount to be applied to the voucher.
 
 	- Select **OK**
+
 
  

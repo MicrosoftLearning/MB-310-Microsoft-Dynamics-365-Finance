@@ -263,5 +263,3 @@ This task guide will set up Fixed asset posting profiles. It uses the Accountant
 18. Select **Post**. The fixed asset will be created and acquired when the invoice is posted.
 
  
-
- 

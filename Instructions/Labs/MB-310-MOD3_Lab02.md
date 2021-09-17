@@ -44,5 +44,3 @@ lab:
 18. Verify the payment schedule you just created.
 
 19. Close all forms.
-
- 

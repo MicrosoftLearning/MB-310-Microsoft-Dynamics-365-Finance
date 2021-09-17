@@ -249,3 +249,4 @@ You can view posted sales tax transactions from various page depending on what y
 13. View the results.
 
 14. Close the page
+

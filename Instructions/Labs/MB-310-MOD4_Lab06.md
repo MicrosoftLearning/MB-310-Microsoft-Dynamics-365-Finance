@@ -104,3 +104,4 @@ Let’s now see how to record vendor invoices that are not associated with purch
 18. Close the page.
 
  
+
