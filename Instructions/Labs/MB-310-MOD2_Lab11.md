@@ -101,7 +101,7 @@ As a finance consultant follow the instructions below to help Annie.
 
 30. On the Action Pane, select **Customer**.
 
-31. Select **Bank accounts** in the Setup group**.**
+31. Select **Bank accounts** in the Setup group.
 
 32. Select **New**
 
