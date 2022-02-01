@@ -30,7 +30,7 @@ Phyllis, the Accounting Manager, is setting up the charts of accounts for Contos
 
 9. At the end of the list, Select **Add segment**.
 
-10. Repeat step 6 to8 to add **Cost center** as segment.
+10. Repeat step 6 to 8 to add **Cost center** as segment.
 
 11. In the **Segments and allowed values** section, select the segment to edit the allowed values in the **Allowed value details** section. For example, Select the **Main Account** field.
 
