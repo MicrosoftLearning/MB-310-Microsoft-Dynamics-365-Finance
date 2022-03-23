@@ -7,6 +7,8 @@ lab:
 
 ## Exercise 1: Configure Terms of payment
 
+**Note: Change company to USMF.**
+
 1. Navigate to **Accounts receivable &gt; Payments setup &gt; Terms of payment**.
 
 2. Select **New**.
