@@ -58,7 +58,7 @@ Phyllis, the Accounting Manager, is setting up the charts of accounts for Contos
 
 23. In the **Segments and allowed values**, select **Add**.
 
-24. In the **MainAccount** field, type a value:700000.699999
+24. In the **MainAccount** field, type a value:700000.799999
 
 25. In the grid, select the segment to edit the allowed values: **Department**.
 
