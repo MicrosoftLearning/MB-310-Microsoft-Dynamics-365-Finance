@@ -33,7 +33,7 @@ The goal of the lab exercise is to apply the knowledge we’ve learned regarding
 
 8. Select **New** to create a new line
 
-	- Enter a different account.
+	- Enter a different account. **Note: this account must be in the same currency as the previous account.**
 
 	- In the **Description** field, type a value.
 
