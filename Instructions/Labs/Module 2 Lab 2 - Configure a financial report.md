@@ -1,4 +1,3 @@
-
 ---
 lab:
     title: 'Lab: Configure financial reports'

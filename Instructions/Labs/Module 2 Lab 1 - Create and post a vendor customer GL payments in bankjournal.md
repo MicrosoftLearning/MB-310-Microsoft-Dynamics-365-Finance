@@ -1,10 +1,10 @@
 ---
 lab:
-    title: 'Lab - Configure an expense category'
+    title: 'Lab - Create and post vendor, customer, general ledger payments'
     module: 'Module 2: Set up and configure financial management'
 ---
 
-# Lab - Configure an expense category
+# Lab - Create and post vendor, customer, general ledger payments
 
 Heather, the bookkeeper at Contoso, must post a bank statement manually. Two customers paid an invoice, Heather needs to post payments to two vendors, and she also needs to post on main account 605160 for costs which are costs paid directly from the bank. If there are many bank transactions on a bank statement, these are normally imported. 
 

@@ -1,4 +1,3 @@
-
 ---
 lab:
     title: 'Lab: Configure payment methods, terms, and days for customers'

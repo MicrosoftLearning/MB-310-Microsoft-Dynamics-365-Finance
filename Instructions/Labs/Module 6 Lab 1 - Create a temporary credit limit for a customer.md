@@ -1,11 +1,10 @@
-
 ---
 lab:
-    title: 'Lab: Set up a customer credit group'
+    title: 'Lab: Create a temporary credit limit for a customer'
     module: 'Module 6: Implement and manage accounts receivable'
 ---
 
-# Lab Set up a customer credit group
+# Lab Create a temporary credit limit for a customer
 
 Temporary credit limits override customer credit limits for a defined period. You can add temporary credit limits by using credit limit adjustments. These adjustments let credit managers update the credit limits and end dates of a single customer, a group of customers, or all customers through a posting process. 
 

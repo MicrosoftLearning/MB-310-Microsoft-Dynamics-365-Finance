@@ -1,4 +1,3 @@
-
 ---
 lab:
     title: 'Lab - Acquire a fixed asset by using an AP invoice journal'

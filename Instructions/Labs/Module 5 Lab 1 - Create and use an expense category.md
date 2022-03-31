@@ -1,4 +1,3 @@
-
 ---
 lab:
     title: 'Lab: Configure an expense category '

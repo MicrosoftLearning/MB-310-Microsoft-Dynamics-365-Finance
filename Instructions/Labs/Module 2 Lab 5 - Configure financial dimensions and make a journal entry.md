@@ -1,4 +1,3 @@
-
 ---
 lab:
     title: 'Lab: Configure a dimension value'
