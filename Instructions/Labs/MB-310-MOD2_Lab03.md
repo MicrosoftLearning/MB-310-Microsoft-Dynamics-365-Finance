@@ -36,7 +36,7 @@ Phyllis, the Accounting Manager, is setting up the charts of accounts for Contos
 
 12. In the **Operator** field, select an option, such as **is between and includes**.
 
-13. In the **Value** field, type a value:600000.
+13. In the **Value** field, type a value:600000. **Note: When entering values, remove the * from the dialoge box.**
 
 14. In the **through** field, type a value: 699999.
 
