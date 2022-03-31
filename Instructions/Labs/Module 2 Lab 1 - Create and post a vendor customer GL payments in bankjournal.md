@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Lab - Create and post vendor, customer, general ledger payments'
+    title: 'Lab: Create and post vendor, customer, general ledger payments'
     module: 'Module 2: Set up and configure financial management'
 ---
 

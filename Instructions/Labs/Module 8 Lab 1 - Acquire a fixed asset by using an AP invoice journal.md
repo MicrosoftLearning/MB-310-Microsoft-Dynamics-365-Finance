@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Lab - Acquire a fixed asset by using an AP invoice journal'
+    title: 'Lab: Acquire a fixed asset by using an AP invoice journal'
     module: 'Module 8: Configure and manage fixed assets'
 ---
 
