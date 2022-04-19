@@ -33,23 +33,25 @@ It is possible to automatically create a fixed asset during the purchasing proce
 
 3. Select vendor **US-101** in the vendor field. Most fields are automatically populated.
 
-4. Navigate to the Warehouse field in the General fasttab and select **13**. 
+4. Enter **1000* in the **Item number field**.
 
-5. Select **OK**. 
+5. Navigate to the Warehouse field in the General fasttab and select **13**. 
 
-6. Select item **1000** (FastTab Purchase order lines).
+6. Select **OK**. 
 
-7. Expand the **Line details** FastTab.
+7. Select item **1000** (FastTab Purchase order lines).
 
-8. Select the **Fixed assets** tab (you may need to scroll right).
+8. Expand the **Line details** FastTab.
 
-9. Set the New fixed asset to **Yes**.
+9. Select the **Fixed assets** tab (you may need to scroll right).
 
-10. In the Fixed asset group field, select the drop-down list to open the lookup. Select the **COMP** group.
+10. Set the New fixed asset to **Yes**.
 
-11. **Save** the purchase order. 
+11. In the Fixed asset group field, select the drop-down list to open the lookup. Select the **COMP** group.
 
-12. Write down the Purchase order number. You will use this number in the next exercise.
+12. **Save** the purchase order. 
+
+13. Write down the Purchase order number. You will use this number in the next exercise.
 
 13. Close the form.
 ![](../images/Module_4_Activity_1_-_Acquire_a_fixed_asset_by_using_an_AP_invoice_journal_image2.png)
