@@ -59,7 +59,7 @@ You need to set up a temporary credit limit for customer US-003 in legal entity 
 
 11. Select **2/1/2022** in the New from date field.
 
-12. Select **3/31/2022** in the Expiration date field.
+12. Select the last day of the current month in the Expiration date field. (i.e.: 4/30/2022)
 13. **Save** the data. 
 ![](../images/Module_3_Activity_1_-_Create_a_temporary_credit_limit_for_a_customer_image6.png)
 
