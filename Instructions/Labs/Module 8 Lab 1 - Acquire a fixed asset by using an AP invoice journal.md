@@ -53,7 +53,7 @@ It is possible to automatically create a fixed asset during the purchasing proce
 
 13. Write down the Purchase order number. You will use this number in the next exercise.
 
-13. Close the form.
+14. Close the form.
 ![](../images/Module_4_Activity_1_-_Acquire_a_fixed_asset_by_using_an_AP_invoice_journal_image2.png)
 
 ## Exercise 3 : Confirm the purchase order
