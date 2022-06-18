@@ -208,7 +208,7 @@ Select OK and you will return to the vendor payment journal lines.
 
 7. Type **1,200** in the DEBIT amount field. 
 
-8. Select **Bank** in the Offset account field. 
+8. Select **Bank** in the Offset account type field. 
 
 
 9. Select **USMF OPER** in the offset account field. 
