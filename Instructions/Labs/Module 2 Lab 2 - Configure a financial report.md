@@ -137,7 +137,7 @@ In this exercise you will define a new report that uses the column definition yo
 
 16. Navigate to **General Ledger**, select **Inquiries and reports**, and then select **Financial reports**. The new report displays at the top of the list.
 
-17. Select **Generate** in the Action Pane.
+17. Select the report **Quarter trend income statement** and then select **Generate** in the Action Pane.
 
 18. Select **OK**. The following message displays: The financial report will be generated while you continue to work.
 
