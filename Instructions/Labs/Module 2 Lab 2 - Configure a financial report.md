@@ -30,6 +30,7 @@ In this lab, you will create the following reports:
 
 - Total amounts of all bank accounts per month.
 
+This lab uses the **USMF** demo company.
 
 ## Exercise 1: Generate a basic financial report
 
