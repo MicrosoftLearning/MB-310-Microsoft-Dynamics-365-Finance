@@ -191,7 +191,7 @@ In this exercise you will define a new report that uses the column definition yo
 
 19. Select **OK** (twice, if necessary) to return to the row definition. 
 
-20. Repeat steps 5-19 to define additional rows using the following information:   
+20. Repeat steps 7-19 to define additional rows using the following information:   
 
 
 | **Line**| **Column**| **Bank account**| **Main account** |
