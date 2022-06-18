@@ -221,7 +221,7 @@ Select OK and you will return to the vendor payment journal lines.
 
 1. Navigate to **Cash and Bank management** > **Inquiries and Reports** > **Bank transactions.**
 
-2. Select **USMF OPER** in the field Bank account criteria.
+2. Enter **USMF OPER** in the field Bank account **criteria**.
 
 3. Select **OK**.
 
