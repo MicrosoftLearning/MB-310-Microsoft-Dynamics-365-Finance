@@ -136,7 +136,7 @@ Select OK and you will return to the vendor payment journal lines.
 
 22. The error **Unable to find printer with path** will appear. **Close** the message, you will be able to continue the exercise.
 
-23. Check the payment status of the payment, if the status is **Sent**, you can **post** the journal. The check number will display.
+23. Check the payment status of the payment, if the status is **Sent**, you can **post** the journal by selecting the **Post** from the Action Pane. The check number will display.
 
 ## Exercise 4: Create customer payment journal
 
