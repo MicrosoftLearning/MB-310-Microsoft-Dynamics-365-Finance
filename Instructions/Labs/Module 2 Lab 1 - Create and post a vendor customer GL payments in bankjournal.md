@@ -73,7 +73,7 @@ We will do the same for the customers.
 
 3. Select the journal **VendPay** in the name field.
 
-4. **Navigate** to Lines in the Action Pane.
+4. **Navigate** to Lines in the Action Pane. Make sure you are on the newly created journal record.
 
 5. **Navigate** to the account field and select Vendor 1001.
 
