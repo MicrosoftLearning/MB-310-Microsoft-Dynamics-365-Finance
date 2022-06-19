@@ -51,7 +51,7 @@ You must create a category named **Representation costs** and track these costs 
 
 ## Exercise 2 Configure an expense category
 
-1. Navigate to **Expense management** and select **Setup**. Select **General** and then select **Expense categories**. 
+1. Go to Navigation pane > **Modules** > **Expense management** > **Setup** > **General** > **Expense categories**. 
 
 2. Select **New** to create a new expense category.
 
