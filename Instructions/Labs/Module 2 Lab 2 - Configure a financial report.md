@@ -62,7 +62,7 @@ Notes:
 
 In this exercise, you will start with the report that you reviewed in exercise one and modify the report to use five columns, one column for each quarter and one column that displays YTD amounts. 
 
-1. Navigate to **General Ledger**, select **Inquiries and reports**, and then select **Financial reports.**
+1. Go to Navigation pane > **Modules** > **General Ledger**, select **Inquiries and reports**, and then select **Financial reports.**
 
 2. Select **New** in the Action Pane. A report designer program downloads to your device from usnconeboxax1aos.cloud.onebox.dynamics.com. 
 
