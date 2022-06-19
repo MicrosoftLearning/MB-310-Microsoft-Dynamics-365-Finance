@@ -119,6 +119,6 @@ In USMF, the Manufacturing P&L account structure is set up as profit and loss ma
 ![](../images/Module_1_Activity_2_-_Configure_financial_dimensions_and_make_a_journal_entry_image10.png)
 9. Select main account **200190** in the Offset account field. 
 
-10. **Post** the journal. 
+10. Select **Post** from the **Action pane** to post the journal. 
 
 11. Close the form.
