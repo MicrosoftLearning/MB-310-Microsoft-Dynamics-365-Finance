@@ -38,7 +38,7 @@ The accounting manager at Contoso, Ltd. wants to redistribute the costs of an in
 - Company: **USMF**
  
 
-1. Navigate to company **USMF**, Module **General ledger**, select **Journal** **Setup**, and then select **Accrual schemes.**
+1. Navigate to company **USMF**. Go to Navigation pane > **Modules** > **General ledger** > **Journal Setup** > **Accrual schemes.**
 
 2. Select the **+New** button.  
 ![](../images/Module_1_Activity_1_-_Create_and_apply_an_accrual_scheme_image1.png) 
