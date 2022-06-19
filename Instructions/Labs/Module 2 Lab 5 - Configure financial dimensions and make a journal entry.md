@@ -68,7 +68,7 @@ Contoso, Ltd. has a new Sales and Marketing department. You need to set up the d
 
 In USMF, the Manufacturing P&L account structure is set up as profit and loss main accounts. You need to make a journal entry for the cost center that you created in the account structure. 
 
-1. Navigate to **General ledger** and select **Chart of accounts**. Select **Structures** and then select **Configure account structures**. 
+1. Go to Navigation pane > **Modules** > **General ledger** > **Chart of accounts** > **Structures** > **Configure account structures**. 
 
 2. Select the **Manufacturing P&amp;L** link.
 ![](../images/Module_1_Activity_2_-_Configure_financial_dimensions_and_make_a_journal_entry_image7.png)
