@@ -189,7 +189,7 @@ Select OK and you will return to the vendor payment journal lines.
 ## Exercise 5: Create journal for costs paid directly from the bank
 
 
-1. Navigate to **General Ledger** > **Journal entries** > **General journals**.
+1. Go to Navigation pane > **Modules** > **General Ledger** > **Journal entries** > **General journals**.
 
 2. Select **New** to create a new journal.
 
