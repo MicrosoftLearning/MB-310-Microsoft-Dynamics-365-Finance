@@ -42,7 +42,7 @@ Sales tax is calculated and posted to main accounts that are specified in Ledger
 
 Now we have set up the main account, we can set up a ledger posting group.
 
-1. Navigate to **Tax** and select **Setup**. Select **Sales tax** and then select **Ledger posting groups**.
+1. Go to Navigation pane > **Modules** > **Tax** > **Setup** > **Sales tax** > **Ledger posting groups**.
 
 2. Select **New**.
 
