@@ -67,7 +67,7 @@ We will do the same for the customers.
  
 ## Exercise 3: Create vendor payment journal
 
-1. Navigate to **Accounts Payable** > **Payments** > **Vendor payment journal**.
+1. Go to Navigation pane > **Modules** > **Accounts Payable** > **Payments** > **Vendor payment journal**.
 
 2. Select **New** to create a new journal.
 
