@@ -74,7 +74,7 @@ To use the ledger AR_State posting group you must:
 
 ## Exercise 3 Create a sales tax code
 
-1. Navigate to **Tax** and select **Indirect taxes**. Select **Sales tax** and then select **Sales tax codes**.
+1. Go to Navigation pane > **Modules** > **Tax** > **Indirect taxes** > **Sales tax** > **Sales tax codes**.
 
 2. Select **New**.
 
