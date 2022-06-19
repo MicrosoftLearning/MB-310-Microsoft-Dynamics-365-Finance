@@ -35,7 +35,7 @@ In this lab, you will create the following reports:
 
 In this exercise you will review an existing report so you can use the report as the basis for a new report. 
 
-1. Navigate to **General Ledger**, select **Inquiries and reports**, and then select **Financial reports**.
+1. Go to Navigation pane > **Modules** > **General Ledger**, select **Inquiries and reports**, and then select **Financial reports**.
 
 2. Select the **12 Month Trend Income Statement – Default** report.
 
