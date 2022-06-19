@@ -166,7 +166,7 @@ To use the ledger AR_State posting group you must:
 
 In this exercise, you generate a free text invoice and check the voucher to ensure that that the tax amount is posted on main account 120105.
 
-1. Navigate to **Accounts receivable**, select **Invoices**, and then select **All free text invoices**.
+1. Go to Navigation pane > **Modules** > **Accounts receivable** > **Invoices** > **All free text invoices**.
 
 2. Select **New** to create a new invoice. 
 
