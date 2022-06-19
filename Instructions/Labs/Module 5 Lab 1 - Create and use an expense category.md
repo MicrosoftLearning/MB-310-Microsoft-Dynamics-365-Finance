@@ -69,7 +69,7 @@ You must create a category named **Representation costs** and track these costs 
 
 ## Exercise 3 Create an expense report that uses the new expense category
 
-1. Navigate to **Expense management**, select **My expenses**, and then select **Expense reports**.
+1. Go to Navigation pane > **Modules** > **Expense management** > **My expenses** > **Expense reports**.
 
 2. Select **New expense report** to create a new report.
 
