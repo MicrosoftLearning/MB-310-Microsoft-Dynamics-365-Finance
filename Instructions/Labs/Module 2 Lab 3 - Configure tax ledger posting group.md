@@ -136,7 +136,7 @@ To use the ledger AR_State posting group you must:
 
 ## Exercise 6 Create a customer
 
-1. Navigate to **Accounts receivable**, select **Customers**, and then select **All customers**. 
+1. Go to Navigation pane > **Modules** > **Accounts receivable** > **Customers** > **All customers**. 
 
 2. Select **New** to create a new customer.
 
