@@ -227,7 +227,7 @@ Select OK and you will return to the vendor payment journal lines.
 
 4. In the list that is generated, at the top, you will see the general ledger posting and the customer payments posting. The vendor payments are shown as well, but with another date (check date). You can use a filter (for example the payment reference), to show the payments to the vendors.
 
-5. Navigate to **Accounts Payable** > **Vendors** > **All vendors.**
+5. Go to Navigation pane > **Modules** > **Accounts Payable** > **Vendors** > **All vendors.**
 
 6. Select Vendor **1001** (select the link). 
 
