@@ -14,7 +14,7 @@ Sales tax is calculated and posted to main accounts that are specified in Ledger
 
 ## Exercise 1 Set up the main account
 
-1. Navigate to **General ledger** and select **Chart of accounts**. Select **Accounts** and then select **Main accounts**.
+1. Go to Navigation pane > **Modules** > **General ledger** > **Chart of accounts** > **Accounts** > **Main accounts**.
 
 2. Select **New**.
 
