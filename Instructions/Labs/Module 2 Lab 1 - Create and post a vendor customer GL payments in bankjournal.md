@@ -219,7 +219,7 @@ Select OK and you will return to the vendor payment journal lines.
 
 ## Exercise 6: Check postings on the bank account
 
-1. Navigate to **Cash and Bank management** > **Inquiries and Reports** > **Bank transactions.**
+1. Go to Navigation pane > **Modules** > **Cash and Bank management** > **Inquiries and Reports** > **Bank transactions.**
 
 2. Select **USMF OPER** in the field Bank account criteria.
 
