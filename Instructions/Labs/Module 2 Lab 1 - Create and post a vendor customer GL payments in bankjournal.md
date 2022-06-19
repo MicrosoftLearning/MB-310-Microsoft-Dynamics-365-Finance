@@ -140,7 +140,7 @@ Select OK and you will return to the vendor payment journal lines.
 
 ## Exercise 4: Create customer payment journal
 
-1. Navigate to **Accounts Receivable** > **Payments** > **Customer payment journal**.
+1. Go to Navigation pane > **Modules** > **Accounts Receivable** > **Payments** > **Customer payment journal**.
 
 2. Select **New** to create a new journal.
 
