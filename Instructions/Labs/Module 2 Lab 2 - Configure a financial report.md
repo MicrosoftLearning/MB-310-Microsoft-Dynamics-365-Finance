@@ -135,7 +135,7 @@ In this exercise you will define a new report that uses the column definition yo
 
 15. **Return** to Dynamics 365 Finance.
 
-16. Navigate to **General Ledger**, select **Inquiries and reports**, and then select **Financial reports**. The new report **Quarter trend income statement** displays at the top of the list.
+16. Go to Navigation pane > **Modules** > **General Ledger** > **Inquiries and reports** > **Financial reports**. The new report **Quarter trend income statement** displays at the top of the list.
 
 17. Select **Generate** in the Action Pane.
 
