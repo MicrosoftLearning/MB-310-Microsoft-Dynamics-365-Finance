@@ -63,7 +63,7 @@ You need to set up a temporary credit limit for customer US-003 in legal entity 
 13. **Save** the data. 
 ![](../images/Module_3_Activity_1_-_Create_a_temporary_credit_limit_for_a_customer_image6.png)
 
-14. **Post** the journal.
+14. Select **Post** from the **Action pane** to post the journal.
 
 15. Close the form.
 
