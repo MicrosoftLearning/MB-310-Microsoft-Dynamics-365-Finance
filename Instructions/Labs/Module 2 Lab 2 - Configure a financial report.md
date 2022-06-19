@@ -267,7 +267,7 @@ In this exercise you will define a new report that uses the column definition yo
 
 16. Return to Dynamics 365 Finance.
 
-17. Navigate to **General Ledger**, select **Inquiries and reports**, and then select **Financial reports**.
+17. Go to Navigation pane > **Modules** > **General Ledger** > **Inquiries and reports** > **Financial reports**.
 
 18. You will see the new **report** **Bank totals per month** on top of the list.
 
