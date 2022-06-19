@@ -200,7 +200,7 @@ Select OK and you will return to the vendor payment journal lines.
 4. Navigate to Lines in the Action pane. 
 
 
-5. Navigate to the field **Account** and select main account **605160**, business unit **001**, department **024**. 
+5. Navigate to the field **Account** and select main account **605160**, business unit **001**, department **024**,you can leave the **Cost Center** and **Item Group** fields empty. 
 
 
 6. Type **electricity costs** in the description field.
