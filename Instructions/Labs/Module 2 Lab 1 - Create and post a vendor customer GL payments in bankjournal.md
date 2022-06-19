@@ -45,7 +45,7 @@ First, we need to find an open transaction for a vendor.
  
 We will do the same for the customers.
 
-1. Navigate to **Accounts Receivable** > **Inquiries and reports** > **Customers** > **Customer account statement (internal).** (This is a randomly chosen report, there are more reports that give a similar result).
+1. Go to Navigation pane > **Modules** > **Accounts Receivable** > **Inquiries and reports** > **Customers** > **Customer account statement (internal).** (This is a randomly chosen report, there are more reports that give a similar result).
  
 
 2. Type **01/01/2016** in the from date field.
