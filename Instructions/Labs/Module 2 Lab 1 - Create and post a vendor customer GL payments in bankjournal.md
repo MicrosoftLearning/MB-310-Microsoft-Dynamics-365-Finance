@@ -17,7 +17,7 @@ Due to the **segregation of duties,** Heather needs to post the vendor invoices 
 
 First, we need to find an open transaction for a vendor. 
 
-1. Navigate to **Accounts payable** > **Inquiries and reports** > **Vendor reports** > **Vendor** **balance list** (This is a randomly chosen report, there are more reports that give a similar result).
+1. Go to Navigation pane > **Modules** > **Accounts payable** > **Inquiries and reports** > **Vendor reports** > **Vendor** **balance list** (This is a randomly chosen report, there are more reports that give a similar result).
 
 2. Type **01/01/2016** in the field From date
 
