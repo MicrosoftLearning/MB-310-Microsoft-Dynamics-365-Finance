@@ -102,7 +102,7 @@ In USMF, the Manufacturing P&L account structure is set up as profit and loss ma
 ## Exercise 4 Apply the new financial dimension value in a Journal
 
 
-1. Navigate to **General ledger**, select **Journal entries**, and select **General journals**
+1. Go to Navigation pane > **Modules** > **General ledger** > **Journal entries** > **General journals**
 
 2. Select the **New** button to create a new journal
 
