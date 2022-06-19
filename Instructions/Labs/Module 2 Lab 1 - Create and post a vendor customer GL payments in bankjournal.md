@@ -247,7 +247,7 @@ Select OK and you will return to the vendor payment journal lines.
 ![](../images/Module_7_Activity_1_-_Create_and_post_a_bankjournal_image4.png)
 
 
-14. Navigate to **Cash and Bank management** > **Inquiries and Reports** > **Bank transactions.**
+14. Go to Navigation pane > **Modules** > **Cash and Bank management** > **Inquiries and Reports** > **Bank transactions.**
 
 15. Select **USMF OPER** in the field Bank account criteria.
 
