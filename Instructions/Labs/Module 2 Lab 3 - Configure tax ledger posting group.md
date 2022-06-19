@@ -104,7 +104,7 @@ To use the ledger AR_State posting group you must:
 
 ## Exercise 4 Expand the sales tax group
 
-1. Navigate to **Tax** and select **Indirect taxes**. Select **Sales tax** and then select **Sales tax group**.
+1. Go to Navigation pane > **Modules** > **Tax** > **Indirect taxes** > **Sales tax** > **Sales tax group**.
 
 2. Select **New**.
 
