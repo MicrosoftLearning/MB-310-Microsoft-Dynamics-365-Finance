@@ -27,7 +27,7 @@ A financial controller at Contoso is setting up a new expense category that allo
 
 You must create a category named **Representation costs** and track these costs a miscellaneous expense type with a default method of payment method of Company Credit Card. These expenses must be posted to account 601600, Promotional Expenses.
 
- 
+This lab uses the **USMF** demo company. 
 
  
 
