@@ -47,7 +47,7 @@ Contoso, Ltd. has a new Sales and Marketing department. You need to set up the d
 
 ## Exercise 2 Check whether the value has been created correctly.
 
-1. Navigate to **General ledger** and select **Chart of Accounts**. Select **Dimensions** and then select **Financial dimensions**.
+1. Go to Navigation pane > **Modules** > **General ledger** > **Chart of Accounts** > **Dimensions** > **Financial dimensions**.
 
 2. Select the **CostCenter** dimension on the left.
 ![](../images/Module_1_Activity_2_-_Configure_financial_dimensions_and_make_a_journal_entry_image4.png)
