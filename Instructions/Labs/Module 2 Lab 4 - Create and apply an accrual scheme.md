@@ -107,7 +107,7 @@ In this exercise you will apply the accrual scheme from exercise 1 in a journal.
 
 14. Select **OK** to accept the transactions and return to the journal line.
 
-15. **Post** the journal. 
+15. Select **Post** from the **Action pane** to post the journal. 
 
 16. **Select** Voucher
 ![](../images/Module_1_Activity_1_-_Create_and_apply_an_accrual_scheme_image8.png)
