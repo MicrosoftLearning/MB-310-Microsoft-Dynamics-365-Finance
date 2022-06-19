@@ -84,7 +84,7 @@ To use the ledger AR_State posting group you must:
 
 5. Select **GEN** in the **Settlement period** field.
 
-6. Select **Ledger posting group** **AZ_State** to specify the main account for posting sales tax to the general ledger.
+6. Select **AZ_State** in the **Ledger posting group** to specify the main account for posting sales tax to the general ledger.
 
 7. Select **Sales tax code** from the Action Pane.
 
