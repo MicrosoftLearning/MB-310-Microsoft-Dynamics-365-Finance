@@ -113,7 +113,7 @@ In USMF, the Manufacturing P&L account structure is set up as profit and loss ma
 
 6. Enter **601600** in the Account field.
 
-7. Select dimension Business Unit **001**, dimension Department **022,** and dimension cost center **250.**
+7. Select dimension Business Unit **001**, dimension Department **022,** and dimension cost center **250.**, you can leave the **Item Group** field empty.
 
 8. Enter **1500.00** in the Debit field. 
 ![](../images/Module_1_Activity_2_-_Configure_financial_dimensions_and_make_a_journal_entry_image10.png)
