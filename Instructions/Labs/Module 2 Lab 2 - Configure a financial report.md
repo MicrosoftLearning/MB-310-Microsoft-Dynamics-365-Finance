@@ -233,7 +233,7 @@ In this exercise you will define a new report that uses the column definition yo
 
 ## Exercise 5 Create a new report definition
 
-1. Navigate to **General Ledger**, select **Inquiries and reports**, and then select **Financial reports**.
+1. Go to Navigation pane > **Modules** > **General Ledger** > **Inquiries and reports** > **Financial reports**.
 
 2. Select **New** in the Action Pane. A report designer program downloads to your device from usnconeboxax1aos.cloud.onebox.dynamics.com. 
 
