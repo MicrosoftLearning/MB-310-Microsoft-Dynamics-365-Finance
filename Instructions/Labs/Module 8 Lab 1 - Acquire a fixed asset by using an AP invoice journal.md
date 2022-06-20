@@ -15,7 +15,7 @@ This lab uses the USMF company.
 
 It is possible to automatically create a fixed asset during the purchasing process. You can set this up in the parameters in the fixed assets module.
 
-1. Navigate to **Fixed Assets**, select **Setup**, and then select **Fixed Assets** **Parameters**. 
+1. Go to Navigation pane > **Modules** > **Fixed Assets** > **Setup** > **Fixed Assets Parameters**. 
 
 2. Expand the **Purchase orders** FastTab.
 
