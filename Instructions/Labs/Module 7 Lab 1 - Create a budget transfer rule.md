@@ -19,6 +19,8 @@ some changes to the budget to better align the budgets with the travel policies
 of the company. You need to set up transfer rules. You must be able to review
 and approve transfer requests.
 
+This lab uses the demo company **USMF**.
+
 Exercise 1 Define dimensions for budgeting
 ==========================================
 
