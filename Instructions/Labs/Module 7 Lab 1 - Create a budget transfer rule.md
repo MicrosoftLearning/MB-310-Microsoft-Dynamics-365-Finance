@@ -97,8 +97,7 @@ Exercise 5 Define budget code
 
 In this exercise you configure a budget code for the budget type transfer.
 
-1.  Navigate to **Budgeting** and select **Setup.** Select **Basic budgeting**
-    and then select **Budget codes**.
+1.  Go to Navigation pane > **Budgeting** > **Setup** > **Basic budgeting** > **Budget codes**.
 
 2.  Select **New** to create a new budget code.
 
