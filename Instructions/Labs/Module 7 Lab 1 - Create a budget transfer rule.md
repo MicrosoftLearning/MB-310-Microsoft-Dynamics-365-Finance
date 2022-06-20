@@ -127,7 +127,7 @@ Task 1
 
 In this task you will add a budget register entry.
 
-1.  Navigate to **Budgeting** and select **Budget register entries**.
+1.  Go to Navigation pane > **Budgeting** > **Budget register entries**.
 
 2.  Select **New** to create a new budget register entry.
 
