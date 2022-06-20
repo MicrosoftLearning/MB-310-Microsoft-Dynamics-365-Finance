@@ -72,8 +72,7 @@ Exercise 3 Define budget parameter for budget transfer rules
 
 In this exercise you enable a budget workflow for the budget transfer rule.
 
-1.  Navigate to **Budgeting** and select **Setup**. Select **Basic budgeting**
-    and then select **Budgeting parameters**.
+1.  Go to Navigation pane > **Budgeting** > **Setup** > **Basic budgeting** > **Budgeting parameters**.
 
 2.  Navigate to **Use rules for budget transfers** and set the field to **Yes**.
 
