@@ -71,7 +71,7 @@ The purchase order has been approved. You must now select and approve the order.
 ## Exercise 4: Confirm receipt of the laptop
 The vendor delivers the laptop. The warehouse manager posts the product receipt and lets you know that the laptop is received in the warehouse.
 
-1. Navigate to **Accounts Payable**, select **Purchase orders**, and then select **All purchase orders**.
+1. Go to Navigation pane > **Modules** > **Accounts Payable** > **Purchase orders** > **All purchase orders**.
 
 2. Select the PO number that you wrote down in exercise 2, step 12.
 
