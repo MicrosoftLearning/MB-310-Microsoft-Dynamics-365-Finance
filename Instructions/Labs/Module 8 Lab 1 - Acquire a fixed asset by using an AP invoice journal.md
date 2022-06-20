@@ -27,7 +27,7 @@ It is possible to automatically create a fixed asset during the purchasing proce
  
 ## Exercise 2:Create a purchase order for a fixed asset
 
-1. Navigate to **Accounts Payable**, select **Purchase orders**, and then select **All purchase orders**.
+1. Go to Navigation pane > **Modules** > **Accounts Payable** > **Purchase orders** > **All purchase orders**.
 
 2. Select **New** to create a new purchase order.
 
