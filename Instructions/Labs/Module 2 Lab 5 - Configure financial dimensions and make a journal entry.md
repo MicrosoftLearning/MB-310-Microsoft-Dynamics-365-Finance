@@ -78,7 +78,7 @@ In USMF, the Manufacturing P&L account structure is set up as profit and loss ma
     Note: The new Cost Center 250 Advertising already belongs to the Sales and Marketing department 022. You need to adjust the line in the account structure which refers to department 022. The purpose here is to configure the account structure so that if the sales and marketing dimension is selected in a journal line, only the cost centers 007 Trade Shows, 008 Marketing campaign, and 250 Advertising will be available for selection.  
 
 
-4. Enter the following information in 022's Cost Center field: **" ", 007..008; 250**
+4. Enter the following information in 022's Cost Center field: **"";007..008;250** and make sure to check the **Blank Values are allowed("")** under the **Allowed value details** tab.
 
     Note: The following symbols are used in the cost center field:  
 
