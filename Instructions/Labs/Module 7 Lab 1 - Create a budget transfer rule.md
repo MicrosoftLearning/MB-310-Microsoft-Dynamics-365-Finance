@@ -40,8 +40,7 @@ In this exercise you will set up a rule that does not allow budget transfers
 outside of the rule members unless you use a workflow to approve the transfer.
 If no criteria are specified, the rule applies to all dimension values.
 
-1.  Navigate to **Budgeting** and select **Setup**. Select **Basic budgeting**
-    and then select **Budget transfer rules**.
+1.  Go to Navigation pane > **Budgeting** > **Setup** > **Basic budgeting** > **Budget transfer rules**.
 
 2.  Select **New** to create a new budget transfer rule.
 
