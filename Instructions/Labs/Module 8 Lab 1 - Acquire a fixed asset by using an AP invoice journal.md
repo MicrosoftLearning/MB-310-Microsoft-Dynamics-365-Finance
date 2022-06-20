@@ -96,7 +96,7 @@ You can continue the exercise. The status of the Purchase order will change from
 
 In this exercise you will register and post the vendor invoice for the laptop. In this example, you will perform this operation from the purchase order.
 
-1. Navigate to **Accounts Payable**, select **Purchase orders**, and then select **All purchase orders**.
+1. 'Go to Navigation pane > **Modules** > **Accounts Payable** > **Purchase orders** > **All purchase orders**.
 
 2. Select the PO number that you wrote down in exercise 2, step 12.
 
