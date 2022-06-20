@@ -22,8 +22,7 @@ and approve transfer requests.
 Exercise 1 Define dimensions for budgeting
 ==========================================
 
-1.  Navigate to **Budgeting** and select **Setup**. Select **Basic budgeting**
-    and then select **Dimensions for budgeting**.
+1.  Go to Navigation pane > **Modules** > **Budgeting** > **Setup** > **Basic budgeting** > **Dimensions for budgeting**.
 
 2.  Determine whether the **Department** financial dimension is selected as a
     budget dimension. In this example the department is set up as a budget
