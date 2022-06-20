@@ -86,8 +86,7 @@ In this exercise you enable a budget workflow for the budget transfer rule.
 Exercise 4 Validate the budget register entry workflow
 ======================================================
 
-1.  Navigate to **Budgeting** and select **Setup**. Select **Basic budgeting**
-    and then select **Budgeting workflows**. Note that the budget register entry
+1.  Go to Navigation pane > **Budgeting** > **Setup** > **Basic budgeting** > **Budgeting workflows**. Note that the budget register entry
     workflow has been created and is active.
 
 2.  **Close** the form.
