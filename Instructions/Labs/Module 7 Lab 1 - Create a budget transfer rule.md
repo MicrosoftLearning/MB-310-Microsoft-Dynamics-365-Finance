@@ -104,7 +104,7 @@ In this exercise you configure a budget code for the budget type transfer.
 
 3.  Enter **Transfer** in the budget code field.
 
-4.  Enter T**ransfer of travel expenses** in the description field.
+4.  Enter **Transfer of travel expenses** in the description field.
 
 5.  Select **Transfer** in the Budget type field.
 
