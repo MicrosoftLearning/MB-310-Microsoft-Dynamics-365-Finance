@@ -82,7 +82,7 @@ You need to set up a new payment method for the customers so that they can use P
 
 4. Select **Net5** in the Terms of payment field.
 
-5. Select **PayPal** in the method of payment fee.
+5. Select **PayPal** in the method of payment field.
 
 6. Select **1st** in the Payment day field. 
 
