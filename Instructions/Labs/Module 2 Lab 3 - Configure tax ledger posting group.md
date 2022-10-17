@@ -92,7 +92,7 @@ To use the ledger AR_State posting group you must:
 
 9. Select **Values**.
 
-10. Enter the value **5.6** for in the **V****alue** column. 
+10. Enter the value **5.6** for in the **Value** column. 
 
 11. Select **Save**.
 
