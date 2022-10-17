@@ -160,7 +160,7 @@ To use the ledger AR_State posting group you must:
 
 12. Select **Save.**
 
-13. Close the customer form**.** 
+13. Close the customer form. 
 
 ## Exercise 7 Create a free text invoice
 
