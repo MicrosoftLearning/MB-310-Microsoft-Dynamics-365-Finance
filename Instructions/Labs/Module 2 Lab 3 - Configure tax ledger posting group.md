@@ -46,9 +46,9 @@ Now we have set up the main account, we can set up a ledger posting group.
 
 2. Select **New**.
 
-3. Enter **AZ_State** in the **Ledger posting group** field**.**
+3. Enter **AZ_State** in the **Ledger posting group** field.
 
-4. Enter **Arizona State tax** in the **Description** field**.**
+4. Enter **Arizona State tax** in the **Description** field.
 
 5. Select main account **120105** in the **Sales tax payable** field.
 
