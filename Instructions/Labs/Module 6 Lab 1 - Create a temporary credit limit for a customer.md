@@ -46,7 +46,7 @@ You need to set up a temporary credit limit for customer US-003 in legal entity 
 
  
 
-7. Enter the text T**emporary credit limit** for the Description.
+7. Enter the text **Temporary credit limit** for the Description.
 
 8. Select the **Lines** menu item. 
 ![](../images/Module_3_Activity_1_-_Create_a_temporary_credit_limit_for_a_customer_image5.png)
