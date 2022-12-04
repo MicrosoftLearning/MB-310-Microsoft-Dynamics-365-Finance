@@ -20,7 +20,7 @@ You need to set up a temporary credit limit for customer US-003 in legal entity 
 
 ### Task 1 Identify the current credit limit for the customer
 
-1. Navigate to the module Credit **and Collections**, select **Customers**, and then select **All customers.**
+1. Navigate to the module **Credit and Collections**, select **Customers**, and then select **All customers.**
 
 2. Select customer **US-003**.
 
