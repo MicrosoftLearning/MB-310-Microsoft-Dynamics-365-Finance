@@ -24,7 +24,7 @@ You need to set up a temporary credit limit for customer US-003 in legal entity 
 
 2. Select customer **US-003**.
 
-3. Review the Credit and Collections fasttab. The total credit limit is $400,000. 
+3. Review the Credit and Collections fasttab. The total credit limit is $400,000. Do not navigate away from this page.
 
 ![](../images/Module_3_Activity_1_-_Create_a_temporary_credit_limit_for_a_customer_image1.png) 
 
