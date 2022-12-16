@@ -145,7 +145,7 @@ In this task you will add a budget register entry.
 
 9.  Select **601506-001-028--** in the dimension value field.
 
-10. Enter **1000** in the amount field.
+10. Enter **1000** in the amount field. Do not navigate away from this page.
 
 Task 2
 ------
