@@ -121,7 +121,7 @@ In this exercise you will register and post the vendor invoice for the laptop. I
 
 In this exercise you will validate that you entered the fixed asset in the system correctly. 
 
-1. Navigate to the **Fixed Asset management** Workspace.
+1. Navigate to **Fixed Assets**, select **Workspaces**, and then **Fixed asset management**.
 
 2. Select the **Acquired this year** tile. You will see the fixed asset. 
 
