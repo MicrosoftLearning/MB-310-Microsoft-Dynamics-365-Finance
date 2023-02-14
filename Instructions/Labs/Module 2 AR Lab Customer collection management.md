@@ -81,7 +81,7 @@ Open your Dynamics 365 Finance environment and change the legal entity to USMF.
 
 7. Select the **Save** button in the action pane to save the sales order.
 
-	![Select the Header tabpage of the Sales order and navigate to the Price and discount fasttab](images/AR_Lab_Customer_collection_management_image1.png)
+	![Select the Header tabpage of the Sales order and navigate to the Price and discount fasttab](../images/AR_Lab_Customer_collection_management_image1.png)
 
 8. In the action pane, select the **Sell** button and confirm the sales order by selecting **Confirm sales order** under the **Generate** section.
 
@@ -121,7 +121,7 @@ Open your Dynamics 365 Finance environment and change the legal entity to USMF.
 
 4. Select the **Select pool criteria** link and update **Customer account** with Cust-01. Select the OK button.
 
-	![Select the Select pool criteria link and update Customer account with Cust-01.](images/AR_Lab_Customer_collection_management_image2.png)
+	![Select the Select pool criteria link and update Customer account with Cust-01.](../images/AR_Lab_Customer_collection_management_image2.png)
  
 5. Select the **Save** button in the action pane and close the page.
 
@@ -146,7 +146,7 @@ Open your Dynamics 365 Finance environment and change the legal entity to USMF.
 	<tr><td>Current</td><td>0</td><td>Unlimited</td><td>Green check mark</td></tr>
 	</table>
 
-	![Navigate to Credit and collections -> Setup and open Aging period definitions](images/AR_Lab_Customer_collection_management_image3.png)
+	![Navigate to Credit and collections -> Setup and open Aging period definitions](../images/AR_Lab_Customer_collection_management_image3.png)
 
 4. The **Printing direction** should be Backward for all the lines in the **Period** section.
 
@@ -186,7 +186,7 @@ Open your Dynamics 365 Finance environment and change the legal entity to USMF.
 
 7. You should see an aging status for Customer 01 with a red diamond, and 1,900.00 in the **30**+ bucket.
 
-	![Navigate to Credit and collections -> Collections and open Aging balances.](images/AR_Lab_Customer_collection_management_image4.png)
+	![Navigate to Credit and collections -> Collections and open Aging balances.](../images/AR_Lab_Customer_collection_management_image4.png)
 
 8. Navigate back to **Credit and collections &gt; Periodic tasks** > **Age customer balances**.
 
@@ -214,7 +214,7 @@ Open your Dynamics 365 Finance environment and change the legal entity to USMF.
 
 11. You should see an aging status for Customer 01 with a yellow triangle, and 1,900.00 in the **7** bucket.
 
-	![Navigate to Credit and collections -> Collections and open Aging balances](images/AR_Lab_Customer_collection_management_image5.png)
+	![Navigate to Credit and collections -> Collections and open Aging balances](../images/AR_Lab_Customer_collection_management_image5.png)
 
 12. Navigate back to **Credit and collections &gt; Periodic tasks** > **Age customer balances**.
 
@@ -242,7 +242,7 @@ Open your Dynamics 365 Finance environment and change the legal entity to USMF.
 
 15. You should see an aging status for Customer 01 with a green checkmark, and 1,900.00 in the **Current** bucket.
 
-	![Navigate to Credit and collections -> Collections and open Aging balances](images/AR_Lab_Customer_collection_management_image6.png)
+	![Navigate to Credit and collections -> Collections and open Aging balances](../images/AR_Lab_Customer_collection_management_image6.png)
 
 ## Exercise 7: Setup collection letter sequence
 
@@ -267,7 +267,7 @@ Open your Dynamics 365 Finance environment and change the legal entity to USMF.
 
 	- Add a note to the first notification saying “Hello, this is the first reminder for paying your balance.” 
 
-	![Navigate to Credit and collections -> Collection letter and open Set up collection letter sequence.](images/AR_Lab_Customer_collection_management_image7.png)
+	![Navigate to Credit and collections -> Collection letter and open Set up collection letter sequence.](../images/AR_Lab_Customer_collection_management_image7.png)
 
 3. Select the **Save** button in the action pane and close the page.
 
@@ -291,7 +291,7 @@ Open your Dynamics 365 Finance environment and change the legal entity to USMF.
 
 	- Expiration: Never
 
-	![Navigate to Credit and collections -> Interest and open Set up interest codes](images/AR_Lab_Customer_collection_management_image8.png)
+	![Navigate to Credit and collections -> Interest and open Set up interest codes](../images/AR_Lab_Customer_collection_management_image8.png)
 
 4. Enter the following values in the **Earnings** FastTab of the **interest** page.
 
@@ -299,7 +299,7 @@ Open your Dynamics 365 Finance environment and change the legal entity to USMF.
 
 	- Ledger posting account: 700200 
 
-	![Enter the following values in the Earnings & Payments fasttab of the interest code page](images/AR_Lab_Customer_collection_management_image9.png)
+	![Enter the following values in the Earnings & Payments fasttab of the interest code page](../images/AR_Lab_Customer_collection_management_image9.png)
 
 5. Select the **Save** button in the action pane and close the page.
 
@@ -321,7 +321,7 @@ Open your Dynamics 365 Finance environment and change the legal entity to USMF.
 
 	- **Interest code**: 7D-1.5%
 
-	![Navigate to Credit and collections -> Setup and open Customer posting profiles](images/AR_Lab_Customer_collection_management_image10.png)
+	![Navigate to Credit and collections -> Setup and open Customer posting profiles](../images/AR_Lab_Customer_collection_management_image10.png)
 
 4. Select the **Save** button in the action pane and close the page.
 
@@ -380,7 +380,7 @@ Open your Dynamics 365 Finance environment and change the legal entity to USMF.
 	![You will find two open invoices for settlement:
 	The first one with due date three days from current date
 	The second one with current date as due date 
-	](images/AR_Lab_Customer_collection_management_image11.png)
+	](../images/AR_Lab_Customer_collection_management_image11.png)
 
 20. You will find two open invoices for settlement:
 
@@ -410,7 +410,7 @@ Open your Dynamics 365 Finance environment and change the legal entity to USMF.
 
 	- **Batch processing** (in the **Run in the background** section): **No**
 
-	![Navigate to Credit and collections -> Collection letter and open Create collection letters.](images/AR_Lab_Customer_collection_management_image12.png) 
+	![Navigate to Credit and collections -> Collection letter and open Create collection letters.](../images/AR_Lab_Customer_collection_management_image12.png) 
 
 3. Select the **OK** button to execute the collection letter creation process.
 
@@ -418,7 +418,7 @@ Open your Dynamics 365 Finance environment and change the legal entity to USMF.
 
 5. You will be able to see a collection letter is created notifying the customer that payment is requested for the overdue invoice.
 
-	![Navigate to Credit and collections -> Collection letter and open Review and process collection letters.](images/AR_Lab_Customer_collection_management_image13.png)
+	![Navigate to Credit and collections -> Collection letter and open Review and process collection letters.](../images/AR_Lab_Customer_collection_management_image13.png)
 
 6. You can post the collection letter by selecting it and selecting the **Post** button in the action pane.
 
