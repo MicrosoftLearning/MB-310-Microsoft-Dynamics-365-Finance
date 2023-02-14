@@ -138,12 +138,13 @@ Open your Dynamics 365 Finance environment and change the legal entity to USMF.
 	- Description: after 7/30 days
 
 	- Remove the existing periods and add:
-
-	| **Period**| **Unit**| **Interval**| **Aging indicator** |
-	| 30+| -1| Unlimited| Red diamond |
-	| 7| -7| Day| Yellow triangle |
-	| Current| 0| Unlimited| Green check mark |
-
+	<html>
+	<table>
+	<tr><th>Period</th><th>Unit</th><th>Interval</th><th>Aging indicator</th></tr>
+	<tr><td>30+</td><td>-1</td><td>Unlimited</td><td>Red diamond</td></tr>
+	<tr><td>7</td><td>-7</td><td>Day</td><td>Yellow triangle</td></tr>
+	<tr><td>Current</td><td>0</td><td>Unlimited</td><td>Green check mark</td></tr>
+	</table>
 
 	![Navigate to Credit and collections -> Setup and open Aging period definitions](images/AR_Lab_Customer_collection_management_image3.png)
 
@@ -255,11 +256,14 @@ Open your Dynamics 365 Finance environment and change the legal entity to USMF.
 
 	- Lines:
 
-	| **Collection letter code**| **Description**| **Main account**| **Fee in currency**| **Minimum overdue balance**| **Days**| **Block** |
-	| Collection letter 1| First notification| | 0.00| 0.00| 1|  |
-	| Collection letter 2| Second notification| 403150| 25.00| 100.00| 3|  |
-	| Collection| Final notification| 403150| 50.00| 100.00| 7|  |
 
+	<html>
+	<table>
+	<tr><th>Collection letter code</th><th>Description</th><th>Main account</th><th>Fee in currency</th><th>Minimum overdue balance</th><th>Days</th><th>Block</th></tr>
+	<tr><td>Collection letter 1</td><td>First notification</td><td>&nbsp;</td><td>0.00</td><td>0.00</td><td>1</td><td></td></tr>
+	<tr><td>Collection letter 2</td><td>Second notification</td><td>403150</td><td>25.00</td><td>100.00</td><td>3</td><td></td></tr>
+	<tr><td>Collection</td><td>Final notification</td><td>403150</td><td>50.00</td><td>100.00</td><td>7</td><td>(checked)</td></tr>
+	</table>
 
 	- Add a note to the first notification saying “Hello, this is the first reminder for paying your balance.” 
 
