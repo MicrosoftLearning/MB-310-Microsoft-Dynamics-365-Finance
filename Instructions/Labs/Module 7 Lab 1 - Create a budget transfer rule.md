@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab: Create a budget transfer rule'
-    module: 'Module 7: Configure and manage budgeting'
+    module: 'Module 4: Configure and manage budgeting'
 ---
 
 # Lab: Create a budget transfer rule
