@@ -243,7 +243,7 @@ Open a Dynamics 365 Finance environment and change the legal entity to USMF.
 
 3. Select **Ledger daily journal workflow** and the system will throw a popup message asking to launch the workflow client. Select **Open**.
 
-**Note: If the report designer does not open, and you are not prompted to run the Microsoft Dynamics 365 Finance: Financial Report Designer and to log in, then restart Microsoft Edge in the lab environment, log in again, and perform steps 1 to 3 again.**
+**Note: If the report designer does not open, and you are not prompted to run the Microsoft Dynamics 365 Finance: Financial Report Designer and to log in, then restart Microsoft Edge in the lab environment, log in again, and perform steps 1 to 3 again. If it still doesn't work, report to your Authorized Lab Hoster that the workflow editor will not start.**
 
 4. Once you enter your Dynamics 365 Finance credentials, the workflow client for daily ledger journal will open.
 
