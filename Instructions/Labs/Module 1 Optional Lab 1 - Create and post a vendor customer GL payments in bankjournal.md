@@ -1,7 +1,7 @@
 ---
 lab:
-    title: 'Lab: Create and post vendor, customer, general ledger payments'
-    module: 'Module 2: Set up and configure financial management'
+    title: 'Lab 1: Create and post vendor, customer, general ledger payments'
+    module: 'Module 1 Optional'
 ---
 
 # Lab - Create and post vendor, customer, general ledger payments
@@ -265,4 +265,3 @@ Select OK and you will return to the vendor payment journal lines.
 
 21. Only one line is shown, this means that the payment to the vendor is also included in the bank transactions and is therefore paid. (If you do not find it, go back to Exercise 3 and Post it.)
 ![](../images/Module_7_Activity_1_-_Create_and_post_a_bankjournal_image5.png)
-

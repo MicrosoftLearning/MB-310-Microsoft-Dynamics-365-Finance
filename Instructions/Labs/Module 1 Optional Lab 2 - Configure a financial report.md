@@ -1,7 +1,7 @@
 ---
 lab:
-    title: 'Lab: Configure financial reports'
-    module: 'Module 2: Set up and configure financial management'
+    title: 'Lab 2: Configure financial reports'
+    module: 'Module 1 Optional'
 ---
 
 ## Lab Configure financial reports
