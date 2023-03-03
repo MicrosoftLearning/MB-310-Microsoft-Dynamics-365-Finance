@@ -99,9 +99,7 @@ Open a Dynamics 365 Finance environment and change the legal entity to USMF.
 
 1. Navigate to **General ledger &gt; Journal setup** and open the **Journal names** page.
 
-2. **Delete** the existing line.
-
-3. Create a new record by selecting the +**New** button in the action pane, and enter the following values
+2. Create a new record by selecting the +**New** button in the action pane, and enter the following values
 
 	- **Name**: D-OneVouch.
 
@@ -113,15 +111,15 @@ Open a Dynamics 365 Finance environment and change the legal entity to USMF.
 
 	- **General** FastTab: **VOUCHER NUMBER** section: **New** **voucher**: One voucher number only.
 
-4. Select **Save** in the action pane and close the page.
+3. Select **Save** in the action pane and close the page.
 
-5. Navigate to **General ledger &gt; Journal entries** and open the **General journals** page.
+4. Navigate to **General ledger &gt; Journal entries** and open the **General journals** page.
 
-6. Create a new journal by selecting the **New** button in the action pane.
+5. Create a new journal by selecting the **New** button in the action pane.
 
-7. In the **Name** field select D-OneVouch from the lookup and select the **Lines** button in the action pane.
+6. In the **Name** field select D-OneVouch from the lookup and select the **Lines** button in the action pane.
 
-8. Enter the following journal line by selecting the +**New** button:
+7. Enter the following journal line:
 
 	- **Voucher (auto-update)**: USMFGJV-0000000 01
 
@@ -135,7 +133,7 @@ Open a Dynamics 365 Finance environment and change the legal entity to USMF.
 
 	- **Offset account**: USMF OPER
 
-9. Enter another journal line by selecting the **New** button:
+8. Enter another journal line by selecting the **New** button:
 
 	- **Voucher (auto-update)**:  USMFGJV-0000000 01
 
@@ -149,9 +147,9 @@ Open a Dynamics 365 Finance environment and change the legal entity to USMF.
 
 	- **Offset account**: USMF OPER
 
-10. You can see that in both the lines the voucher number is the same.
+9. You can see that in both the lines the voucher number is the same.
 
-11. You can also see that the **Post** button in the action pane is enabled and the journal is ready for posting. You may post if you like.
+10. You can also see that the **Post** button in the action pane is enabled and the journal is ready for posting. You may post if you like. You may get an error that the period does not exist; this is fine.
 
 ## Exercise 3: Daily journal with manual voucher number and manual approval
 
@@ -167,7 +165,7 @@ Open a Dynamics 365 Finance environment and change the legal entity to USMF.
 
 5. Navigate to the **Users** tab.
 
-6. Select **Admin** in the **REMAINING USERS** list and select the right arrow to move it to **SELECTED USERS** **[Please note, your Azure Active Directory users will differ]****.**
+6. Select **Admin** in the **REMAINING USERS** list and select the right arrow to move it to **SELECTED USERS** [Please note, your Azure Active Directory users will differ in a live environment].
 
 	![Select Admin in the SELECTED USERS list ](../images/GL_Lab_Configure_journal_name_image3.png)
 
@@ -243,7 +241,7 @@ Open a Dynamics 365 Finance environment and change the legal entity to USMF.
 
 3. Select **Ledger daily journal workflow** and the system will throw a popup message asking to launch the workflow client. Select **Open**.
 
-**Note: If the report designer does not open, and you are not prompted to run the Microsoft Dynamics 365 Finance: Financial Report Designer and to log in, then restart Microsoft Edge in the lab environment, log in again, and perform steps 1 to 3 again. If it still doesn't work, report to your Authorized Lab Hoster that the workflow editor will not start.**
+**Note: The workflow designer often "pops under," so check the taskbar. If the designer does not open, and you are not prompted to run the Microsoft Dynamics 365 Finance: Financial Report Designer and to log in, then restart Microsoft Edge in the lab environment, log in again, and perform steps 1 to 3 again. If it still doesn't work, report to your Authorized Lab Hoster that the workflow editor will not start.**
 
 4. Once you enter your Dynamics 365 Finance credentials, the workflow client for daily ledger journal will open.
 
@@ -278,7 +276,7 @@ Open a Dynamics 365 Finance environment and change the legal entity to USMF.
 
 16. Select the **Save** **and close** button of the workflow editor. The system will ask to Activate the new version. You should select the **OK** button.
 
-17. The system will navigate you back to the **General ledger** **workflow** page, where you should find the newly created workflow.
+17. The system will navigate you back to the **General ledger** **workflow** page, where you should find the newly created workflow Note the number.
 
 	![The system will navigate you back to the General ledger workflow page, where you should find the newly created workflow](../images/GL_Lab_Configure_journal_name_image10.png)
 
@@ -286,15 +284,15 @@ Open a Dynamics 365 Finance environment and change the legal entity to USMF.
 
 19. Create a new record by selecting the +**New** button in the action pane.
 
-20. In the **Name** field enter: D-ContVouch.
+20. In the **Name** field enter: D-ContVouc.
 
 21. In the **Description** field enter: Daily continuous voucher with workflow.
 
 22. In the **General** FastTab, in the **Journal type** field select: Daily.
 
-23. In the **General** FastTab and **APPROVAL WORKFLOW** section, in the **Approval workflow** field select: true. 
+23. In the **General** FastTab and **APPROVAL WORKFLOW** section, in the **Approval workflow** field select: true or yes. 
 
-24. In the **General** FastTab and **APPROVAL WORKFLOW** section, in the **Workflow** field select: 000300 (Newly created workflow).
+24. In the **General** FastTab and **APPROVAL WORKFLOW** section, in the **Workflow** field select your hewly created workflow.
 
 25. In the **General** FastTab and **VOUCHER NUMBER** section, in the **Voucher series** field select: GenJrn-V-3.
 
@@ -302,15 +300,15 @@ Open a Dynamics 365 Finance environment and change the legal entity to USMF.
 
 27. Select **Save** in the action pane and close the page.
 
-28. Navigate to **General ledger &gt; Journal entries** and open the **General journal** page.
+28. Navigate to **General ledger &gt; Journal entries** and open the **General journals** page.
 
 29. Create a new journal by selecting the +**New** button in the action pane.
 
-30. In the **Name** field select D-ConVouch from the lookup and select the **Lines** button in the action pane.
+30. In the **Name** field select D-ContVouc from the lookup and select the **Lines** button in the action pane.
 
-31. Enter the following journal line by selecting the **+New** button:
+31. Enter the following journal line:
 
-	- **Voucher (auto-update)**: DJCV-000001
+	- **Voucher (auto-update)**: USMFDJCV-000000001
 
 	- **Account type**: Ledger
 
@@ -324,7 +322,7 @@ Open a Dynamics 365 Finance environment and change the legal entity to USMF.
 
 32. Enter another journal line by selecting the +**New** button:
 
-	- **Voucher**: DJCV-000002
+	- **Voucher**: USMFDJCV-000000002
 
 	- **Account type**: Ledger
 
@@ -340,14 +338,14 @@ Open a Dynamics 365 Finance environment and change the legal entity to USMF.
 
 33. You can see that the **Post** button in the action pane is disabled.
 
-34. **Save and close** the **journal line** page. In the **General journal** page, you will notice a new **Workflow** button in the action menu. 
+34. **Save** and **close** the **journal line** page. In the **General journal** page, you will notice a new **Workflow** button in the action menu. (It may be to the right under an ellipsis.)
 
 	![Select the Submit button to submit the journal for workflow approval.](../images/GL_Lab_Configure_journal_name_image12.png)
 
-35. Select the **Submit** button to submit the journal for workflow approval.
+35. Select the **Submit** button to submit the journal for workflow approval. Depending on the version of your machine, you may get an error around perfoming a budget check for the date, but can still submit.
 
-36. After you wait for a while, select the **Workflow** button again and you will get more buttons for further workflow actions: reject, request change, delegate, recall, and view history.
+36. If you wait for a while, you would be able to select the **Workflow** button again and you will get more buttons for further workflow actions: reject, request change, delegate, recall, and view history - but this is not necessary for this lab. You are complete.
 
 	![You can select the appropriate button to take the workflow process move forward](../images/GL_Lab_Configure_journal_name_image13.png)
 
-37. You can select the appropriate button to take the workflow process move forward. If you select the **Approve** button, the journal will be ready for posting and the **Post** button in the action pane will be enabled.
+37. You can select the appropriate button to take the workflow process forward. If you select the **Approve** button, the journal will be ready for posting and the **Post** button in the action pane will be enabled.
