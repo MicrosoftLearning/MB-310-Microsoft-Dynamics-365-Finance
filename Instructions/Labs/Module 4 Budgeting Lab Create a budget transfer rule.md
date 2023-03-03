@@ -31,7 +31,8 @@ Exercise 1 Define dimensions for budgeting
 
 3.  Select **OK** to close the form.
 
-![](media/d4d942bf236b32a985273f2efb2ff6e3.png)
+	![A budget with department](../images/Budgeting_exercise_1_step_3.jpg)
+	
 
 Exercise 2 Define budget transfer rules
 =======================================
@@ -65,7 +66,6 @@ If no criteria are specified, the rule applies to all dimension values.
 
 11. **Close** the form.
 
-![](media/0688afdbed8bf0a49e938971505d648a.png)
 
 Exercise 3 Define budget parameter for budget transfer rules
 ============================================================
@@ -81,7 +81,7 @@ In this exercise you enable a budget workflow for the budget transfer rule.
 
 4.  Close the form.
 
-![](media/983d010d9a76dab64ed1afe2316a7bb3.png)
+![Use rules for budget transfers](../images/Budgeting_exercise_3_step_4.jpg)
 
 Exercise 4 Validate the budget register entry workflow
 ======================================================
@@ -114,7 +114,7 @@ In this exercise you configure a budget code for the budget type transfer.
 
 8.  Close the form.
 
-![](media/d2d5198d500fa65f8e7f4c4b60c21cb6.png)
+![New budget code](../images/Budgeting_exercise_5_step_8.jpg)
 
 Exercise 6 Create a budget register entry
 =========================================
@@ -163,8 +163,6 @@ In this task you will add a second line for the same dimension combination.
 5.  Enter **-1000** in the amount field.
 
 6.  Select **Save**.
-
-    ![](media/a00250a27a0f20364bee458da1cc2d55.png)
 
 7.  The following message should display: This budget transfer violates a budget
     transfer rule and is not allowed unless you use workflow to approve the
