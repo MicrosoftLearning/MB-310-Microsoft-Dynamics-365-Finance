@@ -20,7 +20,7 @@ In this lab, we will test fixed asset acquisition, depreciation and split.
 
 3. Enter data into the following fields:
 
-	- **Fixed asset groups**: OFFICE
+	- **Fixed asset group**: OFFICE
 
 	- **Number**: [Auto-generated]
 
@@ -130,11 +130,11 @@ In this lab, we will test fixed asset acquisition, depreciation and split.
 
 4. Navigate to **Fixed assets &gt; Journal entries** and open **Fixed assets journal**.
 
-5. A new depreciation journal will be created showing depreciation lines till the current date. You can post the journal by selection the **Post** button in the action pane.
+5. A new depreciation journal will be created showing depreciation lines till the current date. You can post the journal by selecting the **Post** button in the action pane.
 
 6. Navigate to **Fixed assets &gt; Fixed assets**, open **Fixed assets** and navigate to the newly created fixed asset.
 
-7. Select the **Valuation** button in the action pane and in the **200_SLLR book**, you will find the **net book value** has changed based on the depreciation calculation.
+7. Select the **Valuations** button in the action pane and in the **200_SLLR book**, you will find the **net book value** has changed based on the depreciation calculation.
 
 ## Exercise 5: Create another new fixed asset 
 
@@ -179,6 +179,6 @@ Hint: See Exercises 1-3 for the detailed steps
 
 7. Select the **Post** button in the action pane and close the **Fixed asset journal** page.
 
-8. Navigate to **Fixed assets &gt; Fixed assets**, open **Fixed assets** page and navigate to both the fixed asset.
+8. Navigate to **Fixed assets &gt; Fixed assets**, open **Fixed assets** page and navigate to both the fixed assets.
 
-9. Select the **Valuation** button in the action pane and in the **200_SLLR book**, you will find the **net book value** has changed for both the fixed asset after the split transaction.
+9. Select the **Valuation** button in the action pane and in the **200_SLLR book**, you will find the **net book value** has changed for both the fixed assets after the split transaction.
