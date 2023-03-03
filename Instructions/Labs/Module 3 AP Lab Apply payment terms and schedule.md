@@ -68,7 +68,7 @@ Open your Dynamics 365 Finance environment and change the legal entity to USMF.
 For example:
 
 | **Scenario**| **Invoice Date**| **Payment terms**| **Payment Days**| **Due date** |
-| - | - | - | -| - |
+| --- | --- | --- | --- | --- |
 | 1| 02/07/2023| Net7| | 02/14/2023 |
 | 2| 02/07/2023| Net7| Wednesday| 02/15/2023 |
 
@@ -91,7 +91,7 @@ For example:
 
 3. Enter two records in the Exception days section:
 
-	- **Date**: [Monday & Tuesday of the following week]
+	- **Date**: [Monday & Tuesday of next week]
 
 	- **Type**: Holiday for both the records
 
@@ -99,11 +99,11 @@ For example:
 
 4. **Save** the record and close the page.
 
-5. Navigate to **Accounts payable &gt; Payment setup,** open **Terms of payment** and navigate to record Net7. Change the **Due date** update field to **Next business day**. Also clear the **payment day** field.
+5. Navigate to **Accounts payable &gt; Payment setup,** open **Terms of payment** and navigate to record Net7. Select **Edit** to make the record editable. Change the **Due date update** field to **Next business day**. Clear the **payment day** field.
 
 6. Navigate to **Accounts payable &gt; Payment setup,** open **Payment calendar configuration.**
 
-7. Select the **+New** button and add the following:
+7. Select the **+New** button and add the following, then **Create rule**:
 
 	- **Rule name**: Holiday
 
@@ -141,12 +141,12 @@ For example:
 For example:
 
 | **Scenario**| **Invoice Date**| **Payment terms**| **Holiday in payment calendar**| **Due date** |
-| - | - | - | - | - |
+| --- | --- | --- | --- | --- |
 | 3| 02/07/2023| Net7| 02/13/2023<br>02/14/2023| 02/15/2023 |
 
 
 
-## Exercise 4: Enter payment fee
+## Exercise 4a: Enter payment fee
 
 1. Navigate to **Accounts payable &gt; Payment setup** and open **Payment fee**.
 
@@ -182,9 +182,9 @@ For example:
 
  
 
-## Exercise 4: Enter Cash discount
+## Exercise 4b: Enter Cash discount
 
-1. Navigate to **Accounts payable &gt; Payment setup** and open **Cash discount**.
+1. Navigate to **Accounts payable &gt; Payment setup** and open **Cash discounts**.
 
 2. Create a new record by selecting the **+New** button in the action pane. Type the following values:
 
