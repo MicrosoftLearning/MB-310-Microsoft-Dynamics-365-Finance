@@ -49,7 +49,7 @@ Open your Dynamics 365 Finance environment and change the legal entity to USMF.
 
 	- **Customer group**: 10
 
-4. Select the Save button to save the new record and close the page.
+4. You should navigate to the **Credit and collections** FastTab and change **Exclude from credit management** to **Yes**, so that we can order right away. Select the **Save** button to save the new record and close the page.
 
 ## Exercise 3: Create and process a new sales order
 
@@ -98,6 +98,14 @@ Open your Dynamics 365 Finance environment and change the legal entity to USMF.
 14. Close the **Picking list registration** page and you will be at the sales order you created.
 
 15. In the action pane, under the **Pick and pack** button, select **Post Packing slip** under the **Generate** section.
+
+If you get an error during posting, it may be because today's date is not an open date in the current period. 
+
+- Open a new tab (we suggest duplicating the current one).
+- Navigate to General Ledger > Ledger setup > Fiscal calendars. 
+- Change the Calendar to Fiscal and verify that this year is not listed. 
+- Select +New year and Create.
+- You can then return to post your packing slip
 
 16. In the **Packing slip posting** dialog, select the **OK** button, and **OK** again.
 
@@ -177,8 +185,8 @@ Open your Dynamics 365 Finance environment and change the legal entity to USMF.
 	- **Update collection status**: Yes
 
 	- **Include customers with zero balance**: Yes
-
-	- **Bypass credit limit calculations during aging**: No
+ 
+	- **Bypass credit limit calculations during aging**: No [this may not be an option, depending on your version]
 
 	- **Batch processing** (under Run in the background): No
 
@@ -206,7 +214,7 @@ Open your Dynamics 365 Finance environment and change the legal entity to USMF.
 
 	- **Include customers with zero balance**: Yes
 
-	- **Bypass credit limit calculations during aging**: No
+	- **Bypass credit limit calculations during aging**: No [if available]
 
 	- **Batch processing**: No
 
@@ -232,9 +240,9 @@ Open your Dynamics 365 Finance environment and change the legal entity to USMF.
 
 	- **Update collection status**: Yes
 
-	- **Yes**
+	- **Include customers with zero balance**: Yes
 
-	- **No**
+	- **Bypass credit limit calculations during aging**: No [if available]
 
 	- **Batch processing**: No
 
@@ -331,7 +339,7 @@ Open your Dynamics 365 Finance environment and change the legal entity to USMF.
 
 2. Select the **+New** button in the action pane to create a new sales order.
 
-3. In the **Create sales order** dialog, enter **Cust-01** for the **Customer account** and select **1000** .
+3. In the **Create sales order** dialog, enter **Cust-01** for the **Customer account** and select the **OK** button.
   
 4. In the **Sales order** lines, enter the following values:
 
@@ -363,7 +371,7 @@ Open your Dynamics 365 Finance environment and change the legal entity to USMF.
 
 12. In the action pane, under the **Pick and pack** button, select **Picking list registration** under **Generate**.
 
-13. The **Picking list registration** page will appear, where you should select Updates > **Update all** n the action menu. The **Handling status** field in the **Lines** FastTab will change to **Completed**.
+13. The **Picking list registration** page will appear, where you should select Updates > **Update all** in the action menu. The **Handling status** field in the **Lines** FastTab will change to **Completed**.
 
 14. Close the **Picking list registration** page and you will be in the sales order you created.
 
@@ -394,7 +402,7 @@ Open your Dynamics 365 Finance environment and change the legal entity to USMF.
 
 1. Navigate to **Credit and collections &gt; Collection letter** > **Create collection letters**.
 
-2. A dialog will pop up to run the collection letter process. Add the following **parameters** in the **Creation of collection letter** dialog:
+2. A dialog will pop up to run the collection letter process. Add the following parameters in the **Creation of collection letter** dialog:
 
 	- **Invoice**: Yes
 
