@@ -127,15 +127,15 @@ If you get an error during posting, it may be because today's date is not an ope
 
 3.  Add the following values in the fields below:
 
-    - **Pool ID**: New-aging
+    - **Pool ID**: `New-aging` 
 
-    - **Pool description**: New customer aging
+    - **Pool description**: `New customer aging` 
 
-    - **Pool type**: Aging snapshot
+    - **Pool type**: `Aging snapshot` 
 
 4.  Select the **Select pool criteria** button and update the **Criteria** value for the **Customer account** field with `Cust-01`. Select the **OK** button. 
 
-	![Select the Select pool criteria link and update Customer account with Cust-01.](../images/AR_Lab_Customer_collection_management_image2.png)
+    ![Select the Select pool criteria link and update Customer account with Cust-01.](../images/AR_Lab_Customer_collection_management_image2.png)
  
 5.  Select the **Save** button in the action pane and close the page. 
 
@@ -160,7 +160,7 @@ If you get an error during posting, it may be because today's date is not an ope
     | 7       | -7   | Day       | Yellow triangle  |
     | Current | 0    | Unlimited | Green check mark |
 
-	![Navigate to Credit and collections -> Setup and open Aging period definitions](../images/AR_Lab_Customer_collection_management_image3.png)
+    ![Navigate to Credit and collections -> Setup and open Aging period definitions](../images/AR_Lab_Customer_collection_management_image3.png)
 
 4.  Set the **Printing direction** to be **Backward**. 
 
@@ -179,13 +179,13 @@ If you get an error during posting, it may be because today's date is not an ope
 
 5.  In the **Create a customer aging snapshot** dialog, enter the following values:
 
-	- **Aging period definition**: 7 and 30 days
+	- **Aging period definition**: `7 and 30 days`
 
-	- **Pool ID**: New-aging
+	- **Pool ID**: `New-aging`
 
-	- **Criteria**: Due date
+	- **Criteria**: `Due date`
 
-	- **Aging as of**: Selected date
+	- **Aging as of**: `Selected date`
 
 	- In the **Selected date** field, select a date more than 30 days ahead of the current date. 
 
@@ -197,11 +197,11 @@ If you get an error during posting, it may be because today's date is not an ope
 
 	- **Batch processing** (under Run in the background): No
 
-6.  Select the **OK** button.
+6.  Select the **OK** button. 
 
-7.  Navigate to **Credit and collections &gt; Collections** > **Aged balances**.
+7.  Navigate to **Credit and collections &gt; Collections** > **Aged balances**. 
 
-8.  You should see an aging status for **Customer 01** with a red diamond, and 1,900.00 in the **30**+ bucket.
+8.  You should see an aging status for **Customer 01** with a red diamond, and 1,900.00 in the **30**+ bucket. 
 
 	![Navigate to Credit and collections -> Collections and open Aging balances.](../images/AR_Lab_Customer_collection_management_image4.png)
 
@@ -239,13 +239,13 @@ If you get an error during posting, it may be because today's date is not an ope
 
 15. In the **Create a customer aging snapshot** dialog, enter the following values and select the **OK** button:
 
-	- **Aging period definition**: 7 and 30 days
+	- **Aging period definition**: `7 and 30 days`
 
-	- **Pool ID**: New-aging
+	- **Pool ID**: `New-aging`
 
-	- **Criteria**: Due date
+	- **Criteria**: `Due date`
 
-	- **Aging as of**: Selected date
+	- **Aging as of**: `Selected date`
 
 	- In the **selected date** field, select a date less than 7 days ahead of your current date.
 
@@ -301,9 +301,9 @@ If you get an error during posting, it may be because today's date is not an ope
 
 	- Description: `1.5% after 7 days`
 
-	- Interest type: Single rate
+	- Interest type: `Single rate`
 
-	- Grace period: 0
+	- Grace period: `0`
 
 	- Effective: 2/5/2023
 
@@ -355,13 +355,13 @@ If you get an error during posting, it may be because today's date is not an ope
   
 4.  In the **Sales order** lines, enter the following values:
 
-    - **Item number**: 1000
+    - **Item number**: `1000`
 
-    - **Quantity**: 1
+    - **Quantity**: `1`
 
-    - **Site**: 1
+    - **Site**: `1`
 
-    - **Warehouse**: 13
+    - **Warehouse**: `13`
 
     - **Unit price** (auto-populated): 1900
 
@@ -416,13 +416,13 @@ If you get an error during posting, it may be because today's date is not an ope
 
     - **Invoice**: Yes
 
-    - **Collection letter**: Collection letter 1
+    - **Collection letter**: `Collection letter 1`
 
     - **Collection letter date**: Current date + 1 (tomorrow)
 
-    - **Use posting profile from**: Account
+    - **Use posting profile from**: `Account`
 
-    - **Posting profile**: GEN
+    - **Posting profile**: `GEN`
 
     - Select the **Filter** option, enter `Cust-01` for the **Customer account**, **Criteria** and select **OK**. 
 
