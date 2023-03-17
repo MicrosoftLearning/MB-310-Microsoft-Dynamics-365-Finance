@@ -15,162 +15,169 @@ In this lab, we will generate an aging report and process a collection letter.
 
 -  In the second scenario, we will create another sales order for the new customer, where payment terms will be COD (cash on delivery). We will complete the processing of the sales order and generate the invoice. The due date of the invoice will be the current date. We will run the collection report for the new customer.
 
-Open your Dynamics 365 Finance environment and change the legal entity to USMF.
+
+1.  Open your **Dynamics 365 Finance** environment and change the legal entity to **USMF** using the **company picker**. 
 
 ## Exercise 1: Create a new payment term
 
-1. Navigate to Modules > **Accounts receivable &gt; Payments setup** > **Terms of payment**.
+1.  Select **Modules** from the navigation pane. In **Accounts receivable**, navigate to **Payments setup** > **Terms of payment**. 
 
-2. Select the **+New** button in the action pane to create a new payment term.
+2.  To create a new payment term, select the **+New** button in the action pane. 
 
-3. Enter this data into the following fields:
+3.  Enter this data into the following fields: 
 
-	- **Terms of payment**: Net3
+	- **Terms of payment**: `Net3` 
 
-	- **Description**: Net 3 days
+	- **Description**: `Net 3 days` 
 
-	- **Payment method**: Net
+	- **Payment method**: `Net` 
 
-	- **Days**: 3
+	- **Days**: `3` 
 
-4. Select the **Save** button in the action pane and close the page.
+4. Select the **Save** button in the action pane and close the page. 
+
 
 ## Exercise 2: Create a new customer
 
-1. Navigate to **Accounts receivable &gt; Customers** > **All customers**.
+1.  In the **Accounts receivable** module, navigate to **Customers** > **All customers**. 
 
-2. Select the **+New** button in the action pane to create a new customer.
+2.  To create a new customer, select the **+New** button in the action pane. 
 
-3. In the **Create customer** dialog, enter the following values:
+3.  In the **Create customer** dialog, enter the following values: 
 
-	- **Customer account**: Cust-01
+    - **Customer account**: `Cust-01`
 
-	- **Name**: Customer 01
+    - **Name**: Customer `01`
 
-	- **Customer group**: 10
+    - **Customer group**: `10`
 
-4. You should navigate to the **Credit and collections** FastTab and change **Exclude from credit management** to **Yes**, so that we can order right away. Select the **Save** button to save the new record and close the page.
+4.  Select **Save** in the action pane. 
+
+4.  Expand the **Credit and collections** FastTab and change **Exclude from credit management** to **Yes**, so that we can order right away. Select **Save** and close the page. 
+
 
 ## Exercise 3: Create and process a new sales order
 
-1. Navigate to **Accounts receivable &gt; Orders** > **All sales orders**.
+1.  In the **Accounts receivable** module, navigate to **Orders** > **All sales orders**. 
 
-2. Select the **+New** button in the action pane to create a new sales order.
+2.  Select the **+New** button in the action pane to create a new sales order. 
 
-3. In the **Create sales order** dialog, enter the following values:
+3.  In the **Create sales order** dialog, enter or select the following values:
 
-	- **Customer account:** Cust-01
+    - **Customer account:** `Cust-01`
 
-4. Select the **OK** button.
+4.  Select the **OK** button.
 
-5. In the **Sales order** lines, enter the following values:
+5.  In the **Sales order lines** grid, enter the following values: 
 
-	- **Item number**: 1000
+    - **Item number**: `1000` 
 
-	- **Quantity**: 1
+    - **Quantity**: `1` 
 
-	- **Site**: 1
+    - **Site**: `1` 
 
-	- **Warehouse**: 13
+    - **Warehouse**: `13` 
 
-	- **Unit price** (auto-populated): 1900
+    - **Unit price** (auto-populated): `1900`
 
-	- **Net amount** (auto-populated): 1900
+    - **Net amount** (auto-populated): `1900`
 
-6. Select the **Header** tab of the Sales order and navigate to the **Price and discount** FastTab. In the **Payment** field, enter Net3.
+6.  Select the **Header** tab of the Sales order. Navigate to and expand the **Price and discount** FastTab. In the **Payment** field, enter or select `Net3`.
 
-7. Select the **Save** button in the action pane to save the sales order.
+7.  Select the **Save** button in the action pane to save the sales order.
 
 	![Select the Header tabpage of the Sales order and navigate to the Price and discount fasttab](../images/AR_Lab_Customer_collection_management_image1.png)
 
-8. In the action pane, select the **Sell** button and confirm the sales order by selecting **Confirm sales order** under the **Generate** section.
+8.  In the action pane, select the **Sell** tab and confirm the sales order by selecting **Confirm sales order** under the **Generate** section. 
 
-9. In the **Confirm sales order** dialog, select the **OK** button, and **OK** again.
+9.  In the **Confirm sales order** dialog, select the **OK** button, and **OK** again.
 
-10. In the action pane, select the **Pick and pack** button, followed by selecting the **Generate picking list** under **Generate** section.
+10. In the action pane, select the **Pick and pack** tab, and select **Generate picking list** under the **Generate** section. 
 
 11. In the **Posting picking list** dialog, select the **OK** button, and **OK** again.
 
-12. In the action pane, under the **Pick and pack** button, select **Picking list registration** under **Generate** section.
+12. In the action pane, in the **Pick and pack** tab, select **Picking list registration** under the **Generate** section. 
 
-13. The **Picking list registration** page will appear, where you should select the **Update all** button under the **Updates** button in the action menu. The **Handling status** field in the **Lines** FastTab will change to **Completed**.
+13. The **Picking list registration** page will open, select the **Updates** button and select **Update all**. Verift that the **Handling status** field in the **Lines** FastTab changes to **Completed**. 
 
-14. Close the **Picking list registration** page and you will be at the sales order you created.
+14. Close the **Picking list registration** page and you will be at the sales order you created. 
 
-15. In the action pane, under the **Pick and pack** button, select **Post Packing slip** under the **Generate** section.
+15. In the action pane, under the **Pick and pack** tab, select **Post packing slip** under the **Generate** section. 
 
-If you get an error during posting, it may be because today's date is not an open date in the current period. 
+If you get an error during posting, it may be because today's date is not an open date in the current Fiscal period. 
 
-- Open a new tab (we suggest duplicating the current one).
+- Open a new tab (we suggest duplicating the current one). 
 - Navigate to General Ledger > Ledger setup > Fiscal calendars. 
 - Change the Calendar to Fiscal and verify that this year is not listed. 
-- Select +New year and Create.
-- You can then return to post your packing slip
+- Select +New year and Create. 
+- You can then return to post your packing slip. 
 
 16. In the **Packing slip posting** dialog, select the **OK** button, and **OK** again.
 
-17. In the action pane, select the **Invoice** button, followed by selecting **Invoice** under **Generate** section.
+17. In the action pane, select the **Invoice** tab, and select **Invoice** under the **Generate** section. 
 
 18. In the **Posting invoice** dialog, select the **OK** button, and **OK** again.
 
+
 ## Exercise 4: Create a Customer pool
 
-1. Navigate to **Credit and collections &gt; Setup** > **Customer pools**.
+1.  In the **Credit and collections** module, navigate to **Setup** > **Customer pools**. 
 
-2. Select the **+New** button in the action pane to create a new customer pool.
+2.  Select the **+New** button in the action pane to create a new customer pool. 
 
-3. Add the following values in the fields below:
+3.  Add the following values in the fields below:
 
-	- **Pool ID**: New-aging
+    - **Pool ID**: New-aging
 
-	- **Pool description**: New customer aging
+    - **Pool description**: New customer aging
 
-	- **Pool type**: Aging snapshot
+    - **Pool type**: Aging snapshot
 
-4. Select the **Select pool criteria** link and update **Customer account** with Cust-01. Select the OK button.
+4.  Select the **Select pool criteria** button and update the **Criteria** value for the **Customer account** field with `Cust-01`. Select the **OK** button. 
 
 	![Select the Select pool criteria link and update Customer account with Cust-01.](../images/AR_Lab_Customer_collection_management_image2.png)
  
-5. Select the **Save** button in the action pane and close the page.
+5.  Select the **Save** button in the action pane and close the page. 
+
 
 ## Exercise 5: Create an Aging period definition
 
-1. Navigate to **Credit and collections &gt; Setup** > **Aging period definitions**.
+1.  In the **Credit and collections** module, navigate to **Setup** > **Aging period definitions**. 
 
-2. Select the **+New** button in the action pane to create a new aging period definition.
+2.  Select the **+New** button in the action pane to create a new aging period definition. 
 
-3. Create a record as shown below:
+3.  Create a record as shown below:
 
-	- Aging period definition: 7 and 30 days
+    - Aging period definition: `7 and 30 days`
 
-	- Description: after 7/30 days
+    - Description: `after 7/30 days`
 
-	- Remove the existing periods and add:
-	<html>
-	<table>
-	<tr><th>Period</th><th>Unit</th><th>Interval</th><th>Aging indicator</th></tr>
-	<tr><td>30+</td><td>-1</td><td>Unlimited</td><td>Red diamond</td></tr>
-	<tr><td>7</td><td>-7</td><td>Day</td><td>Yellow triangle</td></tr>
-	<tr><td>Current</td><td>0</td><td>Unlimited</td><td>Green check mark</td></tr>
-	</table>
+    - **Remove** the existing periods and add: 
+
+    | Period  | Unit | Interval  | Aging indicator  |
+    |---------|------|-----------|------------------|
+    | 30+     | -1   | Unlimited | Red diamond      |
+    | 7       | -7   | Day       | Yellow triangle  |
+    | Current | 0    | Unlimited | Green check mark |
 
 	![Navigate to Credit and collections -> Setup and open Aging period definitions](../images/AR_Lab_Customer_collection_management_image3.png)
 
-4. The **Printing direction** should be Backward for all the lines in the **Period** section.
+4.  Set the **Printing direction** to be **Backward**. 
 
-5. Select the **Save** button in the action pane and close the page.
+5.  Select the **Save** button in the action pane and close the page. 
+
 
 ## Exercise 6: Run aging balance
 
-1. Navigate to **Credit and collections &gt; Setup** > **Credit and collections parameters**.
+1.  In the **Credit and collections** module, navigatet to **Setup** > **Credit and collections parameters**. 
 
-2. Under the **Collections** tab in the **Collections defaults** section, select the value 7 and 30 days in the **Aging period definition** field.
+2.  Under the **Collections** tab, expand the **Collections defaults** section, enter or select the value `7 and 30 days` in the **Aging period definition** field. 
 
-3. Save the record by selecting the **Save** button in the action pane and close the page.
+3.  Save the record by selecting the **Save** button in the action pane and close the page.
 
-4. Navigate to **Credit and collections &gt; Periodic tasks** > **Age customer balances**.
+4.  Navigate to **Credit and collections &gt; Periodic tasks** > **Age customer balances**.
 
-5. In the **Create a customer aging snapshot** dialog, enter the following values and select the **OK** button:
+5.  In the **Create a customer aging snapshot** dialog, enter the following values:
 
 	- **Aging period definition**: 7 and 30 days
 
@@ -180,53 +187,57 @@ If you get an error during posting, it may be because today's date is not an ope
 
 	- **Aging as of**: Selected date
 
-	- In the **selected date** field, select a date more than 30 days ahead of your current date.
+	- In the **Selected date** field, select a date more than 30 days ahead of the current date. 
 
 	- **Update collection status**: Yes
 
 	- **Include customers with zero balance**: Yes
  
-	- **Bypass credit limit calculations during aging**: No [this may not be an option, depending on your version]
+	- **Bypass credit limit calculations during aging**: No **Note:** This may not be an option, depending on your version.
 
 	- **Batch processing** (under Run in the background): No
 
-6. Navigate to **Credit and collections &gt; Collections** > **Aged balances**.
+6.  Select the **OK** button.
 
-7. You should see an aging status for Customer 01 with a red diamond, and 1,900.00 in the **30**+ bucket.
+7.  Navigate to **Credit and collections &gt; Collections** > **Aged balances**.
+
+8.  You should see an aging status for **Customer 01** with a red diamond, and 1,900.00 in the **30**+ bucket.
 
 	![Navigate to Credit and collections -> Collections and open Aging balances.](../images/AR_Lab_Customer_collection_management_image4.png)
 
-8. Navigate back to **Credit and collections &gt; Periodic tasks** > **Age customer balances**.
+9.  Navigate back to **Credit and collections &gt; Periodic tasks** > **Age customer balances**.
 
-9. In the **Create a customer aging snapshot** dialog, enter the following values and select the **OK** button:
+10.  In the **Create a customer aging snapshot** dialog, enter the following values:
 
-	- **Aging period definition**: 7 and 30 days
+	- **Aging period definition**: `7 and 30 days`
 
-	- **Pool ID**: New-aging
+	- **Pool ID**: `New-aging`
 
-	- **Criteria**: Due date
+	- **Criteria**: `Due date`
 
-	- **Aging as of**: Selected date
+	- **Aging as of**: `Selected date`
 
-	- In the **selected date** field, select a date less than 30 days and more than 7 days ahead of your current date.
+	- In the **Selected date** field, select a date less than 30 days and more than 7 days ahead of your current date.
 
-	- **Update collection status**: Yes
+	- **Update collection status**: `Yes`
 
-	- **Include customers with zero balance**: Yes
+	- **Include customers with zero balance**: `Yes`
 
-	- **Bypass credit limit calculations during aging**: No [if available]
+	- **Bypass credit limit calculations during aging**: `No` (if available)
 
-	- **Batch processing**: No
+	- **Batch processing**: `No`
 
-10. Navigate to **Credit and collections &gt; Collections** > **Aged balances**.
+11. Select **OK**. 
 
-11. You should see an aging status for Customer 01 with a yellow triangle, and 1,900.00 in the **7** bucket.
+12. Navigate to **Credit and collections &gt; Collections** > **Aged balances**. 
+
+13. You should see an aging status for **Customer 01** with a yellow triangle, and 1,900.00 in the **7** bucket. 
 
 	![Navigate to Credit and collections -> Collections and open Aging balances](../images/AR_Lab_Customer_collection_management_image5.png)
 
-12. Navigate back to **Credit and collections &gt; Periodic tasks** > **Age customer balances**.
+14. Navigate back to **Credit and collections &gt; Periodic tasks** > **Age customer balances**.
 
-13. In the **Create a customer aging snapshot** dialog, enter the following values and select the **OK** button:
+15. In the **Create a customer aging snapshot** dialog, enter the following values and select the **OK** button:
 
 	- **Aging period definition**: 7 and 30 days
 
@@ -242,54 +253,53 @@ If you get an error during posting, it may be because today's date is not an ope
 
 	- **Include customers with zero balance**: Yes
 
-	- **Bypass credit limit calculations during aging**: No [if available]
+	- **Bypass credit limit calculations during aging**: No (if available)
 
 	- **Batch processing**: No
 
-14. Navigate to **Credit and collections &gt; Collections** > **Aged balances**.
+16. Navigate to **Credit and collections &gt; Collections** > **Aged balances**.
 
-15. You should see an aging status for Customer 01 with a green checkmark, and 1,900.00 in the **Current** bucket.
+17. You should see an aging status for **Customer 01** with a green checkmark, and 1,900.00 in the **Current** bucket. 
 
-	![Navigate to Credit and collections -> Collections and open Aging balances](../images/AR_Lab_Customer_collection_management_image6.png)
+    ![Navigate to Credit and collections -> Collections and open Aging balances](../images/AR_Lab_Customer_collection_management_image6.png)
+
 
 ## Exercise 7: Setup collection letter sequence
 
-1. Navigate to **Credit and collections &gt; Collection letter** > **Set up collection letter sequence**.
+1.  In the **Credit and collections** module, navigate to **Collection letter** > **Set up collection letter sequence**. 
 
-2. Select the **+New** button in the action pane and create a collection letter sequence as below:
+2.  Select the **+New** button in the action pane and create a collection letter sequence as below: 
 
-	- Collection letter sequence: Medium
+	- Collection letter sequence: `Medium` 
 
-	- Description: Medium priority
+	- Description: `Medium priority` 
 
-	- Lines:
+	- Lines: 
 
+    | Collection letter code | Description           | Main account | Fee in currency | Minimum overdue balance | Days | Block     |
+    |------------------------|-----------------------|--------------|-----------------|-------------------------|------|-----------|
+    | `Collection letter 1`  | `First notification`  |              | 0.00            | 0.00                    | `1`  |           |
+    | `Collection letter 2`  | `Second notification` | `403150`     | `25.00`         | `100.00`                | `3`  |           |
+    | `Collection`           | `Final notification`  | `403150`     | `50.00`         | `100.00`                | `7`  | (checked) |
 
-	<html>
-	<table>
-	<tr><th>Collection letter code</th><th>Description</th><th>Main account</th><th>Fee in currency</th><th>Minimum overdue balance</th><th>Days</th><th>Block</th></tr>
-	<tr><td>Collection letter 1</td><td>First notification</td><td>&nbsp;</td><td>0.00</td><td>0.00</td><td>1</td><td></td></tr>
-	<tr><td>Collection letter 2</td><td>Second notification</td><td>403150</td><td>25.00</td><td>100.00</td><td>3</td><td></td></tr>
-	<tr><td>Collection</td><td>Final notification</td><td>403150</td><td>50.00</td><td>100.00</td><td>7</td><td>(checked)</td></tr>
-	</table>
-
-	- Add a note to the first notification saying “Hello, this is the first reminder for paying your balance.” 
+	- Add a note to the first notification saying `Hello, this is the first reminder for paying your balance.` 
 
 	![Navigate to Credit and collections -> Collection letter and open Set up collection letter sequence.](../images/AR_Lab_Customer_collection_management_image7.png)
 
-3. Select the **Save** button in the action pane and close the page.
+3.  Select the **Save** button in the action pane and close the page. 
+
 
 ## Exercise 8: Create an interest code
 
-1. Navigate to **Credit and collections &gt; Interest** > **Set up interest codes**.
+1.  In the **Credit and collections** module, navigate to **Interest** > **Set up interest codes**. 
 
-2. Select the **+New** button in the action pane and create an interest code.
+2.  Select the **+New** button in the action pane and create an interest code. 
 
-3. Enter the following values in the **interest code** page:
+3.  Enter the following values in the **interest code** page:
 
-	- Interest code: 7D-1.5%
+	- Interest code: `7D-1.5%`
 
-	- Description: 1.5% after 7 days
+	- Description: `1.5% after 7 days`
 
 	- Interest type: Single rate
 
@@ -299,135 +309,135 @@ If you get an error during posting, it may be because today's date is not an ope
 
 	- Expiration: Never
 
-	![Navigate to Credit and collections -> Interest and open Set up interest codes](../images/AR_Lab_Customer_collection_management_image8.png)
+    ![Navigate to Credit and collections -> Interest and open Set up interest codes](../images/AR_Lab_Customer_collection_management_image8.png)
 
-4. Enter the following values in the **Earnings** FastTab of the **interest** page.
+4.  Expand the **Earnings** FastTab and enter the following values:.
 
-	- Calculate interest every: 1
+    - Calculate interest every: `1`
 
-	- Ledger posting account: 700200 
+    - Ledger posting account: `700200` 
 
-	![Enter the following values in the Earnings & Payments fasttab of the interest code page](../images/AR_Lab_Customer_collection_management_image9.png)
+    ![Enter the following values in the Earnings & Payments fasttab of the interest code page](../images/AR_Lab_Customer_collection_management_image9.png)
 
 5. Select the **Save** button in the action pane and close the page.
 
+
 ## Exercise 9: Configure the Customer posting profile
 
-1. Navigate to **Credit and collections &gt; Setup** > **Customer posting profiles**.
+1.  Navigate to **Credit and collections &gt; Setup** > **Customer posting profiles**.
 
-2. Select the existing record **GEN** and select the **Add** button in the **Setup** FastTab.
+2.  Select the existing **GEN** record and select the **Add** button in the **Setup** FastTab. 
 
-3. Add a new record and enter values as shown below:
+3.  Add a new record and enter values as shown below:
 
-	- **Account code**: Table
+    - **Account code**: `Table`
 
-	- **Account/Group number**: Cust-01
+    - **Account/Group number**: `Cust-01`
 
-	- **Summary account**: 133300
+    - **Summary account**: `133300`
 
-	- **Collection letter sequence**: Medium
+    - **Collection letter sequence**: `Medium`
 
-	- **Interest code**: 7D-1.5%
+    - **Interest code**: `7D-1.5%`
 
 	![Navigate to Credit and collections -> Setup and open Customer posting profiles](../images/AR_Lab_Customer_collection_management_image10.png)
 
-4. Select the **Save** button in the action pane and close the page.
+4.  Select the **Save** button in the action pane and close the page.
+
 
 ## Exercise 10: Create and process a new sales order
 
-1. Navigate to **Accounts receivable &gt; Orders** > **All sales orders**.
+1.  Navigate to **Accounts receivable &gt; Orders** > **All sales orders**.
 
-2. Select the **+New** button in the action pane to create a new sales order.
+2.  Select the **+New** button in the action pane to create a new sales order.
 
-3. In the **Create sales order** dialog, enter **Cust-01** for the **Customer account** and select the **OK** button.
+3.  In the **Create sales order** dialog, enter `Cust-01` for the **Customer account** and select the **OK** button.
   
-4. In the **Sales order** lines, enter the following values:
+4.  In the **Sales order** lines, enter the following values:
 
-	- **Item number**: 1000
+    - **Item number**: 1000
 
-	- **Quantity**: 1
+    - **Quantity**: 1
 
-	- **Site**: 1
+    - **Site**: 1
 
-	- **Warehouse**: 13
+    - **Warehouse**: 13
 
-	- **Unit price** (auto-populated): 1900
+    - **Unit price** (auto-populated): 1900
 
-	- **Net amount** (auto-populated): 1900
+    - **Net amount** (auto-populated): 1900
 
-5. Select the **Header** tab of the Sales order and navigate to the **Price and discount** FastTab. In the **Payment field**, select COD.
+5.  Select the **Header** tab of the Sales order and navigate to the **Price and discount** FastTab. In the **Payment field**, enter or select `COD`. 
 
-6. Navigate to the **Delivery** FastTab. In the **Mode of delivery** field, select **Truck-Truc**. 
+6.  Navigate to and expand the **Delivery** FastTab. In the **Mode of delivery** field, enter or select `Truck-Truc`. 
 
-7. Select the **Save** button in the action pane and save the sales order. Select **OK** to update the order lines.
+7.  Select the **Save** button in the action pane and save the sales order. Select **OK** to update the order lines. 
 
-8. In the action pane, select the **Sell** button and confirm the sales order by selecting **Confirm sales order** in the **Generate** section.
+8.  In the action pane, select the **Sell** tab and confirm the sales order by selecting **Confirm sales order** in the **Generate** section. 
 
-9. In the **Confirm sales order** dialog, select **OK** and **OK** again.
+9.  In the **Confirm sales order** dialog, select **OK** and **OK** again. 
 
-10. In the action pane, select the **Pick and pack** button, followed by selecting **Generate picking list** under **Generate**.
+10. In the action pane, select the **Pick and pack** tab, followed by selecting **Generate picking list** under **Generate**. 
 
-11. In the **Posting picking list** dialog, select **OK** and OK again.
+11. In the **Posting picking list** dialog, select **OK** and **OK** again. 
 
-12. In the action pane, under the **Pick and pack** button, select **Picking list registration** under **Generate**.
+12. In the action pane, under the **Pick and pack** button, select **Picking list registration** in the **Generate** section. 
 
-13. The **Picking list registration** page will appear, where you should select Updates > **Update all** in the action menu. The **Handling status** field in the **Lines** FastTab will change to **Completed**.
+13. The **Picking list registration** page will open, select **Updates** > **Update all** in the action menu. Verify the **Handling status** field in the **Lines** FastTab changes from **Activated** to **Completed**. 
 
-14. Close the **Picking list registration** page and you will be in the sales order you created.
+14. Close the **Picking list registration** page and you will be back in the **Sales order** record. 
 
-15. In the action pane, under the **Pick and pack** button, select **Post Packing slip** under **Generate**.
+15. In the action pane, under the **Pick and pack** button, select **Post Packing slip** in the **Generate** section. 
 
-16. In the **Packing slip posting** dialog, select **OK** button, and **OK** again.
+16. In the **Packing slip posting** dialog, select **OK**, and **OK** again. 
 
-17. In the action pane, select the **Invoice** button, followed by selecting **Invoice** under **Generate** section.
+17. In the action pane, select the **Invoice** tab, followed by selecting **Invoice** in the **Generate** section. 
 
-18. In the **Posting invoice** dialog, select **OK**, and **OK** again.
+18. In the **Posting invoice** dialog, select **OK**, and **OK** again. 
 
-19. In the action pane, select the **Invoice** button, followed by selecting **Open transactions** in the **Settle** section.
+19. In the action pane, select the **Invoice** tab, select **Open transactions** in the **Settle** section. 
 
-	![You will find two open invoices for settlement:
-	The first one with due date three days from current date
-	The second one with current date as due date 
-	](../images/AR_Lab_Customer_collection_management_image11.png)
+    ![You will find two open invoices for settlement, first one with due date three days from current date, the second one with current date as due date](../images/AR_Lab_Customer_collection_management_image11.png)
 
-20. You will find two open invoices for settlement:
+20. You will find two open invoices for settlement: 
 
-	- The first one with a due date three days from the current date.
+	- The first one with a due date three days from the current date. 
 
-	- The second one with the current date as the due date .
+	- The second one with the current date as the due date. 
 
 21. Select **OK**.
 
+
 ## Exercise 11: Create a collection letter
 
-1. Navigate to **Credit and collections &gt; Collection letter** > **Create collection letters**.
+1.  In the **Credit and collections** module, navigate to **Collection letter** > **Create collection letters**. 
 
-2. A dialog will pop up to run the collection letter process. Add the following parameters in the **Creation of collection letter** dialog:
+2.  A dialog will pop up to run the collection letter process. Add the following parameters in the **Creation of collection letter** dialog:
 
-	- **Invoice**: Yes
+    - **Invoice**: Yes
 
-	- **Collection letter**: Collection letter 1
+    - **Collection letter**: Collection letter 1
 
-	- **Collection letter date**: Current date + 1 (tomorrow)
+    - **Collection letter date**: Current date + 1 (tomorrow)
 
-	- **Use posting profile from**: Account
+    - **Use posting profile from**: Account
 
-	- **Posting profile**: GEN
+    - **Posting profile**: GEN
 
-	- From the Filter option, select **customer account** Cust-01 and select **OK**
+    - Select the **Filter** option, enter `Cust-01` for the **Customer account**, **Criteria** and select **OK**. 
 
-	- **Batch processing** (in the **Run in the background** section): **No**
+    - **Batch processing** (in the **Run in the background** section): **No**
 
-	![Navigate to Credit and collections -> Collection letter and open Create collection letters.](../images/AR_Lab_Customer_collection_management_image12.png) 
+    ![Navigate to Credit and collections -> Collection letter and open Create collection letters.](../images/AR_Lab_Customer_collection_management_image12.png) 
 
-3. Select the **OK** button to execute the collection letter creation process.
+3.  Select the **OK** button to execute the collection letter creation process. 
 
-4. Navigate to **Credit and collections &gt; Collection letter** > **Review and process collection letters**.
+4.  In the **Credit and collections** module, navigate to **Collection letter** > **Review and process collection letters**. 
 
-5. You will be able to see a collection letter is created notifying the customer that payment is requested for the overdue invoice.
+5.  Select the **Collection letter** column header and select **Sort Z to A**. You will be able to see a collection letter is created notifying the customer that payment is requested for the overdue invoice. 
 
 	![Navigate to Credit and collections -> Collection letter and open Review and process collection letters.](../images/AR_Lab_Customer_collection_management_image13.png)
 
-6. You can post the collection letter by selecting it and selecting the **Post** button in the action pane.
+6.  You can post the collection letter by selecting it in the grid and selecting the **Post** button in the action pane. Select **OK**. 
 
  
