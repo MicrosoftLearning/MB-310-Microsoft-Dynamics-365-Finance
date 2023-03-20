@@ -353,19 +353,19 @@ If you get an error during posting, it may be because today's date is not an ope
 
 3.  In the **Create sales order** dialog, enter `Cust-01` for the **Customer account** and select the **OK** button.
   
-4.  In the **Sales order** lines, enter the following values:
+4.  In the **Sales order** lines, enter the following values: 
 
-    - **Item number**: `1000`
+    - **Item number**: `1000` 
 
-    - **Quantity**: `1`
+    - **Quantity**: `1` 
 
-    - **Site**: `1`
+    - **Site**: `1` 
 
-    - **Warehouse**: `13`
+    - **Warehouse**: `13` 
 
-    - **Unit price** (auto-populated): 1900
+    - **Unit price** (auto-populated): 1900 
 
-    - **Net amount** (auto-populated): 1900
+    - **Net amount** (auto-populated): 1900 
 
 5.  Select the **Header** tab of the Sales order and navigate to the **Price and discount** FastTab. In the **Payment field**, enter or select `COD`. 
 
@@ -397,36 +397,36 @@ If you get an error during posting, it may be because today's date is not an ope
 
 19. In the action pane, select the **Invoice** tab, select **Open transactions** in the **Settle** section. 
 
-    ![You will find two open invoices for settlement, first one with due date three days from current date, the second one with current date as due date](../images/AR_Lab_Customer_collection_management_image11.png)
+    ![You will find two open invoices for settlement, first one with due date three days from current date, the second one with current date as due date](../images/AR_Lab_Customer_collection_management_image11.png) 
 
 20. You will find two open invoices for settlement: 
 
-	- The first one with a due date three days from the current date. 
+    - The first one with a due date three days from the current date. 
 
-	- The second one with the current date as the due date. 
+    - The second one with the current date as the due date. 
 
-21. Select **OK**.
+21. Select **OK**. 
 
 
-## Exercise 11: Create a collection letter
+## Exercise 11: Create a collection letter 
 
 1.  In the **Credit and collections** module, navigate to **Collection letter** > **Create collection letters**. 
 
-2.  A dialog will pop up to run the collection letter process. Add the following parameters in the **Creation of collection letter** dialog:
+2.  A dialog will pop up to run the collection letter process. Add the following parameters in the **Creation of collection letter** dialog: 
 
     - **Invoice**: Yes
 
-    - **Collection letter**: `Collection letter 1`
+    - **Collection letter**: `Collection letter 1` 
 
-    - **Collection letter date**: Current date + 1 (tomorrow)
+    - **Collection letter date**: Current date + 1 day (Tomorrow) 
 
-    - **Use posting profile from**: `Account`
+    - **Use posting profile from**: `Account` 
 
-    - **Posting profile**: `GEN`
+    - **Posting profile**: `GEN` 
 
     - Select the **Filter** option, enter `Cust-01` for the **Customer account**, **Criteria** and select **OK**. 
 
-    - **Batch processing** (in the **Run in the background** section): **No**
+    - **Batch processing** (in the **Run in the background** section): **No** 
 
     ![Navigate to Credit and collections -> Collection letter and open Create collection letters.](../images/AR_Lab_Customer_collection_management_image12.png) 
 
@@ -434,10 +434,9 @@ If you get an error during posting, it may be because today's date is not an ope
 
 4.  In the **Credit and collections** module, navigate to **Collection letter** > **Review and process collection letters**. 
 
-5.  Select the **Collection letter** column header and select **Sort Z to A**. You will be able to see a collection letter is created notifying the customer that payment is requested for the overdue invoice. 
+5.  Select the **Collection letter** column header and select **Sort Z to A**. You will see the **Collection letter** has been created notifying the customer that payment is requested for the overdue invoice. 
 
-	![Navigate to Credit and collections -> Collection letter and open Review and process collection letters.](../images/AR_Lab_Customer_collection_management_image13.png)
+    ![Navigate to Credit and collections -> Collection letter and open Review and process collection letters.](../images/AR_Lab_Customer_collection_management_image13.png)
 
 6.  You can post the collection letter by selecting it in the grid and selecting the **Post** button in the action pane. Select **OK**. 
 
- 
