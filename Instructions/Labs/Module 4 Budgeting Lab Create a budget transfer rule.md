@@ -119,9 +119,9 @@ In this task you will add a budget register entry.
 
 7.  Select **1/1/2021** in the date field. 
 
-8.  Select `Manufacturing P&L` in the **Account structure** field. 
+8.  Select or enter `Manufacturing P&L` in the **Account structure** field. 
 
-9.  Select `601506-001-028--` in the **Dimension values** field. 
+9.  Enter `601506-001-028--` in the **Dimension values** field. 
 
 10. Enter `1000` in the **Amount** field. Do not navigate away from this page. 
 
@@ -134,9 +134,9 @@ In this task you will add a second line for the same dimension combination.
 
 2.  Select **1/1/2021** in the date field. 
 
-3.  Select `Manufacturing P&L` in the **Account structure** field. 
+3.  Select or enter `Manufacturing P&L` in the **Account structure** field. 
 
-4.  Select `601505-001-022` in the **Dimension values** field. 
+4.  Enter `601505-001-022--` in the **Dimension values** field. 
 
 5.  Enter `-1000` in the **Amount** field. 
 
