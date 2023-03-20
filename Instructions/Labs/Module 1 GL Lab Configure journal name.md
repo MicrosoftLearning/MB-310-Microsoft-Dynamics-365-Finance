@@ -9,20 +9,19 @@ lab:
 
 # Objective
 
-The objective of this lab is to create a general journal with various voucher configurations. This lab also practices the approval mechanism of a general journal.
+The objective of this lab is to create a general journal with various voucher configurations. This lab also practices the approval mechanism of a general journal. 
 
-You will create three general journals in this lab with the following configurations:
+You will create three general journals in this lab with the following configurations: 
 
 - Single voucher number with no approval 
 
-- Manual voucher number with manual approval process
+- Manual voucher number with manual approval process 
 
-- Continuous voucher number with workflow approval process
+- Continuous voucher number with workflow approval process 
 
+1.  Open your **Dynamics 365 Finance** environment and using the **Company picker**, change the legal entity to **USMF**. 
 
-## Exercise 1: Configuring a number sequence
-
-1.  Open a Dynamics 365 Finance environment and change the legal entity to **USMF**. 
+## Exercise 1: Configuring a number sequence 
 
 1.  Navigate to Modules, and **Organization administration > Number sequences > Number sequences**. 
 
@@ -249,17 +248,17 @@ You will create three general journals in this lab with the following configurat
 
 4.  Once you enter your Dynamics 365 Finance credentials, the workflow client for daily ledger journal will open. 
 
-	![Once you enter your Dynamics 365 Finance credentials, the workflow client for daily ledger journal will open](../images/GL_Lab_Configure_journal_name_image6.png) 
+    ![Once you enter your Dynamics 365 Finance credentials, the workflow client for daily ledger journal will open](../images/GL_Lab_Configure_journal_name_image6.png) 
 
 5.  Drag the **Approve daily journal** workflow element from the left panel and drop it between the **Start** and **End** elements. Connect the three elements.
 
-	![Drag the Approve daily journal workflow element from the left panel and drop it between Start and End elements. Connect the three elements as shown in the diagram below.](../images/GL_Lab_Configure_journal_name_image7.png)
+    ![Drag the Approve daily journal workflow element from the left panel and drop it between Start and End elements. Connect the three elements as shown in the diagram below.](../images/GL_Lab_Configure_journal_name_image7.png)
 
 6.  Select the **Approve daily journal** element and select the **Level down** button in the action pane.
 
 7.  Select the **Step 1** element and select the **Basic Settings** button in the action pane.
 
-	![Select the Step 1 element and select the Basic Settings button in the action pane.](../images/GL_Lab_Configure_journal_name_image8.png)
+    ![Select the Step 1 element and select the Basic Settings button in the action pane.](../images/GL_Lab_Configure_journal_name_image8.png)
 
 8.  Rename the **Name** of the step to `Approval step`.
 
@@ -275,7 +274,7 @@ You will create three general journals in this lab with the following configurat
 
 14. Select the **User ID** Admin from **Available users** and add it into the **Selected users** list. 
 
-	![Select User ID Admin and add in the Selected users list.](../images/GL_Lab_Configure_journal_name_image9.png) 
+    ![Select User ID Admin and add in the Selected users list.](../images/GL_Lab_Configure_journal_name_image9.png) 
 
 15. Close the workflow element property window.
 
@@ -285,7 +284,7 @@ You will create three general journals in this lab with the following configurat
 
 17. The system will navigate you back to the **General ledger** **workflow** page, where you should find the newly created workflow Note the number.
 
-	![The system will navigate you back to the General ledger workflow page, where you should find the newly created workflow](../images/GL_Lab_Configure_journal_name_image10.png)
+    ![The system will navigate you back to the General ledger workflow page, where you should find the newly created workflow](../images/GL_Lab_Configure_journal_name_image10.png)
 
 18. Navigate to **General ledger &gt; Journal setup** and open the **Journal names** page.
 
