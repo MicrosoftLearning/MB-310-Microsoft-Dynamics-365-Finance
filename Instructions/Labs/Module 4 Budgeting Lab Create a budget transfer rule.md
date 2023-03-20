@@ -14,6 +14,7 @@ A budget manager has been analyzing recent travel expenses and wants to make som
 
 1.  Open your **Dynamics 365 Finance** environment and using the **Company picker**, change the legal entity to **USMF**. 
 
+
 ## Exercise 1: Define dimensions for budgeting
 
 1.  In the **Budgeting** module, select **Setup**. Select **Basic budgeting**
