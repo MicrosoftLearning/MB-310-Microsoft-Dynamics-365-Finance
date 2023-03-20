@@ -21,6 +21,7 @@ You will create three general journals in this lab with the following configurat
 
 1.  Open your **Dynamics 365 Finance** environment and using the **Company picker**, change the legal entity to **USMF**. 
 
+
 ## Exercise 1: Configuring a number sequence 
 
 1.  Navigate to Modules, and **Organization administration > Number sequences > Number sequences**. 
