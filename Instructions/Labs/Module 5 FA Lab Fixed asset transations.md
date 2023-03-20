@@ -12,31 +12,35 @@ In this lab, we will test fixed asset acquisition, depreciation and split.
 
 -  In the second scenario, we will create another fixed asset and post an acquisition transaction on current date. We will split a portion of the previous fixed asset and merge it with the new fixed asset. We will examine the net asset value of both the fixed assets after this transaction.
 
+1.  Open your **Dynamics 365 Finance** environment and using the **Company picker**, change the legal entity to **USMF**. 
+
+
 ## Exercise 1: Create a new fixed asset
 
-1. Navigate to **Fixed assets &gt; Fixed assets** and open **Fixed assets**.
+1.  Navigate to **Fixed assets &gt; Fixed assets** and open **Fixed assets**.
 
-2. Select the **+New** button in the action pane to create a new fixed asset.
+2.  Select the **+New** button in the action pane to create a new fixed asset.
 
-3. Enter data into the following fields:
+3.  Enter data into the following fields, as follows: 
 
-	- **Fixed asset group**: OFFICE
+    - **Fixed asset group**: OFFICE
 
-	- **Number**: [Auto-generated]
+    - **Number**: [Auto-generated]
 
-	- **Name**: Office equipment - [[Year/Quarter of six month old date]]
+    - **Name**: Office equipment - [[Year/Quarter of six month old date]]
 
-	- **Type**: Tangible
+    - **Type**: Tangible
 
-4. Select the **Save** button in the action pane and close the page.
+4.  Select the **Save** button in the action pane and close the page. 
+
 
 ## Exercise 2: Create a new vendor invoice
 
-1. Navigate to **Accounts payable &gt; Invoices** and open **Pending vendor invoices**.
+1.  Navigate to **Accounts payable &gt; Invoices** and open **Pending vendor invoices**.
 
-2. Select the **+New** button in the action pane to create a new vendor invoice.
+2.  Select the **+New** button in the action pane to create a new vendor invoice.
 
-3. In the **Vendor invoice** page, enter the following values:
+3.  In the **Vendor invoice** page, enter the following values:
 
 	- **Invoice account**: 1001
 
@@ -48,7 +52,7 @@ In this lab, we will test fixed asset acquisition, depreciation and split.
 
 	- **Posting date**: [same as invoice date]
 
-4. Select the **Add** line button in the **Lines** FastTab of the **Vendor invoice** page and enter the following values:
+4.  Select the **Add** line button in the **Lines** FastTab of the **Vendor invoice** page and enter the following values:
 
 	- **Procurement category**: Select Computers under OFFICE MACHINES
 
