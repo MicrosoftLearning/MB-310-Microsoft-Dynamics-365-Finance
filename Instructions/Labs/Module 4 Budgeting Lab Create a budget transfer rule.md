@@ -12,6 +12,8 @@ lab:
 
 A budget manager has been analyzing recent travel expenses and wants to make some changes to the budget to better align the budgets with the travel policies of the company. You need to set up transfer rules. You must be able to review and approve transfer requests. 
 
+1.  Open your **Dynamics 365 Finance** environment and using the **Company picker**, change the legal entity to **USMF**. 
+
 ## Exercise 1: Define dimensions for budgeting
 
 1.  In the **Budgeting** module, select **Setup**. Select **Basic budgeting**
