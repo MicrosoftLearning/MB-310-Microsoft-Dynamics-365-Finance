@@ -4,19 +4,18 @@ lab:
     module: 'Module 2: Accounts receivable, credit and collections'
 ---
 
-
 # Lab: Customer collection management
 
 ## Objective
 
-In this lab, we will generate an aging report and process a collection letter.
+In this lab, we will generate an aging report and process a collection letter. 
 
-- In the first scenario, we will create a new payment term for net 3 days. We will also create a new customer. For this customer, we will create a sales order and associate the new payment terms. We will process the entire sales order and generate the invoice. The due date of the invoice will be three days from the current date. We will run the aging report for the new customer.
+- In the first scenario, we will create a new payment term for net 3 days. We will also create a new customer. For this customer, we will create a sales order and associate the new payment terms. We will process the entire sales order and generate the invoice. The due date of the invoice will be three days from the current date. We will run the aging report for the new customer. 
 
--  In the second scenario, we will create another sales order for the new customer, where payment terms will be COD (cash on delivery). We will complete the processing of the sales order and generate the invoice. The due date of the invoice will be the current date. We will run the collection report for the new customer.
+-  In the second scenario, we will create another sales order for the new customer, where payment terms will be COD (cash on delivery). We will complete the processing of the sales order and generate the invoice. The due date of the invoice will be the current date. We will run the collection report for the new customer. 
 
+1.  Open your **Dynamics 365 Finance** environment and using the **Company picker**, change the legal entity to **USMF**. 
 
-1.  Open your **Dynamics 365 Finance** environment and change the legal entity to **USMF** using the **company picker**. 
 
 ## Exercise 1: Create a new payment term
 
