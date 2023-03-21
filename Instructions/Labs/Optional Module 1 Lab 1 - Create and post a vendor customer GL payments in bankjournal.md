@@ -6,6 +6,8 @@ lab:
 
 # Lab - Create and post vendor, customer, general ledger payments
 
+## Objective
+
 Heather, the bookkeeper at Contoso, must post a bank statement manually. Two customers paid an invoice, Heather needs to post payments to two vendors, and she also needs to post on main account 605160 for costs which are costs paid directly from the bank. If there are many bank transactions on a bank statement, these are normally imported. 
 
 Due to the **segregation of duties**, Heather needs to post the vendor invoices from the **Accounts payable** module, the customer invoices are posted from the **Accounts receivable** module, and costs paid directly from the bank should be posted in a general journal.
