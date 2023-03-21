@@ -7,7 +7,7 @@ lab:
 
 # Lab: Configure journal name 
 
-# Objective
+## Objective
 
 The objective of this lab is to create a general journal with various voucher configurations. This lab also practices the approval mechanism of a general journal. 
 
