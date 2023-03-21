@@ -4,6 +4,8 @@ lab:
     module: 'Module 5: Manage fixed assets'
 ---
 
+# Lab: Fixed asset transactions
+
 ## Objective
 
 In this lab, we will test fixed asset acquisition, depreciation and split.
