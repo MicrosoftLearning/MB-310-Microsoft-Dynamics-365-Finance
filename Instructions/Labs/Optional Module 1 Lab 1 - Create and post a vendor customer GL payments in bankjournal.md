@@ -4,7 +4,7 @@ lab:
     module: 'Module 1 Optional'
 ---
 
-# Lab - Create and post vendor, customer, general ledger payments
+# Lab: Create and post vendor, customer, general ledger payments
 
 ## Objective
 
