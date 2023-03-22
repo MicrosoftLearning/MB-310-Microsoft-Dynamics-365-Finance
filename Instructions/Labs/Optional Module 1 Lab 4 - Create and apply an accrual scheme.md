@@ -1,194 +1,123 @@
 ---
 lab:
-    title: 'Lab 4: Configure tax ledger posting groups'
-    module: 'Module 1 Optional'
+    title: 'Lab: Accrual schemes'
+    module: 'Optional Module 1: Set up and configure financial management'
 ---
 
-# Lab: Configure tax ledger posting groups
+# Lab: Accrual schemes
 
-## Objective
+You create accrual schemes to set up deferred revenue and costs. Ledger accruals redistribute the costs or revenue of a journal line so that the costs and revenues are recognized in the appropriate periods. 
 
-You have a new customer in Arizona. You need to create the customer in the system. You must set up a ledger account to ensure that tax is posted to main account named Arizona State Tax Payable. You must also set up a new sales tax code and use the new sales tax code in a free text invoice. 
+In the **Accrual schemes** page, you specify the debit and the credit accounts that will be used when the accrual scheme is applied. 
 
-Sales tax is calculated and posted to main accounts that are specified in Ledger posting groups. Ledger posting groups are attached to each sales tax code. You can set up individual ledger posting groups for each sales tax code, use one ledger posting group for all sales tax codes or assign multiple ledger posting groups to the sales tax codes. 
+    - **Debit** - The main account that you define will replace the debit main account on the journal voucher line. This account will also be used for the reversal of the deferral, based on the ledger accrual transactions.
+
+    - **Credit** - the main account that you define will replace the credit main account on the journal voucher line. This account will also be used for the reversal of the deferral, based on the ledger accrual transactions.
+
+## Objective 
+
+In this lab, you will set up a ledger accrual scheme and use the accrual scheme in a journal. 
+
+### Scenario 
+
+The accounting manager at Contoso Ltd. wants to redistribute the costs of an insurance policy throughout the year. The cost of the insurance policy is $5,520.00. Use the following information to set up a ledger accrual for the insurance policy: 
+
+    - Pay the total amount for the policy at one time. 
+
+    - Divide the invoice into twelve payments. 
+
 
 1.  Open your **Dynamics 365 Finance** environment and using the **Company picker**, change the legal entity to **USMF**. 
- 
 
-## Exercise 1: Set up the main account
 
-1.  Navigate to **General ledger** and select **Chart of accounts**. Select **Accounts** and then select **Main accounts**.
+## Exercise 1: Create an Accrual scheme
 
-2.  Select **+New**.
+In this exercise you set will up a ledger accrual scheme. 
 
-3.  Enter `120105` in the **Main account** field. 
+1.  In the **General ledger** module, select **Journal** **Setup**, and then select **Accrual schemes**. 
 
-4.  Enter `Arizona State Tax Payable` in the **Name** field.
+2.  Select the **+New** button.  
 
-5.  Select `Liability` in the **Main account type** field. 
+    ![](../images/Module_1_Activity_1_-_Create_and_apply_an_accrual_scheme_image1.png) 
 
-6.  Select `TAXPAY` in the **Main account category** field. The account category is used for default financial reports and Power BI dashboard content. 
+3.  Enter **M_INS** in the Accrual identification field. Enter **Monthly Insurance** as the description.
 
-7.  Scroll down and expand the **Posting validation** tab.
+4.  Select account number **200190** for the Debit and Credit fields.
 
-8.  Navigate to the **Posting Type** field.
+5.  For Voucher, select **New voucher** **for accrual transactions**. 
 
-9.  Select **Sales Tax**.
+6.  Select **APInv_01** number sequence code. 
 
-10. Select **Save**. 
+7.  Select **Calendar** as Accrual basis 
 
-11. **Close** the form. 
+8.  Select **Monthly** as the Period frequency.
 
+9.  Enter `12` as Number of occurrences by period.
 
-## Exercise 2: Setup a ledger posting group
+10. Select **Month** as the Post transactions.
 
-Now we have set up the main account, we can set up a ledger posting group.
+11. Select **Beginning** in the Post in week, month or quarter field.
 
-1. Navigate to **Tax** and select **Setup**. Select **Sales tax** and then select **Ledger posting groups**.
+12. Select **Evenly** in the Spread month and quarter values field.
 
-2. Select **New**.
+    ![](../images/Module_1_Activity_1_-_Create_and_apply_an_accrual_scheme_image2.png)
 
-3. Enter **AZ_State** in the **Ledger posting group** field.
+13. **Save** and **close** the form. 
 
-4. Enter **Arizona State tax** in the **Description** field.
 
-5. Select main account **120105** in the **Sales tax payable** field.
+## Exercise 2: Apply the accrual scheme 
 
-6. Select main account **222100** in both the Use tax payable field and the Settlement account field. 
+In this exercise you will apply the accrual scheme from exercise 1 in a journal.
 
-7. Select **Save.**
+1.  Navigate to module **General ledger,** select **Journal entries**, and then select **General journals.**   
 
-8. **Close** the form. 
+    ![](../images/Module_1_Activity_1_-_Create_and_apply_an_accrual_scheme_image3.png)
 
+2.  Select the **New** button to create a new journal. 
 
-To use the ledger AR_State posting group you must:
+3.  Select **GenJrn** in the Name field. 
 
-- Set up a sales tax code for Arizona (Exercise 3).
+    ![](../images/Module_1_Activity_1_-_Create_and_apply_an_accrual_scheme_image4.png)
 
-- Create a sales tax group (Exercise 4).
+4.  Select the **Lines** button in the action pane. 
 
-- Adjust an item sales tax group (Exercise 5).
+5.  Type **1/31/2022** in the Date field. 
 
-- Create a customer that uses the new sales tax code (Exercise 6).
+6.  Type **606200** in the Account field, you can leave the dimensions fields empty.
 
-- Create a free text invoice (Exercise 7).
+7.  Type **5520.00** in the Debit field. 
 
+8.  Select main account **200190** in the Offset account. 
 
-## Exercise 3: Create a sales tax code
+9.  Navigate to **Functions** and select **Ledger accruals**. 
 
-1.  Navigate to **Tax** and select **Indirect taxes**. Select **Sales tax** and then select **Sales tax codes**.
+    ![](../images/Module_1_Activity_1_-_Create_and_apply_an_accrual_scheme_image5.png)
 
-2.  Select **New**. 
+10. In the Accrual identification field, select **M_INS**. 
 
-3.  Enter `AV_ARIZ` in the **Sales tax code** field,.
+11. Set the start date to January 1, 2022. 
 
-4.  Enter `Arizona State – Retail Prod` in the **Name** field. 
+    ![](../images/Module_1_Activity_1_-_Create_and_apply_an_accrual_scheme_image6.png)
 
-5.  Select **GEN** in the **Settlement period** field.
+12. Select transactions. You will see that the costs are divided over the 12 defined periods.
 
-6.  Select **Ledger posting group** **AZ_State** to specify the main account for posting sales tax to the general ledger. 
+    ![](../images/Module_1_Activity_1_-_Create_and_apply_an_accrual_scheme_image7.png)
 
-7.  Select **Sales tax code** from the action pane. 
+13. **Close** the screen, you will return to the previous screen.
 
-8.  Navigate to the **Sales tax code** section. 
+14. Select **OK** to accept the transactions and return to the journal line. 
 
-9.  Select **Values**. 
+15. **Post** the journal. 
 
-10. Enter `5.6` in the **Value** column. 
+16. **Select** Voucher
 
-11. Select **Save**. 
+    ![](../images/Module_1_Activity_1_-_Create_and_apply_an_accrual_scheme_image8.png)
 
-12. **Close** the Sales tax code values form.
+17. Select **Transaction Origin** to see the different journal lines per period. 
 
-13. **Close** the Sales tax codes form.
+    ![](../images/Module_1_Activity_1_-_Create_and_apply_an_accrual_scheme_image9.png)
 
- 
-## Exercise 4: Expand the sales tax group
+    ![](../images/Module_1_Activity_1_-_Create_and_apply_an_accrual_scheme_image10.png)
 
-1.  Navigate to **Tax** and select **Indirect taxes**. Select **Sales tax** and then select **Sales tax group**.
-
-2.  Select **New**.
-
-3.  Enter `AZ` in the **Sales tax group** field. 
-
-4.  Enter `Arizona` in the **Description** field. 
-
-5.  Expand the **Setup** FastTab and select **Add**. 
-
-6.  Select the Sales tax code **AV_ARIZ**.
-
-7.  Select **Save**. 
-
-8.  **Close** the form. 
-
-
-## Exercise 5: Adjust an item sales tax group
-
-1.  Navigate to **Tax** and select **Indirect taxes**. Select **Sales tax** and then select **Item sales tax groups**.
-
-2.  Select the **AU/VI** Item sales tax group.
-
-3.  Navigate to the Setup FastTab and select **Add**.
-
-4.  Select **AV_ARIZ** in the Sales tax code field. 
-
-5.  Select **Save**. 
-
-6.  **Close** the form. 
-
-
-## Exercise 6: Create a customer
-
-1.  Navigate to **Accounts receivable**, select **Customers**, and then select **All customers**. 
-
-2.  Select **+New** to create a new customer. 
-
-3.  Enter `US-036` in the **Customer account** field. 
-
-4.  Select `Organization` in the **Type** field. 
-
-5.  Enter **Contoso Retail Arizona** in the name field type. If a dialog displays a list of current customers, select **Cancel**.
-
-6.  Select or enter `90` in the **Customer group** field. 
-
-7.  Select `USD` as the **Currency**. 
-
-8.  Select `Net10` as the **Terms of payment**. 
-
-9.  Select `AZ` as the **Sales tax group**. 
-
-10. Select `USA` as the **Country**. 
-
-11. Select `Arizona` as the **State**. 
-
-12. Select **Save**. 
-
-13. **Close** the customer form. 
-
-
-## Exercise 7: Create a free text invoice
-
-In this exercise, you generate a free text invoice and check the voucher to ensure that that the tax amount is posted on main account 120105.
-
-1.  Navigate to **Accounts receivable**, select **Invoices**, and then select **All free text invoices**.
-
-2.  Select **New** to create a new invoice. 
-
-3.  In the field Customer account type **US-036**.
-
-4.  Navigate to the lines and enter **Services FY2022** in the Description field.
-
-5.  Select main account **401200**. The sales tax group and Item sales tax groups fields are automatically populated.
-
-6.  **Navigate** to the field Unit price and type **4500.**
-
-7.  Select **Save**.
-
-8.  Select **Post** to post the journal. Select **OK** to confirm. 
-
-9.  Navigate to **Sales tax** in the Action Pane.
-
-10. Select **View accounting**. You can see that the sales tax amount is posted to main account 120105. 
-
-    ![](../images/Module_7_Activity_2_-_Configure_tax_ledger_posting_group_image1.png)
+18. **Close** all forms.
 
