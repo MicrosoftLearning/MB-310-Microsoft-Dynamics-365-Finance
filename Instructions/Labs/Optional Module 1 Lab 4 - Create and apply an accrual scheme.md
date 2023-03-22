@@ -10,9 +10,9 @@ You create accrual schemes to set up deferred revenue and costs. Ledger accruals
 
 In the **Accrual schemes** page, you specify the debit and the credit accounts that will be used when the accrual scheme is applied. 
 
-    - **Debit** - The main account that you define will replace the debit main account on the journal voucher line. This account will also be used for the reversal of the deferral, based on the ledger accrual transactions.
+- **Debit** - The main account that you define will replace the debit main account on the journal voucher line. This account will also be used for the reversal of the deferral, based on the ledger accrual transactions.
 
-    - **Credit** - the main account that you define will replace the credit main account on the journal voucher line. This account will also be used for the reversal of the deferral, based on the ledger accrual transactions.
+- **Credit** - the main account that you define will replace the credit main account on the journal voucher line. This account will also be used for the reversal of the deferral, based on the ledger accrual transactions.
 
 ## Objective 
 
@@ -22,9 +22,9 @@ In this lab, you will set up a ledger accrual scheme and use the accrual scheme 
 
 The accounting manager at Contoso Ltd. wants to redistribute the costs of an insurance policy throughout the year. The cost of the insurance policy is $5,520.00. Use the following information to set up a ledger accrual for the insurance policy: 
 
-    - Pay the total amount for the policy at one time. 
+- Pay the total amount for the policy at one time. 
 
-    - Divide the invoice into twelve payments. 
+- Divide the invoice into twelve payments. 
 
 
 1.  Open your **Dynamics 365 Finance** environment and using the **Company picker**, change the legal entity to **USMF**. 
