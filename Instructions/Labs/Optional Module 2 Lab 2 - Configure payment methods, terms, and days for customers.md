@@ -23,76 +23,78 @@ You need to set up a new payment method for the customers so that they can use P
 
 ## Exercise 1: Configure a payment method
 
-1.  Navigate to the module **Accounts Receivable**, select **Payments setup**, and then select **Methods of payment**.
+1.  In the **Accounts receivable** module, select **Payments setup** > **Methods of payment**. 
 
 2.  Select **+New** to create a new method of payment. 
 
 3.  Enter `PayPal` in the **Method of payment** field. 
 
-4.  Select **Invoice** (one payment transfer for each invoice) in the **Period** field. 
+4.  Select **Invoice** in the **Period** field. 
 
-5.  Type **PayPal** in the **Description** field. 
+    > **Note:** This setting means one payment transfer for each invoice.
+
+5.  Enter `PayPal` in the **Description** field. 
 
 6.  Select **Other** in the **Payment type** field.
 
-7.  Select **Bank** in the Account type field in the **General** fasttab.
+7.  In the **General** FastTab, select **Bank** in the **Account type** field. 
 
-8.  Select `USMF OPER` in the **Payment account** field. 
+8.  Select or enter `USMF OPER` in the **Payment account** field. 
 
-9.  **Save** the data. 
+9.  **Save** the data and **close** the form. 
 
     ![](../images/Module_3_Activity_2_-_Configure_payment_methods,_terms,_and_days_image1.png)
 
 
 ## Exercise 2: Configure terms of payment
 
-1.  Navigate to **Accounts Receivable**, select **Payments setup**, and then select **Terms of payment**. 
+1.  In the **Accounts receivable** module, select **Payments setup** > **Terms of payment**. 
 
-2.  Select **New** to create new terms. 
+2.  Select **+New** to create new terms. 
 
-3.  Enter **Net5** in the Terms of payment field. 
+3.  Enter `Net5` in the **Terms of payment** field. 
 
-4.  Enter **Net 5 days** in the description field. 
+4.  Enter `Net 5 days` in the **Description** field. 
 
-5.  Enter **5** in the Days field in the **Setup** fasttab. 
+5.  In the **Setup** FastTab, enter `5` in the **Days** field.  
 
-6.  **Save** the data. 
+6.  **Save** the data and **close** the form. 
 
     ![](../images/Module_3_Activity_2_-_Configure_payment_methods,_terms,_and_days_image2.png)  
 
 
 ## Exercise 3: Configure Payment days
 
-1.  Navigate to **Accounts Receivable**, select **Payments setup**, and then select **Payment days**. 
+1.  In the **Accounts receivable** module, select **Payments setup** > **Payment days**. 
 
-2.  Select **New** to create a new payment day. 
+2.  Select **+New** to create a new Payment day. 
 
-3.  Enter **1st** in the field payment day. 
+3.  Enter `1st` in the **Payment day** field. 
 
-4.  Enter **1st day of the month** in the description field. 
+4.  Enter `1st day of the month` in the **Description** field. 
 
-5.  Select **Month** in week/month field. 
+5.  In the **Payment day lines** grid, select or enter `Month` in the **Week/Month** field. 
 
-6.  Select **1** in Day of the month. 
+6.  Enter `1` in the **Day of the month** field. 
 
-7.  **Save** the data. 
+7.  **Save** the data and **close** the form. 
 
     ![](../images/Module_3_Activity_2_-_Configure_payment_methods,_terms,_and_days_image3.png)
 
 
 ## Exercise 4: Add the new settings to a customer
 
-1.  Navigate to **Accounts Receivable**, select **Customers**, and then select **All customers**. 
+1.  In the **Accounts receivable** module, select **Customers** > **All customers**. 
 
-2.  Select **US-040**. 
+2.  Select `US-040`
 
-3.  Navigate to the **Payment defaults** FastTab. 
+3.  Navigate to and expand the **Payment defaults** FastTab. 
 
-4.  Select **Net5** in the **Terms of payment** field. 
+4.  Select or enter `Net5` in the **Terms of payment** field. 
 
-5.  Select **PayPal** in the **Method of payment** field. 
+5.  Select or enter `PayPal` in the **Method of payment** field. 
 
-6.  Select **1st** in the **Payment day** field. 
+6.  Select or enter `1st` in the **Payment day** field. 
 
 7.  **Save** the data and **close** the form.  
 
