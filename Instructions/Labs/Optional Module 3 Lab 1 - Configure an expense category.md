@@ -25,65 +25,61 @@ A financial controller at Contoso is setting up a new expense category that allo
 
 You must create a category named **Representation costs** and track these costs a miscellaneous expense type with a default method of payment method of Company Credit Card. These expenses must be posted to account 601600, Promotional Expenses.
 
-1.  Navigate to the module **Expense management** and select **Setup**. Select **General** and then select **Shared categories**.
+1.  In the **Expense management** module, select **Setup** > **General** > **Shared categories**. 
 
-2.  Select **New** to create a new shared category.
+2.  Select **+New** to create a new shared category. 
 
-3.  Enter `Representation` in the **Category ID** field.
+3.  Enter `Representation` in the **Category ID** field. 
 
 4.  Enter `Representation Costs` in the **Category name** field. 
 
-5.  Set the value of the **Can be used in Expense** field to **Yes**. 
+5.  Set the **Can be used in Expense** field to **Yes**. 
 
-6.  Select Miscellaneous from the Expense type drop-down list.
+6.  Select or enter `Miscellaneous` in the the **Expense type** field. 
 
-7.  **Save** the data. 
-
-8.  **Close** the form.  
+7.  **Save** the data and **close** the form. 
 
     ![](../images/Module_2_Activity_2_-_Create_and_use_an_expense_category_image1.png)
 
 
 ## Exercise 2: Configure an expense category
 
-1.  Navigate to **Expense management** and select **Setup**. Select **General** and then select **Expense categories**. 
+1.  In the **Expense management** module, select **Setup** > **General** > **Expense categories**. 
 
-2.  Select **New** to create a new expense category. 
+2.  Select **+New** to create a new expense category. 
 
-3.  Select **Representation** in the Category ID field. 
+3.  Enter `Representation` in the **Category ID** field. 
 
-4.  Select **CreditCard** in the default payment method field which is in the **Expense** FastTab. 
+4.  Expand the **Expense** FastTab and select **CreditCard** in the **Default payment method** field. 
 
 5.  Enter `601600` in the **Main account** field. 
 
-6.  **Save** the data.
-
-7.  **Close** the form. 
+6.  **Save** the data and **close** the form. 
 
     ![](../images/Module_2_Activity_2_-_Create_and_use_an_expense_category_image2.png)
  
 
 ## Exercise 3: Create an expense report that uses the new expense category
 
-1.  Navigate to **Expense management**, select **My expenses**, and then select **Expense reports**. 
+1.  In the **Expense management** module, select **My expenses** > **Expense reports**. 
 
-2.  Select **New expense report** to create a new report. 
+2.  Select **+New expense report** to create a new report. 
 
-3.  Select **Customer visit** in the purpose field. 
+3.  Select or enter `Customer visit` in the **Purpose** field. 
 
-4.  Select **Main office** in the location field. 
+4.  Select or enter `MainOffice` in the **Location** field. 
 
 5.  Select **OK**. 
 
-6.  Enter `2/1/2022` as the transaction date. 
+6.  Enter `2/1/2022` as the **Transaction date**. 
 
-7.  Select **Representation** in the Expense category.
+7.  Select or enter `Representation` in the mandatory **Expense category** field. 
 
-8.  Enter `150.00` in the **Transaction amount** field. 
+8.  Enter `150.00` in the mandatory **Transaction amount** field. 
 
 9.  **Save** the data. 
 
-10. Select **Workflow** in the action pane. You may need to select the ellipsis menu (...) to see the option. 
+10. Select the **Workflow** menu in the action pane. You may need to select the **More menu (...)** to see the option. 
 
 11. Select **Submit**. 
 
@@ -93,6 +89,7 @@ You must create a category named **Representation costs** and track these costs 
 
     ![](../images/Module_2_Activity_2_-_Create_and_use_an_expense_category_image3.png)
 
-    The approval status of the expense report will change to **In review**.
+    The approval status of the expense report will change to **In review**. 
 
     ![](../images/Module_2_Activity_2_-_Create_and_use_an_expense_category_image4.png)
+
