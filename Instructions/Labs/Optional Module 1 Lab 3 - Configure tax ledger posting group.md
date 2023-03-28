@@ -4,187 +4,177 @@ lab:
     module: 'Module 1 Optional'
 ---
 
-# Lab Configure tax ledger posting groups
+# Lab: Configure tax ledger posting groups
+
+## Objective 
 
 You have a new customer in Arizona. You need to create the customer in the system. You must set up a ledger account to ensure that tax is posted to main account named Arizona State Tax Payable. You must also set up a new sales tax code and use the new sales tax code in a free text invoice. 
 
-Sales tax is calculated and posted to main accounts that are specified in Ledger posting groups. Ledger posting groups are attached to each sales tax code. You can set up individual ledger posting groups for each sales tax code, use one ledger posting group for all sales tax codes or assign multiple ledger posting groups to the sales tax codes. This lab uses the USMF demo company.
+Sales tax is calculated and posted to main accounts that are specified in Ledger posting groups. Ledger posting groups are attached to each sales tax code. You can set up individual ledger posting groups for each sales tax code, use one ledger posting group for all sales tax codes or assign multiple ledger posting groups to the sales tax codes. 
 
- 
+1.  Open your **Dynamics 365 Finance** environment and using the **Company picker**, change the legal entity to **USMF**. 
 
-## Exercise 1 Set up the main account
 
-1. Navigate to **General ledger** and select **Chart of accounts**. Select **Accounts** and then select **Main accounts**.
+## Exercise 1: Set up the main account
 
-2. Select **New**.
+1.  In the **General ledger** module, select **Chart of accounts** > **Accounts** > **Main accounts**. 
 
-3. Enter **120105** in the Main account field.
+2.  Select **+New**. 
 
-4. Enter **Arizona State Tax Payable** in the Name field.
+3.  Enter `120105` in the **Main account** field. 
 
-5. Select **Liability** in the Main account type field.
+4.  Enter `Arizona State Tax Payable` in the **Name** field. 
 
-6. Select **TAXPAY** in the Main account category field. The account category is used for default financial reports and Power BI dashboard content.
+5.  Select `Liability` in the **Main account type** field. 
 
-7. Scroll down and expand the **Posting validation** tab.
+6.  Select `TAXPAY` in the Main account category field. 
 
-8. Navigate to the **Posting Type** field.
+    > **Note:** The main account category is used in the default financial reports and Power BI dashboard content. 
 
-9. Select **Sales Tax**.
+7.  Scroll down and expand the **Posting validation** FastTab. 
 
-10. Select **Save.**
+8.  Select `Sales Tax` in the **Posting Type** field. 
 
-11. Close the form.
+9.  Select **Save** and **close** the form. 
 
- 
 
-## Exercise 2 Setup a ledger posting group
+## Exercise 2: Setup a ledger posting group
 
-Now we have set up the main account, we can set up a ledger posting group.
+Now we have set up the main account, we can set up a ledger posting group. 
 
-1. Navigate to **Tax** and select **Setup**. Select **Sales tax** and then select **Ledger posting groups**.
+1.  In the **Tax** module, navigate to **Setup** > **Sales tax** > **Ledger posting groups**. 
 
-2. Select **New**.
+2.  Select **+New**. 
 
-3. Enter **AZ_State** in the **Ledger posting group** field.
+3.  Enter `AZ_State` in the **Ledger posting group** field. 
 
-4. Enter **Arizona State tax** in the **Description** field.
+4.  Enter `Arizona State tax` in the **Description** field. 
 
-5. Select main account **120105** in the **Sales tax payable** field.
+5.  Select main account `120105` in the **Sales tax payable** field. 
 
-6. Select main account **222100** in both the Use tax payable field and the Settlement account field. 
+6.  Select main account `222100` in both the **Use tax payable** and **Settlement account** fields. 
 
-7. Select **Save.**
+7.  Select **Save** and **close** the form. 
 
-8. **Close** the form.
 
-To use the ledger AR_State posting group you must:
+To use the **AR_State** ledger posting group you must: 
 
-- Set up a sales tax code for Arizona (exercise 3).
+- Set up a sales tax code for Arizona (Exercise 3). 
 
-- Create a sales tax group (exercise 4).
+- Create a sales tax group (Exercise 4). 
 
-- Adjust an item sales tax group (exercise 5).
+- Adjust an item sales tax group (Exercise 5). 
 
-- Create a customer that uses the new sales tax code (exercise 6).
+- Create a customer that uses the new sales tax code (Exercise 6). 
 
-- Create a free text invoice (exercise 7).
+- Create a free text invoice (Exercise 7). 
 
- 
 
-## Exercise 3 Create a sales tax code
+## Exercise 3: Create a sales tax code
 
-1. Navigate to **Tax** and select **Indirect taxes**. Select **Sales tax** and then select **Sales tax codes**.
+1.  In the **Tax** module, navigate to **Indirect taxes** > **Sales tax** > **Sales tax codes**. 
 
-2. Select **New**.
+2.  Select **+New**. 
 
-3. Enter **AV_ARIZ** in the **Sales tax code** field,.
+3.  Enter `AV_ARIZ` in the **Sales tax code** field. 
 
-4. Enter **Arizona State – Retail Prod** In the **Name** field.
+4.  Enter `Arizona State - Retail Prod` in the **Name** field. 
 
-5. Select **GEN** in the **Settlement period** field.
+5.  Enter `GEN` in the **Settlement period** field. 
 
-6. Select **Ledger posting group** **AZ_State** to specify the main account for posting sales tax to the general ledger.
+6.  Select `AZ_State` in the **Ledger posting group** field to specify the main account for posting sales tax to the general ledger. 
 
-7. Select **Sales tax code** from the Action Pane.
+7.  On the **Sales tax code** in the action pane, select **Values** in the **Sales tax code** section.
 
-8. Navigate to the **Sales tax code** section.
+8.  Enter `5.6` in the **Value** column. 
 
-9. Select **Values**.
+9.  Select **Save** and **close** the Sales tax code values form.
 
-10. Enter the value **5.6** for in the **Value** column. 
+10. **Close** the Sales tax codes form. 
 
-11. Select **Save**.
 
-12. Close the Sales tax code values form.
+## Exercise 4: Expand the sales tax group
 
-13. Close the Sales tax codes form.
+1.  In the **Tax** module, select **Indirect taxes** > **Sales tax** > **Sales tax groups**. 
 
- 
+2.  Select **+New**. 
 
-## Exercise 4 Expand the sales tax group
+3.  Enter `AZ` in the **Sales tax group** field. 
 
-1. Navigate to **Tax** and select **Indirect taxes**. Select **Sales tax** and then select **Sales tax group**.
+4.  Enter `Arizona` in the **Description** field. 
 
-2. Select **New**.
+5.  Expand the **Setup** FastTab and select **+Add** from the toolbar. 
 
-3. Enter **AZ** in the **Sales tax group** field.
+6.  Select or enter the Sales tax code `AV_ARIZ`.
 
-4. Enter **Arizona** in the description field. 
+7.  Select **Save** and **close** the form. 
 
-5. Expand the Setup FastTab and select **Add**. 
 
-6. Select the Sales tax code **AV_ARIZ**.
+## Exercise 5: Adjust an item sales tax group
 
-7. Select **Save**.
+1.  In the **Tax** module, select **Indirect taxes** > **Sales tax** > **Item sales tax groups**. 
 
-8. **Close** the form.
+2.  Select the **AU/VI** Item sales tax group from the list. 
 
-## Exercise 5 Adjust an item sales tax group
+3.  Navigate to the **Setup** FastTab and select **+Add** from the toolbar. 
 
-1. Navigate to **Tax** and select **Indirect taxes**. Select **Sales tax** and then select **Item sales tax groups**.
+4.  Select or enter `AV_ARIZ` in the **Sales tax code** field. 
 
-2. Select the **AU/VI** Item sales tax group.
+5.  Select **Save** and **close** the form. 
 
-3. Navigate to the Setup FastTab and select **Add**.
 
-4. Select **AV_ARIZ** in the Sales tax code field. 
+## Exercise 6: Create a customer
 
-5. Select **Save**.
+1.  In the **Accounts receivable** module, select **Customers** > **All customers**. 
 
-6. **Close** the form.
+2.  Select **+New** to create a new customer. 
 
-## Exercise 6 Create a customer
+3.  Enter `US-036` in the **Customer account** field. 
 
-1. Navigate to **Accounts receivable**, select **Customers**, and then select **All customers**. 
+4.  Select **Organization** in the **Type** field. 
 
-2. Select **New** to create a new customer.
+5.  Enter `Contoso Retail Arizona` in the **Name** field. 
 
-3. Enter **US-036** in the Customer account field.
+    > **Note:** If a dialog displays a list of current customers, select **Cancel**. 
 
-4. Select **Organization** as the field type.
+6.  Select `90` in the **Customer group** field. 
 
-5. Enter **Contoso Retail Arizona** in the name field type. If a dialog displays a list of current customers, select **Cancel**.
+7.  Select `USD` as the **Currency**. 
 
-6. Select **90** in the Customer group field.
+8.  Select `Net10` as **Terms of payment**. 
 
-7. Select **USD** as the currency.
+9.  Select `AZ` as the **Sales tax group**. 
 
-8. Select **Net10** as the terms of payment.
+10. Select `USA` as the **Country**.
 
-9. Select AZ as the Sales tax group.
+11. Select `AZ` as the **State**. 
 
-10. Select **USA** as the country.
+12. Select **Save** and **close** the customer form. 
 
-11. Select **Arizona** as the state. 
 
-12. Select **Save.**
-
-13. Close the customer form. 
-
-## Exercise 7 Create a free text invoice
+## Exercise 7: Create a free text invoice
 
 In this exercise, you generate a free text invoice and check the voucher to ensure that that the tax amount is posted on main account 120105.
 
-1. Navigate to **Accounts receivable**, select **Invoices**, and then select **All free text invoices**.
+1.  In the **Accounts receivable** module, select **Invoices** > **All free text invoices**. 
 
-2. Select **New** to create a new invoice. 
+2.  Select **+New** to create a new invoice. 
 
-3. In the field Customer account type **US-036**.
+3.  In the **Customer account** field, enter `US-036`. 
 
-4. Navigate to the lines and enter **Services FY2022** in the Description field.
+4.  In the **Invoice lines** grid, enter `Services FY2022` in the **Description** field. 
 
-5. Select main account **401200**. The sales tax group and Item sales tax groups fields are automatically populated.
+5.  Select main account `401200`. The **Sales tax group** and **Item sales tax group** fields are automatically populated. 
 
-6. **Navigate** to the field Unit price and type **4500.**
+6.  Enter `4500` for the **Unit price** field. 
 
-7. Select **Save**.
+7.  Select **Save**. 
 
-8. Select **Post** to post the journal. Select **OK** to confirm. 
+8.  Select **Post** to post the journal. Select **OK** to confirm. 
 
-9. Navigate to **Sales tax** in the Action Pane.
+9.  Select the **Sales tax** button in the action pane. 
 
-10. Select **View accounting**. You can see that the sales tax amount is posted to main account 120105. 
-![](../images/Module_7_Activity_2_-_Configure_tax_ledger_posting_group_image1.png)
+10. Select **View accounting**. In the **Subledger journal** verify the **Sales Tax** amount is posted to **Ledger account** 120105--. 
 
- 
+    ![](../images/Module_7_Activity_2_-_Configure_tax_ledger_posting_group_image1.png)
+
