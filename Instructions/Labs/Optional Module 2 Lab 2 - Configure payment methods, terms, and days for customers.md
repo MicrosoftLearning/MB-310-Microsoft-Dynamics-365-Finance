@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab 2: Configure payment methods, terms, and days for customers'
-    module: 'Module 2 Optional'
+    module: 'LP 2 Optional'
 ---
 
 # Lab: Configure payment methods, terms, and days for customers
