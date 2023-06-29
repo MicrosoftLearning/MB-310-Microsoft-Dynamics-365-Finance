@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab 1: Configure an expense category'
-    module: 'Module 3 Optional'
+    module: 'LP 3 Optional'
 ---
 
 # Lab: Configure an expense category 
