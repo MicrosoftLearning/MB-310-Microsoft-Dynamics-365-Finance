@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab 1: Create a temporary credit limit for a customer'
-    module: 'Module 2 Optional'
+    module: 'LP 2 Optional'
 ---
 
 # Lab Create a temporary credit limit for a customer
