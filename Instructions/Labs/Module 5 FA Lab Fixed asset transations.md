@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab: Fixed asset transactions'
-    module: 'Module 5: Manage fixed assets'
+    module: 'LP 5: Manage fixed assets'
 ---
 
 # Lab: Fixed asset transactions
