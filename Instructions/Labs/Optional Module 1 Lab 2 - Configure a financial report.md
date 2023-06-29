@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab 2: Configure financial reports'
-    module: 'Module 1 Optional'
+    module: 'LP 1 Optional'
 ---
 
 # Lab: Configure financial reports
