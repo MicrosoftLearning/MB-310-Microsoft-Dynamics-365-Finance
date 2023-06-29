@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab 3: Configure tax ledger posting groups'
-    module: 'Module 1 Optional'
+    module: 'LP 1 Optional'
 ---
 
 # Lab: Configure tax ledger posting groups
