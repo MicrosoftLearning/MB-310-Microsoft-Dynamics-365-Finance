@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab 1: Create and post vendor, customer, general ledger payments'
-    module: 'Module 1 Optional'
+    module: 'LP 1 Optional'
 ---
 
 # Lab: Create and post vendor, customer, general ledger payments
