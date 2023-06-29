@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab 5: Configure a dimension value'
-    module: 'Module 1 Optional'
+    module: 'LP 1 Optional'
 ---
 
 # Lab: Configure a dimension value
