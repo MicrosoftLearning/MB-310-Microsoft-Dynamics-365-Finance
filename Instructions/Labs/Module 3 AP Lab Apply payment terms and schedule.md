@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab: Apply payment terms and schedule'
-    module: 'Module 3: Implement and manage accounts payable and expenses'
+    module: 'LP 3: Implement and manage accounts payable and expenses'
 ---
 
 # Lab: Apply payment terms and schedule
