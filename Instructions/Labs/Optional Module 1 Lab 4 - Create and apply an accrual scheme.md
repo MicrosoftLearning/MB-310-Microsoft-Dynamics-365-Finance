@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab: Accrual schemes'
-    module: 'Optional Module 1: Set up and configure financial management'
+    module: 'Optional LP 1: Set up and configure financial management'
 ---
 
 # Lab: Accrual schemes
