@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab: Customer collection management'
-    module: 'Module 2: Accounts receivable, credit and collections'
+    module: 'LP 2: Accounts receivable, credit and collections'
 ---
 
 # Lab: Customer collection management
