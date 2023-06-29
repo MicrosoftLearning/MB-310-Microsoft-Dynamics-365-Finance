@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab 1: Acquire a fixed asset by using an AP invoice journal'
-    module: 'Module 5 Optional'
+    module: 'LP 5 Optional'
 ---
 
 # Lab: Acquire a fixed asset by using an AP invoice journal 
