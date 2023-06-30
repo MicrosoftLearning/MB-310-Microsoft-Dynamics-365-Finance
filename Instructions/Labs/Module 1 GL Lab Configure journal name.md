@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab: Configure journal name'
-    Learning Path: 'LP 1: Set up and configure financial management, and general ledger'
+    module: 'LP 1: Set up and configure financial management, and general ledger'
 ---
 
 
