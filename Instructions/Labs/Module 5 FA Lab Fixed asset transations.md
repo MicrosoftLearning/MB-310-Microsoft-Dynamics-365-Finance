@@ -6,6 +6,12 @@ lab:
 
 # Lab: Fixed asset transactions
 
+### Change log
+
+19Jul2023 Tested against 10.0.32
+
+Updated 19Jul2023 Ex4 Step 6 Corrected navigation
+
 ## Objective
 
 In this lab, we will test fixed asset acquisition, depreciation and split.
@@ -138,7 +144,7 @@ In this lab, we will test fixed asset acquisition, depreciation and split.
 
 5.  A new depreciation journal will be created. Select **Lines** in the action pane to review the depreciation lines till the current date. 
 
-6.  Select the **Post** > **Post** button in the action pane. 
+6.  Select the **Post** button in the action pane. 
 
 7.  In the **Fixed assets** module, navigate to **Fixed assets**, open **Fixed assets** and open the newly created fixed asset. 
 
