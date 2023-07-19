@@ -6,6 +6,10 @@ lab:
 
 # Lab: Create a budget transfer rule
 
+### Change log
+
+19Jul2023 Tested against 10.0.32
+
 ## Objective
 
 **Budget transfer rules** determine when budget transfers are allowed between financial dimension values.  For example, budget transfers in a specific department might be allowed without approval, but transfers across departments might need to be reviewed and approved before the budget balance is adjusted. If a budget register entry is submitted and it violates the budget transfer rules, the transfer can be completed only if it is approved through a **Budgeting workflow**.
