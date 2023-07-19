@@ -6,7 +6,11 @@ lab:
 
 ### Change log
 Updated 19Jul2023 Exercise 4 step 11, added clarifying Insert
+
 Updated 19Jul2023 Exercise 4 step 18, added clarifying refresh
+
+Updated 19Jul2023 Exercise 4 step 38, added clarifying wait
+
 
 # Lab: Configure journal name 
 
