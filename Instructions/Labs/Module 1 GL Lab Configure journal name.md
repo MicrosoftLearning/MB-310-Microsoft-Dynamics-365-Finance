@@ -11,6 +11,8 @@ Updated 19Jul2023 Exercise 4 step 18, added clarifying refresh
 
 Updated 19Jul2023 Exercise 4 step 38, added clarifying wait
 
+19Jul2023 Tested against 10.0.32
+
 
 # Lab: Configure journal name 
 
