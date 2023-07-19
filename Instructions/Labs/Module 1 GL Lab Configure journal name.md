@@ -6,6 +6,7 @@ lab:
 
 ### Change log
 Updated 19Jul2023 Exercise 4 step 11, added clarifying Insert
+Updated 19Jul2023 Exercise 4 step 18, added clarifying refresh
 
 # Lab: Configure journal name 
 
@@ -285,7 +286,7 @@ You will create three general journals in this lab with the following configurat
 
 16. Select **Activate the new version** and select **OK**. 
 
-17. The system will navigate you back to the **General ledger** **workflow** page, where you should find the newly created workflow Note the number.
+17. The system will navigate you back to the **General ledger** **workflow** page, where you should find the newly created workflow; select refresh if necessary. Note the number of the new workflow.
 
     ![The system will navigate you back to the General ledger workflow page, where you should find the newly created workflow](../images/GL_Lab_Configure_journal_name_image10.png)
 
@@ -359,5 +360,5 @@ You will create three general journals in this lab with the following configurat
 
     ![You can select the appropriate button to take the workflow process move forward](../images/GL_Lab_Configure_journal_name_image13.png)
 
-37. You can select the appropriate button to take the workflow process forward. Select the **Approve** button, optionally add a comment. The journal will now be ready for posting and the **Post** button in the action pane will be enabled. 
+37. You can select the appropriate button to take the workflow process forward. Select the **Approve** button, optionally add a comment. Once the approval processes, the journal will be ready for posting and the **Post** button in the action pane will be enabled. 
 
