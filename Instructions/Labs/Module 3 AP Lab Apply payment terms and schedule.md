@@ -6,6 +6,15 @@ lab:
 
 # Lab: Apply payment terms and schedule
 
+### Change log
+
+19Jul2023 Tested against 10.0.32
+
+Updated 19Jul2023 Ex3 Step 5 Removed Due date update change
+
+Updated 19Jul2023 Ex3 Step 6 Corrected typo
+
+
 ## Objective
 
 The objective of this lab is to calculate the due date of payment of an invoice based on different payment setup, like payment terms, payment days, and payment calendar. You will also check the impact of a payment fee and cash discount when you post a payment journal. 
@@ -106,9 +115,9 @@ The objective of this lab is to calculate the due date of payment of an invoice 
 
 4.  **Save** the record and close the page. 
 
-5.  In the **Accounts payable** module, navigate to **Payment setup**, open **Terms of payment**. Select **Net7**. Select **Edit** to make the record editable. Change the **Due date update** field to **Next business day**. Clear the **Payment day** field. 
+5.  In the **Accounts payable** module, navigate to **Payment setup**, open **Terms of payment**. Select **Net7**. Select **Edit** to make the record editable. <!-- Change the **Due date update** field to **Next business day**. --> Clear the **Payment day** field. 
 
-6.  In the **Accounts payable** modules, navigate to **Payment setup**, and open **Payment calendar configuration**. 
+6.  In the **Accounts payable** module, navigate to **Payment setup**, and open **Payment calendar configuration**. 
 
 7.  Select the **+New** button and add the following, then select **Create rule**: 
 
