@@ -4,6 +4,23 @@ lab:
     module: 'LP 2: Accounts receivable, credit and collections'
 ---
 
+### Change log
+
+Updated 19Jul2023 Ex2 Step 3 Change text for customer name
+
+Updated 19Jul2023 Ex2 Step 4 Change location of save
+
+Updated 19Jul2023 Ex5 Step 3 Specify order
+
+Updated 19Jul2023 Ex6 Step 1 Correct misspelling
+
+Updated 19Jul2023 Ex6 Step 10 Improve formatting
+
+Updated 19Jul2023 Ex6 Removed yellow checkbox testing
+
+Updated 19Jul2023 Ex11 Step 2 Added date hint
+
+
 # Lab: Customer collection management
 
 ## Objective
@@ -46,11 +63,11 @@ In this lab, we will generate an aging report and process a collection letter.
 
     - **Customer account**: `Cust-01`
 
-    - **Name**: Customer `01`
+    - **Name**: `Customer 01`
 
     - **Customer group**: `10`
 
-4.  Select **Save** in the action pane. 
+4.  Select **Save** in the dialog. 
 
 4.  Expand the **Credit and collections** FastTab and change **Exclude from credit management** to **Yes**, so that we can order right away. Select **Save** and close the page. 
 
@@ -151,7 +168,9 @@ If you get an error during posting, it may be because today's date is not an ope
 
     - Description: `after 7/30 days`
 
-    - **Remove** the existing periods and add: 
+    - **Remove** the existing periods and add:
+  
+    > **Note:** Hint: Start at the bottom (Current) and **Add above**
 
     | Period  | Unit | Interval  | Aging indicator  |
     |---------|------|-----------|------------------|
@@ -168,7 +187,9 @@ If you get an error during posting, it may be because today's date is not an ope
 
 ## Exercise 6: Run aging balance
 
-1.  In the **Credit and collections** module, navigatet to **Setup** > **Credit and collections parameters**. 
+### Test Red diamond
+
+1.  In the **Credit and collections** module, navigate to **Setup** > **Credit and collections parameters**. 
 
 2.  Under the **Collections** tab, expand the **Collections defaults** section, enter or select the value `7 and 30 days` in the **Aging period definition** field. 
 
@@ -202,29 +223,34 @@ If you get an error during posting, it may be because today's date is not an ope
 
 8.  You should see an aging status for **Customer 01** with a red diamond, and 1,900.00 in the **30**+ bucket. 
 
-	![Navigate to Credit and collections -> Collections and open Aging balances.](../images/AR_Lab_Customer_collection_management_image4.png)
+![Navigate to Credit and collections -> Collections and open Aging balances.](../images/AR_Lab_Customer_collection_management_image4.png)
+
+
+<!---
+
+### Test Yellow triangle
 
 9.  Navigate back to **Credit and collections &gt; Periodic tasks** > **Age customer balances**.
 
 10.  In the **Create a customer aging snapshot** dialog, enter the following values:
 
-	- **Aging period definition**: `7 and 30 days`
+   - **Aging period definition**: `7 and 30 days`
+    
+   - **Pool ID**: `New-aging`
 
-	- **Pool ID**: `New-aging`
+   - **Criteria**: `Due date`
 
-	- **Criteria**: `Due date`
+   - **Aging as of**: `Selected date`
 
-	- **Aging as of**: `Selected date`
+   - In the **Selected date** field, select a date less than 30 days and more than 7 days ahead of your current date
 
-	- In the **Selected date** field, select a date less than 30 days and more than 7 days ahead of your current date.
+   - **Update collections status**: Yes
 
-	- **Update collection status**: `Yes`
+   - **Include customers with zero balance**: Yes
+ 
+   - **Bypass credit limit calculations during aging**: No (if available)
 
-	- **Include customers with zero balance**: `Yes`
-
-	- **Bypass credit limit calculations during aging**: `No` (if available)
-
-	- **Batch processing**: `No`
+   - **Batch processing** (under Run in the background): No
 
 11. Select **OK**. 
 
@@ -232,7 +258,11 @@ If you get an error during posting, it may be because today's date is not an ope
 
 13. You should see an aging status for **Customer 01** with a yellow triangle, and 1,900.00 in the **7** bucket. 
 
-	![Navigate to Credit and collections -> Collections and open Aging balances](../images/AR_Lab_Customer_collection_management_image5.png)
+![Navigate to Credit and collections -> Collections and open Aging balances](../images/AR_Lab_Customer_collection_management_image5.png)
+
+-->
+
+### Test Green checkmark
 
 14. Navigate back to **Credit and collections &gt; Periodic tasks** > **Age customer balances**.
 
@@ -417,7 +447,9 @@ If you get an error during posting, it may be because today's date is not an ope
 
     - **Collection letter**: `Collection letter 1` 
 
-    - **Collection letter date**: Current date + 1 day (Tomorrow) 
+    - **Collection letter date**: Current date + 1 day (Tomorrow)
+
+    > **Note:** Hint: Use the system date on the environment, not your own current date
 
     - **Use posting profile from**: `Account` 
 
