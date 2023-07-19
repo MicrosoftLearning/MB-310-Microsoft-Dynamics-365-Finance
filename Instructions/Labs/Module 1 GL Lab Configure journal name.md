@@ -4,6 +4,8 @@ lab:
     module: 'LP 1: Set up and configure financial management, and general ledger'
 ---
 
+### Change log
+Updated 19Jul2023 Exercise 4 step 11, added clarifying Insert
 
 # Lab: Configure journal name 
 
@@ -267,7 +269,7 @@ You will create three general journals in this lab with the following configurat
 
 10. In the **Work item instructions** field, enter: `Approval request for journal : `
 
-11. In the **Work item instructions** field, select **Insert placeholder** and select **%Ledger journal table.JournalNum%**.
+11. In the **Work item instructions** field, select **Insert placeholder** and select **%Ledger journal table.JournalNum%**, then select **Insert**.
 
 12. Select the **Assignment** tab of the workflow element property window. 
 
