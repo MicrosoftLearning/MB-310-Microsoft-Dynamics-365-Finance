@@ -20,6 +20,7 @@ Updated 19Jul2023 Ex6 Removed yellow checkbox testing
 
 Updated 19Jul2023 Ex11 Step 2 Added date hint
 
+19Jul2023 Tested against 10.0.32
 
 # Lab: Customer collection management
 
