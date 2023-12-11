@@ -5,6 +5,9 @@ lab:
 ---
 
 ### Change log
+
+07Dec2023 Tested against 10.0.37
+
 Updated 19Jul2023 Exercise 4 step 11, added clarifying Insert
 
 Updated 19Jul2023 Exercise 4 step 18, added clarifying refresh
