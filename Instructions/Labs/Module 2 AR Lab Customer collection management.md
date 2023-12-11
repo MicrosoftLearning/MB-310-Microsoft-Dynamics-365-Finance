@@ -6,6 +6,8 @@ lab:
 
 ### Change log
 
+Updated 11Dec2023 Ex3 Steps 16, 17, 18 Renumber
+
 Updated 19Jul2023 Ex2 Step 3 Change text for customer name
 
 Updated 19Jul2023 Ex2 Step 4 Change location of save
