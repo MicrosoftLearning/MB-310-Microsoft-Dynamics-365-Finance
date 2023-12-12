@@ -232,6 +232,7 @@ If this year is listed, then try again to post the packing slip. If the option i
 
 ![Navigate to Credit and collections -> Collections and open Aging balances.](../images/AR_Lab_Customer_collection_management_image4.png)
 
+(If you don't, are you sure you invoiced? Exercise 3 step 17.)
 
 <!---
 
@@ -271,9 +272,9 @@ If this year is listed, then try again to post the packing slip. If the option i
 
 ### Test Green checkmark
 
-14. Navigate back to **Credit and collections &gt; Periodic tasks** > **Age customer balances**.
+9. Navigate back to **Credit and collections &gt; Periodic tasks** > **Age customer balances**.
 
-15. In the **Create a customer aging snapshot** dialog, enter the following values and select the **OK** button:
+10. In the **Create a customer aging snapshot** dialog, enter the following values and select the **OK** button:
 
 	- **Aging period definition**: `7 and 30 days`
 
@@ -293,9 +294,9 @@ If this year is listed, then try again to post the packing slip. If the option i
 
 	- **Batch processing**: No
 
-16. Navigate to **Credit and collections &gt; Collections** > **Aged balances**.
+11. Navigate to **Credit and collections &gt; Collections** > **Aged balances**.
 
-17. You should see an aging status for **Customer 01** with a green checkmark, and 1,900.00 in the **Current** bucket. 
+12. You should see an aging status for **Customer 01** with a green checkmark, and 1,900.00 in the **Current** bucket. 
 
     ![Navigate to Credit and collections -> Collections and open Aging balances](../images/AR_Lab_Customer_collection_management_image6.png)
 
