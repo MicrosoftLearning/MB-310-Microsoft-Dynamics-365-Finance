@@ -6,6 +6,8 @@ lab:
 
 ### Change log
 
+Updated 12Dec2023 Tested against 10.0.37, clarified Ex3
+
 Updated 11Dec2023 Ex3 Steps 16, 17, 18 Renumber
 
 Updated 19Jul2023 Ex2 Step 3 Change text for customer name
@@ -130,6 +132,8 @@ If you get an error during posting, it may be because today's date is not an ope
 - Change the Calendar to Fiscal and verify that this year is not listed. 
 - Select +New year and Create. 
 - You can then return to post your packing slip. 
+
+If this year is listed, then try again to post the packing slip. If the option is not available, it's posted.
 
 16. In the **Packing slip posting** dialog, select the **OK** button, and **OK** again.
 
