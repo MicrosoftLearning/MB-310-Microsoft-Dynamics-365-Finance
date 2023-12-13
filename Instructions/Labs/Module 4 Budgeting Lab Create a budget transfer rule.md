@@ -8,6 +8,10 @@ lab:
 
 ### Change log
 
+13Dec2023 Tested against 10.0.37
+
+13Dec2023 Corrected header settings
+
 19Jul2023 Tested against 10.0.32
 
 ## Objective
@@ -33,7 +37,7 @@ A budget manager has been analyzing recent travel expenses and wants to make som
     ![A budget with department](../images/Budgeting_exercise_1_step_3.jpg)
 	
 
-# Exercise 2: Define budget transfer rules
+## Exercise 2: Define budget transfer rules
 
 In this exercise you will set up a rule that does not allow budget transfers outside of the rule members unless you use a workflow to approve the transfer. If no criteria are specified, the rule applies to all dimension values. 
 
@@ -60,7 +64,7 @@ In this exercise you will set up a rule that does not allow budget transfers out
 10. Select **Save** and close the form. 
 
 
-# Exercise 3: Define budget parameter for budget transfer rules
+## Exercise 3: Define budget parameter for budget transfer rules
 
 In this exercise you enable a budget workflow for the budget transfer rule. 
 
@@ -74,7 +78,7 @@ In this exercise you enable a budget workflow for the budget transfer rule.
     ![Use rules for budget transfers](../images/Budgeting_exercise_3_step_4.jpg)
 
 
-# Exercise 4: Validate the budget register entry workflow
+## Exercise 4: Validate the budget register entry workflow
 
 1.  In the **Budgeting** module, select **Setup**. Select **Basic budgeting**
     and then select **Budgeting workflows**.
@@ -84,7 +88,7 @@ In this exercise you enable a budget workflow for the budget transfer rule.
 3.  **Close** the form. 
 
 
-# Exercise 5: Define budget code
+## Exercise 5: Define budget code
 
 In this exercise you configure a budget code for the budget type transfer.
 
@@ -106,11 +110,11 @@ In this exercise you configure a budget code for the budget type transfer.
     ![New budget code](../images/Budgeting_exercise_5_step_8.jpg)
 
 
-# Exercise 6: Create a budget register entry
+## Exercise 6: Create a budget register entry
 
 In this exercise you will see what happens when you enter a budget register entry. 
 
-## Task 1
+### Task 1
 
 In this task you will add a budget register entry. 
 
@@ -133,7 +137,7 @@ In this task you will add a budget register entry.
 10. Enter `1000` in the **Amount** field. Do not navigate away from this page. 
 
 
-## Task 2
+### Task 2
 
 In this task you will add a second line for the same dimension combination.
 
