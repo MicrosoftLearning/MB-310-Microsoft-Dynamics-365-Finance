@@ -8,6 +8,10 @@ lab:
 
 ### Change log
 
+13Dec2023 Tested against 10.0.37
+
+13Dec2023 corrected misspelling
+
 19Jul2023 Tested against 10.0.32
 
 Updated 19Jul2023 Ex3 Step 5 Removed Due date update change
@@ -255,7 +259,7 @@ The objective of this lab is to calculate the due date of payment of an invoice 
 
 10. Select the **+New** button in the action pane. Select or enter `VendPay` in the **Name** field. Select the **Lines** button in the action pane and navigate to the journal lines. 
 
-11. Select the **Payment proposal** buton in the action pane and select **Create payment proposal**. 
+11. Select the **Payment proposal** button in the action pane and select **Create payment proposal**. 
 
     ![Select Create payment proposal under the Payment proposal menu in the action pane.](../images/AP_Lab_Apply_payment_terms_and_schedule_image6.png)
 
