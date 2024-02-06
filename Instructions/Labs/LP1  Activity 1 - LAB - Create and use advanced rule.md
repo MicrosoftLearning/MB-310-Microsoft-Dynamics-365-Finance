@@ -21,7 +21,6 @@ Use the USMF company for the exercises in this lab.
 In this lab, you will configure an advanced rule structure.
 
 ## Exercise 1 Create an advanced rule structure 
----------------------------------------------
 
 **Scenario**
 
@@ -33,39 +32,31 @@ dimension *Worker* for the main account *602210 Employee Relocation Expense.*
     Accounts** \> **Structures** \> **Advanced rule structures.**
 
 2.  Select the **New** button to create an advanced rule structure.
-
 ![Advanced rule structures page with the New menu expanded to create an advanced rule structure](../images/LP1P1.png)
 3. Enter **Relocation expenses** in the **Advanced rule structure** field.
 
-4.Enter **Relocation expenses** in the **Description** field and select **OK**.
-
+4. Enter **Relocation expenses** in the **Description** field and select **OK**.
 ![Create advanced rule structure menu with the Advanced rule structure and Description fields filled in. The OK button is activated.](../images/LP1P2.png)
 
-5.Select **Add segment**.
-
+5. Select **Add segment**.
 ![Relocation expenses view of Advanced rule structures with focus on Add segment.](../images/LP1P3.png)
 
-6.Select **Worker** and select **Add segment**.
-
+6. Select **Worker** and select **Add segment**.
 ![Relocation expenses view with an overview of all available segments in the Add segment pane. Focus is on the Worker segment and the Add segment button.](../images/LP1P4.png)
 
-7.Leave the asterisk in the **Worker** field to ensure that Worker is a
+7. Leave the asterisk in the **Worker** field to ensure that Worker is a
     mandatory field.
-
 ![Relocation expenses view of the Advanced rule structures tab with segment worker active for all values.](../images/LP1P5.png)
 
-8.Select **Activate** in the action pane.
-
+8. Select **Activate** in the action pane.
 ![Training and development view of the Advanced rule structures tab. Focus is on the Activate button.](../images/LP1P6.png)
 
-9.Select **Activate** in the pop-up screen.
-
+9. Select **Activate** in the pop-up screen.
 ![Pop-up screen for activating the advanced rule structure. Focus is on the Activate button.](../images/LP1P7.png)
 
 10.Close the form.
 
 ## Exercise 2 Add the advanced rule to an account structure 
----------------------------------------------------------
 
 In this exercise, you will add the advanced rule structure to an existing
 account structure. Main account **602210 Employee Relocation Expense** is
@@ -75,55 +66,45 @@ configured in account structure **Manufacturing P&L**.
     accounts** \> **Structures** \> **Configure account structures.**
 
 2.  Select **Manufacturing P&L.**
-
 ![Account structures Standard view with focus on the account structure Manufacturing P&L.](../images/LP1P8.png)
 
-3.Select **Edit** in the action pane.
-
+3. Select **Edit** in the action pane.
 ![Manufacturing P&L account structure on the Account structures tab. The Edit button is expanded to adjust the Manufacturing P&L account structure.](../images/LP1P9.png)
 
-4.Select **Advanced rules** in the action pane to configure the advanced rule.
-
+4. Select **Advanced rules** in the action pane to configure the advanced rule.
 ![Account structure Manufacturing P&L. The Advanced rules button is selected to attach the advanced rule to the account structure Manufacturing P&L.](../images/LP1P10.png)
 
-5.Select + **New** in the action pane**.**
-
+5. Select + **New** in the action pane**.**
 ![Advanced rule structures page with the New menu expanded to attach an advanced rule structure to account structure Manufacturing P&L.](../images/LP1P11.png)
 
-6.Select **Yes** in the pop-up screen if you get one. (By default, No is
+6. Select **Yes** in the pop-up screen if you get one. (By default, No is
     activated
-
 ![Pop-up screen for creation of an advanced rule. The No button is activated. ](../images/LP1P12.png)
 
-7.Enter **Relocation Expenses** in the **Advanced rule** field.
+7. Enter **Relocation Expenses** in the **Advanced rule** field.
 
-8.Enter **Relocation Expenses** in the **Name** field and select **Create**.
-
+8. Enter **Relocation Expenses** in the **Name** field and select **Create**.
 ![Create an advanced rule menu with the Advanced rule structure and name fields filled in. The Create button is activated.](../images/LP1P13.png)
 
-9.Select + **Add new criteria**.
-
+9. Select + **Add new criteria**.
 ![Advanced rules page with the New button activated to add new criteria.](../images/LP1P14.png)
 
-10.Enter **602210** in the **Value** field for MainAccount.
-
+10. Enter **602210** in the **Value** field for MainAccount.
 ![Advanced rules page with advanced rule criteria expanded. The fields Where, Operator, and Value are filled in.](../images/LP1P15.png)
 
-11.Navigate to **Advanced rule structures**, and then select **Add** \>
+11. Navigate to **Advanced rule structures**, and then select **Add** \>
     **Relocation expenses** \> **Add** to add a structure.
-
 ![Create advanced rule structure menu with Add advanced rule structure to advanced rule expanded. The fields Name, Description, and Segments are filled in. Focus is on the Relocation expenses advanced rule and the Add button.](../images/LP1P16.png)
 
-12.Close the form.
+12. Close the form.
 
-13.**Activate** the account structure in the action pane.
+13. **Activate** the account structure in the action pane.
 
-14.Select **Activate** in the pop-up screen.
+14. Select **Activate** in the pop-up screen.
 
-15.Close the form.
+15. Close the form.
 
 ## Exercise 3 Create a journal entry with the new advanced rule
-------------------------------------------------------------
 
 1.  Navigate to **General ledger** \> **Journal entries** \> **General
     journals**.
