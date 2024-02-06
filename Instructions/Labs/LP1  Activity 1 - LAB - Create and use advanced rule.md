@@ -1,5 +1,4 @@
-Lab 1 Configure an advanced rule
-================================
+# Lab 1 Configure an advanced rule
 
 Advanced rules link a financial dimension or multiple financial dimensions to a
 main account or a range of main accounts. The advanced rule enables additional
