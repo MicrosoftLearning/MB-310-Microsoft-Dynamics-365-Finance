@@ -71,12 +71,12 @@ invoice process.
 
 1.  Navigate to the **Accounts payable parameters** form, and then select
     **Ledger and sales tax**. In the **Posting profile for payment journal with
-    prepayment **parameter field, select the **Prepayments posting** profile.
+    prepayment** parameter field, select the **Prepayments posting** profile.
 
 2.  Select **Notification** in the field **Prepayment application policy**. A
     visual indication that a prepayment invoice is available for application
     will display when the final invoice is created.
-![Accounts payable parameters page, FastTab Ledger and sales tax expanded to fill in the Posting profile with prepayment fields.](../LP3P6.png)
+![Accounts payable parameters page, FastTab Ledger and sales tax expanded to fill in the Posting profile with prepayment fields.](../images/LP3P6.png)
 
 1.  Select **Save**, then close the form.
 
@@ -99,7 +99,7 @@ order.
 
 4.  Go to the **Prepayment category ID** field and select the **Prepayment
     vendor** category you set up previously. Then select **OK**.
-![Pop-up screen for creating the prepayment. The Save button is activated.](../LP3P8.png)
+![Pop-up screen for creating the prepayment. The Save button is activated.](../images/LP3P8.png)
 
 1.  Select **Save**.
 
@@ -114,7 +114,7 @@ order.
 1.  Navigate to **Accounts payable \> Purchase orders \> All purchase orders**,
     and then select purchase order **000039** from **Vendor 1001**.
 
-2.  On the **Invoice** tab**,** select **Generate** \> **Prepayment invoice**.
+2.  On the **Invoice** tab, select **Generate** \> **Prepayment invoice**.
     This will open the vendor invoice form.
 ![All purchase orders page with the Invoice tab displayed. Prepayment invoice is selected to generate the prepayment invoice. ](../images/LP3P10.png)
 
@@ -162,7 +162,7 @@ order.
 1.  Select **Electronic** in the **Method of payment** field.
 
 2.  Select **Post** in the action pane to post the payment.
-![Vendor payment journal with the Post menu expanded.](../images.LP3P14.png)
+![Vendor payment journal with the Post menu expanded.](../images/LP3P14.png)
 
 1.  The message **Operation completed** will appear on top of the screen.
 
@@ -173,7 +173,7 @@ order.
 1.  Navigate to **Accounts payable \> Purchase orders \> All purchase orders**,
     and then select purchase order **000039** from **Vendor 1001**.
 
-2.  On the **Receive** tab**,** select **Generate** \> **Product receipt.**
+2.  On the **Receive** tab, select **Generate** \> **Product receipt.**
 ![All purchase orders page with the Receive tab diplayed and the Product receipt menu expanded.](../images/LP3P15.png)
 
 1.  Enter **1234** in the field **Product receipt** and select **OK.**
@@ -188,19 +188,19 @@ order.
 1.  Navigate to **Accounts payable** \> **Purchase orders** \> **All purchase
     orders**, and then select purchase order **000039** from **Vendor 1001**.
 
-2.  On the **Invoice** tab**,** select **Generate** \> **Invoice**.
+2.  On the **Invoice** tab, select **Generate** \> **Invoice**.
 ![All purchase orders page with the Invoice tab displayed. The Invoice menu is expanded.](../images/LP3P17.png)
 
 1.  Read the message **One or more pending invoices have unapplied paid
     prepayment invoices available to apply. Use the Apply Prepayment form to
     apply prepayment values to the selected invoice.**
 
-2.  On the **Vendor Invoice** tab**,** select **Actions** \> **Apply
+2.  On the **Vendor Invoice** tab, select **Actions** \> **Apply
     prepayment.**
 ![Invoice page with the Apply prepayment menu expanded.](../images/LP3P18.png)
 
 1.  Select the **Prepayment invoice** by marking the field, and then select
-    **Apply prepayment** in the action pane**.**
+    **Apply prepayment** in the action pane.
 ![Apply prepayment page with the Apply prepayment menu expanded and the prepayment line selected.](../images/LP3P19.png)
 The line of the prepayment is transferred to the invoice journal and will reduce
 the total amount of the invoice with the amount we already paid.
@@ -208,7 +208,7 @@ the total amount of the invoice with the amount we already paid.
 
 1.  Enter **INV001** in the **Number** field.
 
-2.  Enter **Invoice 001** in the **Invoice description** field, if you have it
+2.  Enter **Invoice 001** in the **Invoice description** field, if you have it.
 
 3.  Select date **12/15/2023** in the **invoice date** field.
 ![Prepayment invoices page with the fields Number, Invoice description, and Invoice date filled in.](../images/LP3P21.png)
