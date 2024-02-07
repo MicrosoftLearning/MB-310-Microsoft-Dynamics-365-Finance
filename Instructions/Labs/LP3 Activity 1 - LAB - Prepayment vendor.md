@@ -35,7 +35,7 @@ invoice process.
     **Posting** \> **Posting**.
 
 2.  On the **Purchase order** tab, select **Prepayment**, and then verify that
-    the main account is **132190** for all item codes
+    the main account is **132190** for all item codes.
 ![Inventory posting profile page with the FastTab purchase order expanded to enter the main account for prepayment.](../images/LP3P1.png)
 
 1.  Close the form.
@@ -46,7 +46,7 @@ invoice process.
     categories**. A procurement category must be created to add a prepayment in
     the Purchase order.
 
-2.  Select **Edit category hierarchy**
+2.  Select **Edit category hierarchy**.
 ![Procurement categories page with the menu Edit category hierarchy expanded to edit the procurement category.](../images/LP3P2.png)
 
 1.  Select **New category node**.
