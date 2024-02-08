@@ -92,7 +92,7 @@ promotional expenses is not exceeded this year.
     -   Budget reservations for pre-encumbrances
 
     -   Budget reservations for unconfirmed pre-encumbrances
-![Budget control configuration page with Create draft menu expanded. The FastTab Budget funds available is selected.](../LP4P3.png)
+![Budget control configuration page with Create draft menu expanded. The FastTab Budget funds available is selected.](../images/LP4P3.png)
 
 ### Define documents and business transactions that require budget checking
 
