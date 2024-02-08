@@ -65,11 +65,9 @@ promotional expenses is not exceeded this year.
 ### Define over budget permissions
 
 1.  Select FastTab **Over budget permissions** and select **Add** to add the
-    user group **TestGroup1**.
-
-    If it is not possible to add a user group, make sure you selected **Create
+    user group **TestGroup1**. (If it is not possible to add a user group, make sure you selected **Create
     draft** in the previous step.)
-![Budget control configuration page with the Create draft menu expanded. The FastTab Over budget permissions is selected.](../LP4P2.png)
+![Budget control configuration page with the Create draft menu expanded. The FastTab Over budget permissions is selected.](../images/LP4P2.png)
 
 ### Define budget funds available
 
