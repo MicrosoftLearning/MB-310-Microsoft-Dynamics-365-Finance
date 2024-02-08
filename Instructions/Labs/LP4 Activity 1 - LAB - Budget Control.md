@@ -229,7 +229,7 @@ promotional expenses is not exceeded this year.
 
 1.  Check the Budget check results at the bottom of the screen.
 
-    -   Budget check failed (this may not immediately update)
+-   Budget check failed (this may not immediately update)
 ![Invoice journal line page with the message that the budget is exceeding the available funds displayed.](../images/LP4P15.png)
 
 
