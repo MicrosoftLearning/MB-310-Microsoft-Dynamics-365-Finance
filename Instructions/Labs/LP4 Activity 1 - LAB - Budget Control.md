@@ -224,8 +224,7 @@ promotional expenses is not exceeded this year.
 
 -   **Operation canceled**: Validating and posting journal
 
--   Transaction APIN000050 exceeds the budget funds available for dimension
-    value 601600-001- by 11,000.00 USD.
+-   Transaction APIN000050 exceeds the budget funds available for dimension value 601600-001- by 11,000.00 USD.
 
 1.  Check the Budget check results at the bottom of the screen.
 
