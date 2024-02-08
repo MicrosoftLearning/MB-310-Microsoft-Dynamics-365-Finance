@@ -220,13 +220,13 @@ promotional expenses is not exceeded this year.
 12. Select **Post** in the action pane.
 ![Invoice journal lines page with the Post menu expanded.](../images/LP4P14.png)
 
-1.  Check the messages at the top of the screen.
+13.  Check the messages at the top of the screen.
 
 -   **Operation canceled**: Validating and posting journal
 
 -   Transaction APIN000050 exceeds the budget funds available for dimension value 601600-001- by 11,000.00 USD.
 
-1.  Check the Budget check results at the bottom of the screen.
+14.  Check the Budget check results at the bottom of the screen.
 
 -   Budget check failed (this may not immediately update)
 ![Invoice journal line page with the message that the budget is exceeding the available funds displayed.](../images/LP4P15.png)
