@@ -167,6 +167,6 @@ not exist.**
 ![Pop-up screen that appears for generating the report Fixed asset disposals. The OK button is activated.](../images/LP5P15.png)
 
 The report will be generated.
-![Output of the Fixed asset disposals report.](../LP5P16.png)
+![Output of the Fixed asset disposals report.](../images/LP5P16.png)
 
 The field status shows how the fixed asset was disposed.
