@@ -1,3 +1,10 @@
+---
+lab:
+    title: 'Lab 1: Configure a prepayment invoice process'
+    module: 'Learning Path 03: Implement and manage accounts payable and expenses'
+---
+
+
 # Lab 1 Configure a prepayment invoice process
 
 Companies might issue prepayments (advance payments) to vendors for goods or

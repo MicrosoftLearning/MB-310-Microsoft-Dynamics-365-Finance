@@ -1,4 +1,10 @@
-# Lab 1 Configure budget control
+---
+lab:
+    title: 'Lab 1: Configure budget control'
+    module: 'Learning Path 04: Manage budgeting'
+---
+
+# Configure budget control
 
 Budget control supports the management of a company’s financial resources
 through the chart of accounts, workflows, user groups, source documents and

@@ -1,3 +1,10 @@
+---
+lab:
+    title: 'Lab 1: Configure an advanced rule'
+    module: 'Learning Path 01: Set up and configure financial management; work with General Ledger'
+---
+
+
 # Lab 1 Configure an advanced rule
 
 Advanced rules link a financial dimension or multiple financial dimensions to a

@@ -1,3 +1,10 @@
+---
+lab:
+    title: 'Lab 1: Set up recurring contract billing parameters'
+    module: 'Learning Path 02: Implement accounts receivable, credit, collections, and revenue recognition'
+---
+
+
 # Lab 1 Set up recurring contract billing parameters
 
 A subscription billing solution enables companies to manage contract revenue

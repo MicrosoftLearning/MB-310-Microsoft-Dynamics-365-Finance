@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab 1: Disposal of fixed assets'
+    module: 'Learning Path 05: Manage fixed assets'
+---
+
 # Lab 1 Disposal of fixed assets
 
 When an asset no longer has use to the company, because it is either being sold
