@@ -54,7 +54,7 @@ dimension *Worker* for the main account *602210 Employee Relocation Expense.*
     mandatory field.
 ![Relocation expenses view of the Advanced rule structures tab with segment worker active for all values.](../images/LP1P5.png)
 
-8. Select **Activate** in the action pane.
+8. Select **Activate** in the action pane. *(Note: Activation may seem to hang. You may select the link **View activation status** to monitor it.)*
 ![Training and development view of the Advanced rule structures tab. Focus is on the Activate button.](../images/LP1P6.png)
 
 9. Select **Activate** in the pop-up screen.
@@ -77,14 +77,14 @@ configured in account structure **Manufacturing P&L**.
 3. Select **Edit** in the action pane.
 ![Manufacturing P&L account structure on the Account structures tab. The Edit button is expanded to adjust the Manufacturing P&L account structure.](../images/LP1P9.png)
 
-4. Select **Advanced rules** in the action pane to configure the advanced rule.
+4. Select **Advanced rules** in the action pane to configure the advanced rule. (Hit the ellipsis if necessary to see the option.)
 ![Account structure Manufacturing P&L. The Advanced rules button is selected to attach the advanced rule to the account structure Manufacturing P&L.](../images/LP1P10.png)
 
-5. Select + **New** in the action pane**.**
+5. Select + **New** in the action pane.
 ![Advanced rule structures page with the New menu expanded to attach an advanced rule structure to account structure Manufacturing P&L.](../images/LP1P11.png)
 
 6. Select **Yes** in the pop-up screen if you get one. (By default, No is
-    activated
+    activated.)
 ![Pop-up screen for creation of an advanced rule. The No button is activated. ](../images/LP1P12.png)
 
 7. Enter **Relocation Expenses** in the **Advanced rule** field.
@@ -106,7 +106,7 @@ configured in account structure **Manufacturing P&L**.
 
 13. **Activate** the account structure in the action pane.
 
-14. Select **Activate** in the pop-up screen.
+14. Select **Activate** in the pop-up dialog.
 
 15. Close the form.
 
