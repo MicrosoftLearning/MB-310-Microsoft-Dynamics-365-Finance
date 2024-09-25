@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Lab 2: Bank foreign currency revaluation'
+    title: 'Lab 2: Calculate risk scores'
     module: 'Learning Path 02: Configure credit and collections'
 ---
 
@@ -11,6 +11,7 @@ lab:
 
 <html>
 <table><tr><th>Version</th><th>Date</th><th>Change</th></tr>
+<tr><td>1.1</td><td>25 Sep 2024</td><td>Corrected title</td></tr>
 <tr><td>1.0</td><td>13 Sep 2024</td><td>Initial release</td></tr>
 </table>
 </html>
