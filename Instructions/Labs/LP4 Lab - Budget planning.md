@@ -12,6 +12,7 @@ lab:
 <html>
 <table><tr><th>Version</th><th>Date</th><th>Change</th></tr>
 <tr><td>1.0</td><td>13 Sep 2024</td><td>Initial release</td></tr>
+<tr><td>1.1</td><td>10 Dec 2024</td><td>Workaround for expired certificate</td></tr>
 </table>
 </html>
 
@@ -40,6 +41,8 @@ to configure budget planning in Dynamics 365 Finance first.
 ## Exercise 1 Configure user security
 
 Budget planning uses special security policies.
+
+*Note:* If you get a "Your connection isn't private" error on browser opening, then select the **Advanced** link, select to **Continue**, then wait 2-3 minutes.
 
 1.  Navigate to **System Administration** \> **Users** \> **Users**.
 
