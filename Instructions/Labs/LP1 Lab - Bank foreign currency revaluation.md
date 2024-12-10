@@ -12,6 +12,7 @@ lab:
 <html>
 <table><tr><th>Version</th><th>Date</th><th>Change</th></tr>
 <tr><td>1.0</td><td>13 Sep 2024</td><td>Initial release</td></tr>
+<tr><td>1.1</td><td>10 Dec 2024</td><td>Workaround for expired certificate</td></tr>
 </table>
 </html>
 
@@ -43,6 +44,8 @@ Contoso, Ltd. has a new financial controller who plans to run a foreign currency
 revaluation of bank account USMF EUR as part of the period end. To test the
 process, the financial controller first creates a general journal with a
 transaction that can be revalued.
+
+*Note:* If you get a "Your connection isn't private" error on browser opening, then select the **Advanced** link, select to **Continue**, then wait 2-3 minutes.
 
 1.  In the **USMF** company, navigate to **General Ledger** \> **Journal
     entries** \> **General journals**.
