@@ -11,8 +11,9 @@ lab:
 
 <html>
 <table><tr><th>Version</th><th>Date</th><th>Change</th></tr>
-<tr><td>1.1</td><td>25 Sep 2024</td><td>Corrected title</td></tr>
 <tr><td>1.0</td><td>13 Sep 2024</td><td>Initial release</td></tr>
+<tr><td>1.1</td><td>25 Sep 2024</td><td>Corrected title</td></tr>
+<tr><td>1.2</td><td>10 Dec 2024</td><td>Workaround for expired certificate</td></tr>
 </table>
 </html>
 
@@ -42,6 +43,8 @@ customer is.
 
 At Contoso, Ltd., the credit management manager wants to configure a new scoring
 group that must be used to calculate the customer’s risk.
+
+*Note:* If you get a "Your connection isn't private" error on browser opening, then select the **Advanced** link, select to **Continue**, then wait 2-3 minutes.
 
 1.  Navigate to **Credit and collections** \> **Setup \> Credit management setup
     \> Risk \> Scoring groups** and select **New**.
