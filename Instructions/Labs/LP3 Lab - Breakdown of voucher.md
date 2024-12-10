@@ -12,6 +12,7 @@ lab:
 <html>
 <table><tr><th>Version</th><th>Date</th><th>Change</th></tr>
 <tr><td>1.0</td><td>13 Sep 2024</td><td>Initial release</td></tr>
+<tr><td>1.1</td><td>10 Dec 2024</td><td>Workaround for expired certificate</td></tr>
 </table>
 </html>
 
@@ -35,6 +36,8 @@ The accounts payable clerk at Contoso, Ltd. receives a vendor invoice with two
 tax lines and one net amount. The clerk plans to break down the voucher so the
 tax posts correctly. The total net amount is \$10,000, with 7.25 percent charged
 on \$7,000 and 8.25 percent on \$3,000.
+
+*Note:* If you get a "Your connection isn't private" error on browser opening, then select the **Advanced** link, select to **Continue**, then wait 2-3 minutes.
 
 1.  Navigate to **Accounts payable** \> **Invoices** \> **Invoice journal**.
 
