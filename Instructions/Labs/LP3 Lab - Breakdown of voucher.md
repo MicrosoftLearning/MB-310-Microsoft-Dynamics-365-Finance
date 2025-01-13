@@ -13,19 +13,22 @@ lab:
 <table><tr><th>Version</th><th>Date</th><th>Change</th></tr>
 <tr><td>1.0</td><td>13 Sep 2024</td><td>Initial release</td></tr>
 <tr><td>1.1</td><td>10 Dec 2024</td><td>Workaround for expired certificate</td></tr>
+<tr><td>1.2</td><td>13 Jan 2025</td><td>Added business scenario</td></tr>
 </table>
 </html>
 
 
-# Objective
-Breakdown of voucher is the process you follow to break an invoice line into
-multiple tax lines. It is not possible to use two tax rates in one journal line.
-By using breakdown of voucher, it will be possible to use multiple tax codes
-with different rates.
+# Business scenario
+Imagine you are an accounts payable clerk at a company. You receive a vendor invoice that includes multiple tax rates. For example, one portion of the invoice might be subject to a sales tax of 7.25%, while another portion might be subject to a sales tax of 8.25%.
+
+In Microsoft Dynamics 365 Finance, you cannot enter a single invoice line with multiple tax rates. To accurately record the sales tax for each portion of the invoice, you need to break down the voucher.
+
+The voucher breakdown feature in Dynamics 365 Finance allows you to split a single invoice line into multiple lines, each with its own tax rate. This ensures that the sales tax is calculated and recorded correctly for each portion of the invoice.
+
 
 Use the USMF company for the exercises in this lab.
 
-## Exercise 1 Break down a voucher
+## Exercise Break down a voucher
 
 During this lab, you will enter a vendor invoice journal by using multiple tax
 rates.
