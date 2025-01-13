@@ -6,6 +6,7 @@ lab:
 
 **MB-310: Microsoft Dynamics 365 Financial Consultant**
 
+# Lab 1 Bank foreign currency revaluation
 
 # Change Record
 
@@ -19,9 +20,6 @@ lab:
 
 
 # Business scenario
-
-
-# Lab 1 Bank foreign currency revaluation
 
 Imagine you are an accountant for a company that conducts international business. The company maintains bank accounts in various currencies to facilitate these transactions. Due to fluctuations in exchange rates, the value of the foreign currency holdings can change over time relative to the company's home currency. This can cause discrepancies between the book value (recorded value in the company's financial statements) and the fair value (market value) of the foreign currency holdings.
 
