@@ -14,22 +14,17 @@ lab:
 <tr><td>1.0</td><td>13 Sep 2024</td><td>Initial release</td></tr>
 <tr><td>1.1</td><td>25 Sep 2024</td><td>Corrected title</td></tr>
 <tr><td>1.2</td><td>10 Dec 2024</td><td>Workaround for expired certificate</td></tr>
+<tr><td>1.3</td><td>13 Jan 2025</td><td>Added business scenario</td></tr>
 </table>
 </html>
 
 
-# Objective
-You can define and assign risk assessments to customers based on their risk
-score. A risk score is calculated by comparing customer information to each
-scoring group. The scores are summed, and the total score is compared to the
-values in the risk group setup to identify the risk group that the customer
-belongs to. The risk group score is then used to define credit management
-blocking and exclusion rules for the customer.
+# Business scenario
+Imagine you are a loan officer at a bank. Your job is to assess the creditworthiness of potential borrowers. To make an informed decision, you need to consider a variety of factors, such as the borrower's income, employment history, and credit score. A high credit score indicates a lower risk of the borrower defaulting on the loan, while a low credit score indicates a higher risk.
 
-Risk scores can help determine the level of risk associated with a customer,
-which provides you with the ability to hold orders and generate automatic credit
-limits based on that risk. Risk scores are based on scoring groups that you
-create.
+In this scenario, the risk score would be a numerical value that summarizes the overall creditworthiness of the borrower. The bank would have a set of criteria for calculating the risk score, and this score would be used to determine whether or not to approve the loan, and if so, what interest rate to charge.
+
+By calculating risk scores, the bank can make more informed lending decisions. This can help to protect the bank from financial losses and ensure that loans are only made to borrowers who are likely to repay them.
 
 Use the USMF company for the exercises in this lab.
 
