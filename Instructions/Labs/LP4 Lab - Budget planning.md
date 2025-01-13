@@ -13,22 +13,17 @@ lab:
 <table><tr><th>Version</th><th>Date</th><th>Change</th></tr>
 <tr><td>1.0</td><td>13 Sep 2024</td><td>Initial release</td></tr>
 <tr><td>1.1</td><td>10 Dec 2024</td><td>Workaround for expired certificate</td></tr>
+<tr><td>1.2</td><td>13 Jan 2025</td><td>Added business scenario</td></tr>
 </table>
 </html>
 
 
-# Objective
-Organizations can configure budget planning, and then set up budget planning
-processes to meet their policies, procedures, and requirements for budget
-preparation. 
+# Business scenario
+You are a retail company manager tasked with creating a budget for your department. To develop a realistic budget, you need to consider factors like sales forecasts, expense trends, and strategic goals.
 
-Because budget planning is integrated with other modules, you can include
-information from previous budgets, actual expenditures, fixed assets, and human
-resources. Budget planning is also integrated with Microsoft Excel, so you can
-use Microsoft Excel to work with budget planning data. For example, a budget
-manager can export a department's budget request from a budget plan scenario
-into an Excel worksheet. The data can then be analyzed, updated, and charted in
-the worksheet, and then published back to the budget plan lines.
+Microsoft Dynamics 365 Finance can help you create different budget scenarios based on various assumptions. For example, you could create a base case scenario, an optimistic scenario, and a pessimistic scenario.
+
+By considering different budget scenarios, you can make informed decisions about resource allocation and improve your department's financial performance.
 
 Use the USMF company for the exercises in this lab.
 
