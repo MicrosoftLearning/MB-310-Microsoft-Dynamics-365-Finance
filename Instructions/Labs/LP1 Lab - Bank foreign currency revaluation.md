@@ -18,7 +18,7 @@ lab:
 </html>
 
 
-# Objective
+# Business scenario
 
 
 # Lab 1 Bank foreign currency revaluation
