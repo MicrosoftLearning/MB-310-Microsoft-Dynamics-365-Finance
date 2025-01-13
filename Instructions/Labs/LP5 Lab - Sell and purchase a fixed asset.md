@@ -13,17 +13,17 @@ lab:
 <table><tr><th>Version</th><th>Date</th><th>Change</th></tr>
 <tr><td>1.0</td><td>13 Sep 2024</td><td>Initial release</td></tr>
 <tr><td>1.1</td><td>10 Dec 2024</td><td>Workaround for expired certificate</td></tr>
+<tr><td>1.2</td><td>13 Jan 2025</td><td>Added business scenario</td></tr>
 </table>
 </html>
 
 
-# Objective
-When a fixed asset is sold, the ledger account is credited for the disposal
-value of the fixed asset. The corresponding debit entry is posted to an offset
-account. If a fixed asset is sold to a customer, the customer account is the
-offset account. 
+#  Business scenario
+Imagine you are the manager of a manufacturing company. You recently purchased a new piece of machinery to increase production capacity. This machinery is considered a fixed asset, as it will be used for several years in the manufacturing process.
 
-A new asset is acquired by using a purchase order.
+On the other hand, due to space constraints and the availability of a more advanced model, you might decide to sell an older piece of machinery. This sale would involve recording the disposal of the fixed asset and recognizing any gain or loss from the sale.
+
+Microsoft Dynamics 365 Finance can help you manage these transactions, including recording the purchase of new fixed assets and the sale of old ones. This ensures your accounting records accurately reflect the company's fixed assets and related financial performance.
 
 Use the **USMF** company for the exercises in this lab.
 
