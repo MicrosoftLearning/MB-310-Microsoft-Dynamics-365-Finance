@@ -22,12 +22,18 @@ lab:
 
 # Lab 1 Bank foreign currency revaluation
 
-As part of a period end, accounting conventions require bank account balances in
-foreign currencies to be revalued by using different exchange rate types
-(current, historical, average, and so on). With the bank foreign currency
-revaluation feature, you can revalue one or more bank accounts. Because it’s a
-global feature, you can revalue banks across all legal entities you have access
-to from a single page.
+Imagine you are an accountant for a company that conducts international business. The company maintains bank accounts in various currencies to facilitate these transactions. Due to fluctuations in exchange rates, the value of the foreign currency holdings can change over time relative to the company's home currency. This can cause discrepancies between the book value (recorded value in the company's financial statements) and the fair value (market value) of the foreign currency holdings.
+
+To address this issue, companies must periodically revalue their foreign currency bank accounts. This hands-on exercise will guide you through the process of revaluing bank foreign currency in Microsoft Dynamics 365 Finance.
+
+By following the steps in this exercise, you will learn how to:
+
+- Set up the accounting and reporting currencies for bank accounts.
+- Update currency exchange rates.
+- Execute the foreign currency revaluation process.
+
+This process will ensure that the company's financial statements accurately reflect the current value of its foreign currency holdings.
+
 
 Use the **USMF** company for the exercises in this lab.
 
