@@ -15,8 +15,13 @@ lab:
 <tr><td>1.1</td><td>25 Sep 2024</td><td>Corrected title</td></tr>
 <tr><td>1.2</td><td>10 Dec 2024</td><td>Workaround for expired certificate</td></tr>
 <tr><td>1.3</td><td>13 Jan 2025</td><td>Added business scenario</td></tr>
+<tr><td>1.4</td><td>19 Feb 2025</td><td>Added The Why</td></tr>
 </table>
 </html>
+
+# The Why
+
+In today's dynamic business landscape, understanding and managing risk is paramount to the success and stability of any organization. This hands-on lab will empower you with the ability to calculate risk scores, a critical skill that enables you to identify, assess, and prioritize potential risks effectively. By mastering this process, you'll be equipped to contribute to your organization's risk management strategy, ensuring that potential threats are mitigated before they can impact operations. This lab is not just an academic exercise; it's a practical tool that will enhance your decision-making capabilities and prepare you to handle real-world challenges with confidence and precision.
 
 
 # Business scenario
