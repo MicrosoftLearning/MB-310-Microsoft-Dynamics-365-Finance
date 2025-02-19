@@ -6,6 +6,10 @@ lab:
 
 **MB-310: Microsoft Dynamics 365 Financial Consultant**
 
+# The Why
+
+Effective budget planning is the cornerstone of any successful organization, enabling strategic allocation of resources and ensuring financial stability. This hands-on lab will equip you with the skills to create and manage budgets within Microsoft Dynamics 365 Finance, a critical competency for any finance professional. By mastering budget planning, you'll be able to forecast financial needs, allocate resources efficiently, and support your organization's long-term goals. This lab is not just an academic exercise; it's a practical tool that will empower you to make informed financial decisions and contribute to the overall financial health of your organization.
+
 
 # Change Record
 
@@ -14,6 +18,7 @@ lab:
 <tr><td>1.0</td><td>13 Sep 2024</td><td>Initial release</td></tr>
 <tr><td>1.1</td><td>10 Dec 2024</td><td>Workaround for expired certificate</td></tr>
 <tr><td>1.2</td><td>13 Jan 2025</td><td>Added business scenario</td></tr>
+<tr><td>1.3</td><td>19 Feb 2025</td><td>Added The Why</td></tr>
 </table>
 </html>
 
