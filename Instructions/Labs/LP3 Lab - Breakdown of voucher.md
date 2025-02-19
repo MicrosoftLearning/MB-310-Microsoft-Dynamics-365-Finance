@@ -14,10 +14,13 @@ lab:
 <tr><td>1.0</td><td>13 Sep 2024</td><td>Initial release</td></tr>
 <tr><td>1.1</td><td>10 Dec 2024</td><td>Workaround for expired certificate</td></tr>
 <tr><td>1.2</td><td>13 Jan 2025</td><td>Added business scenario</td></tr>
+<tr><td>1.3</td><td>19 Feb 2025</td><td>Added The Why</td></tr>
 </table>
 </html>
 
+# The Why
 
+In the realm of financial management, understanding the breakdown of vouchers is essential for maintaining accurate and transparent financial records. This hands-on lab will provide you with the skills to dissect and analyze voucher transactions, ensuring that every financial entry is correctly accounted for and traceable. By mastering this process, you'll enhance your ability to audit financial records, identify discrepancies, and ensure compliance with financial regulations. This lab is not just an academic exercise; it's a critical competency that will empower you to uphold the integrity of your organization's financial data and contribute to more reliable financial reporting.
 # Business scenario
 Imagine you are an accounts payable clerk at a company. You receive a vendor invoice that includes multiple tax rates. For example, one portion of the invoice might be subject to a sales tax of 7.25%, while another portion might be subject to a sales tax of 8.25%.
 
