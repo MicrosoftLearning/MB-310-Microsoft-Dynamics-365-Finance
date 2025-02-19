@@ -19,6 +19,10 @@ lab:
 </html>
 
 
+# The Why
+Understanding how to perform bank foreign currency revaluation is crucial for anyone working in finance or accounting within a global business environment. This hands-on lab will equip you with the practical skills needed to manage and revalue foreign currency transactions accurately, ensuring financial statements reflect true economic conditions. By mastering these techniques, you'll be able to mitigate risks associated with currency fluctuations, enhance financial reporting accuracy, and contribute to more informed decision-making within your organization. This lab is not just an academic exercise; it's a vital competency that will empower you to handle real-world financial challenges with confidence and precision.
+
+
 # Business scenario
 
 Imagine you are an accountant for a company that conducts international business. The company maintains bank accounts in various currencies to facilitate these transactions. Due to fluctuations in exchange rates, the value of the foreign currency holdings can change over time relative to the company's home currency. This can cause discrepancies between the book value (recorded value in the company's financial statements) and the fair value (market value) of the foreign currency holdings.
