@@ -15,6 +15,7 @@ lab:
 <tr><td>1.0</td><td>13 Sep 2024</td><td>Initial release</td></tr>
 <tr><td>1.1</td><td>10 Dec 2024</td><td>Workaround for expired certificate</td></tr>
 <tr><td>1.2</td><td>13 Jan 2025</td><td>Added business scenario</td></tr>
+<tr><td>1.3</td><td>19 Feb 2025</td><td>Added The Why</td></tr>
 </table>
 </html>
 
