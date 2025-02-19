@@ -19,7 +19,7 @@ lab:
 
 # The Why
 
-Effective budget planning is the cornerstone of any successful organization, enabling strategic allocation of resources and ensuring financial stability. This hands-on lab will equip you with the skills to create and manage budgets within Microsoft Dynamics 365 Finance, a critical competency for any finance professional. By mastering budget planning, you'll be able to forecast financial needs, allocate resources efficiently, and support your organization's long-term goals. This lab is not just an academic exercise; it's a practical tool that will empower you to make informed financial decisions and contribute to the overall financial health of your organization.
+Effective budget planning is the cornerstone of any successful organization, enabling strategic allocation of resources and ensuring financial stability. This hands-on lab will equip you with the skills to create and manage budgets within Microsoft Dynamics 365 Finance, a critical competency for any finance professional. By mastering budget planning, you'll be able to forecast financial needs, allocate resources efficiently, and support your organization's long-term goals. This lab is a practical tool that will empower you to make informed financial decisions and contribute to the overall financial health of your organization.
 
 
 
