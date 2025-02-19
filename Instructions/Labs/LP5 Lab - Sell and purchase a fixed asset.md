@@ -20,7 +20,7 @@ lab:
 
 # The Why
 
-Managing fixed assets is a fundamental aspect of financial operations in any organization, impacting everything from tax reporting to financial planning. This hands-on lab will provide you with the skills to effectively sell and purchase fixed assets within Microsoft Dynamics 365 Finance. By mastering these processes, you'll ensure accurate asset tracking, optimize asset utilization, and support strategic financial decisions. This lab is not just an academic exercise; it's a practical skill that will empower you to handle real-world financial transactions with confidence and precision, ultimately contributing to the financial health and efficiency of your organization.
+Managing fixed assets is a fundamental aspect of financial operations in any organization, impacting everything from tax reporting to financial planning. This hands-on lab will provide you with the skills to effectively sell and purchase fixed assets within Microsoft Dynamics 365 Finance. By mastering these processes, you'll ensure accurate asset tracking, optimize asset utilization, and support strategic financial decisions. This lab will empower you to handle real-world financial transactions with confidence and precision, ultimately contributing to the financial health and efficiency of your organization.
 
 
 #  Business scenario
