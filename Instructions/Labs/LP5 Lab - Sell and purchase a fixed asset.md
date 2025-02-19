@@ -14,8 +14,13 @@ lab:
 <tr><td>1.0</td><td>13 Sep 2024</td><td>Initial release</td></tr>
 <tr><td>1.1</td><td>10 Dec 2024</td><td>Workaround for expired certificate</td></tr>
 <tr><td>1.2</td><td>13 Jan 2025</td><td>Added business scenario</td></tr>
+<tr><td>1.3</td><td>19 Feb 2025</td><td>Added The Why</td></tr>
 </table>
 </html>
+
+# The Why
+
+Managing fixed assets is a fundamental aspect of financial operations in any organization, impacting everything from tax reporting to financial planning. This hands-on lab will provide you with the skills to effectively sell and purchase fixed assets within Microsoft Dynamics 365 Finance. By mastering these processes, you'll ensure accurate asset tracking, optimize asset utilization, and support strategic financial decisions. This lab is not just an academic exercise; it's a practical skill that will empower you to handle real-world financial transactions with confidence and precision, ultimately contributing to the financial health and efficiency of your organization.
 
 
 #  Business scenario
