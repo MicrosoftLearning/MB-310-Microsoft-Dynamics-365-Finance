@@ -50,24 +50,24 @@ group that must be used to calculate the customer’s risk.
     \> Risk \> Scoring groups** and select **New**.
 ![The Scoring groups page is open. New is selected to create a new scoring group.](images/LP201.png)
 
-1.  In the **Scoring group** field, enter **CM Group**.
+1.  In the **Scoring group** field, enter `CM Group`.
 
-2.  In the **Description** field, enter **Credit management group**.
+2.  In the **Description** field, enter `Credit management group`.
 
 3.  In the **Group type** field, select the **Credit management group** value.
 
 4.  Navigate to **Lines** \> **Add**.
 ![The Scoring groups page is open. Add is selected to add a new line to a scoring group.](images/LP202.png)
 
-1.  In the **Value** field, select I**ndie**.
+1.  In the **Value** field, select **Indie**.
 
-2.  In the **Risk contribution score** field, enter **30**.
+2.  In the **Risk contribution score** field, enter `30`.
 
 3.  Select **Add** to add a new line.
 
 4.  In the **Value** field, select the **Major customer** value.
 
-5.  In the **Risk contribution score** field, enter **10**.
+5.  In the **Risk contribution score** field, enter `10`.
 
 6.  Close the form.
 
@@ -77,7 +77,7 @@ group that must be used to calculate the customer’s risk.
     and select customer **US-027 Birch Company**.
 
 2.  Select **Edit** in the Action Pane.
-![The Vendor page is open. Customer US-027 is selected for an adjustment.](LP203.png)
+![The Vendor page is open. Customer US-027 is selected for an adjustment.](images/LP203.png)
 
 1.  Navigate to the **Credit and collections** FastTab.
 ![The Vendor page is open. The Credit and collections FastTab is selected. ](images/LP204.png)
@@ -101,18 +101,18 @@ group that must be used to calculate the customer’s risk.
 ![The Risk classification page is open and Edit in the Action Pane is selected.](images/LP208.png)
 
 1.  Under **Risk group**, select **Medium**. Then in the **To** field, enter
-    **49.99**.
+    `49.99`.
 
 2.  Select **New** in the Action Pane to add a new line.
 ![The Risk classification page is open and New in the Action Pane is selected.](images/LP209.png)
 
-1.  In the **Risk group** field, enter **Med-High**.
+1.  In the **Risk group** field, enter `Med-High`.
 
-2.  In the **Description** field, enter **Medium-High**.
+2.  In the **Description** field, enter `Medium-High`.
 
-3.  In the **From** field, enter **50**.
+3.  In the **From** field, enter `50`.
 
-4.  In the **To** field, enter **59.99**.
+4.  In the **To** field, enter `59.99`.
 
 5.  In the **Risk group indicator** field, select the **Orange** value.
 
@@ -134,10 +134,10 @@ group that must be used to calculate the customer’s risk.
 
 1.  Note that the risk group is **Empty**.
 
->   In exercise 1, you configured a new scoring group, and then in exercise 2,
->   you added the group to a customer. The new configuration places this
->   customer in a risk group. The new configuration will be apparent after the
->   periodic task **Update risk scores** is performed.
+    >   In exercise 1, you configured a new scoring group, and then in exercise 2,
+    >   you added the group to a customer. The new configuration places this
+    >   customer in a risk group. The new configuration will be apparent after the
+    >   periodic task **Update risk scores** is performed.
 
 1.  Close the form.
 
@@ -163,7 +163,7 @@ group that must be used to calculate the customer’s risk.
 3.  Expand **Credit statistics**.
 
 4.  Select **Refresh**. Note that the risk group is changed to **Medium**.
-![The Customer page is open and in the Related information pane, the Risk group is highlighted.(images/LP215.png)
+![The Customer page is open and in the Related information pane, the Risk group is highlighted.](images/LP215.png)
 
 1.  Select the **Credit management** tab in the Action Pane.
 

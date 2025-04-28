@@ -71,14 +71,13 @@ laptop for a new colleague.
 
 1.  In the **Fixed asset number** field, select **COMP-000003**.
 
->   The main account field is automatically filled with the main account number
->   that is set up in the posting profile.
-![Free text invoices page is open and the Invoice lines FastTab is displayed.](images/LP505.png)
+    >   The main account field is automatically filled with the main account number
+    >   that is set up in the posting profile.
+    ![Free text invoices page is open and the Invoice lines FastTab is displayed.](images/LP505.png)
 
-1.  On the **Invoice lines** FastTab, in the **Description** field, enter **LCD
-    Monitor**.
+1.  On the **Invoice lines** FastTab, in the **Description** field, enter `LCD Monitor`.
 
-2.  In the **Unit price** field, enter **100**.
+2.  In the **Unit price** field, enter `100`.
 
 3.  Select **Post** in the Action Pane.
 ![Free text invoices page is open and Post is selected in the Action Pane.](images/LP506.png)
@@ -158,23 +157,23 @@ using a purchase order, it is important to configure fixed asset parameters.
 2.  In the **Generate** section, select **Product receipt**.
 ![All purchase orders page is open. Product receipt on the Receive FastTab is selected.](images/LP515.png)
 
-1.  In the **Product receipt** field, enter **1122**.
+1.  In the **Product receipt** field, enter `1122`.
 
 2.  Select **OK**.
-![The Product receipt field has value 1122 in the Post product receipt page.](LP516.png)
+    ![The Product receipt field has value 1122 in the Post product receipt page.](images/LP516.png)
 
->   The fixed asset will be created and acquired when the product receipt is
->   posted.
-![All purchase orders page is open. A value is added to the Fixed asset number field.](images/LP517.png)
+    >   The fixed asset will be created and acquired when the product receipt is
+    >   posted.
+    ![All purchase orders page is open. A value is added to the Fixed asset number field.](images/LP517.png)
 
 1.  Select **Invoice** in the Action Pane.
 
 2.  In the **Generate** section, select **Invoice**.
 ![All purchase orders is open. Invoice is selected under Generate.](images/LP518.png)
 
-1.  In the **Number** field, enter **4556**.
+1.  In the **Number** field, enter `4556`.
 
-2.  In the **Invoice description** field, enter **Invoice 4556**.
+2.  In the **Invoice description** field, enter `Invoice 4556`.
 
 3.  In the **Invoice date** field, enter **07/11/2024**.
 
