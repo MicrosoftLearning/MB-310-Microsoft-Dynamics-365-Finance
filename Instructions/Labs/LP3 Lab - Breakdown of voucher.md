@@ -62,7 +62,7 @@ on \$7,000 and 8.25 percent on \$3,000.
 
 3.  In the **Invoice date** field, enter **7/10/2024**.
 
-4.  In the **Invoice** field, enter **125**.
+4.  In the **Invoice** field, enter `125`.
 
 5.  In the **Description** field, enter **Office supplies**.
 
@@ -82,13 +82,13 @@ on \$7,000 and 8.25 percent on \$3,000.
 
     Note that the amount in the **Amounts include sales tax** column and the
     amount in the **Sales tax amount** column are changed.
-![The Breakdown of voucher page is open. The amounts in the Amounts include sales tax column and the Sales tax amount column are highlighted.](LP306.png)
+![The Breakdown of voucher page is open. The amounts in the Amounts include sales tax column and the Sales tax amount column are highlighted.](images/LP306.png)
 
-1.  In the **Amount excl. sales tax** field, enter **7,000**.
+1.  In the **Amount excl. sales tax** field, enter `7,000`.
 ![The Breakdown of voucher page is open. The amount in the Amount excl. sales tax column is highlighted.](images/LP307.png)
 
 1.  Navigate to the lower part of the page. In the **Debit** field, enter
-    **7,000**.
+    `7,000`.
 ![The Breakdown of voucher page is open. The amount in the Debit column in the lower part of the page is adjusted to $7,000.](images/LP308.png)
 
 1.  Select **New** in the Action Pane to create a new line in the upper part of
@@ -114,7 +114,7 @@ on \$7,000 and 8.25 percent on \$3,000.
     in the Action Pane.
 ![The Breakdown of voucher page is open. Update is selected in the Action Pane.](images/LP314.png)
 
-Note that the original line is reversed and two new lines are created according
+1. Note that the original line is reversed and two new lines are created according
 to the breakdown of the voucher.
 ![The Vendor invoice journal page is open to display the created lines.](images/LP315.png)
 

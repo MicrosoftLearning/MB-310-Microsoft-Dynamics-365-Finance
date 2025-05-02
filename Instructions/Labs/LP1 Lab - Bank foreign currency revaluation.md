@@ -75,7 +75,7 @@ transaction that can be revalued.
 2.  In the **Account** field, select **600155** for the **MainAccount, 001** for
     the **BusinessUnit,** and **022** for the **Department**.
 
-3.  In the **Debit** field, enter **1,000.00**.
+3.  In the **Debit** field, enter `1,000.00`.
 
 4.  In the **Offset account type** field, select **Bank**.
 
@@ -133,7 +133,7 @@ in USMF.
 
 5.  In the **Start date** field, enter **7/15/2024**.
 
-6.  In the **Exchange rate** field, enter **91.8000**.
+6.  In the **Exchange rate** field, enter `91.8000`.
 ![Currency exchange rates page with the Start date, Exchange rate, and Exchange value fields highlighted](images/LP111.png)
 
 1.  Select **Save** in the Action Pane.
@@ -177,7 +177,7 @@ in USMF.
 | 7/15/2024    | 91.80 EUR = 100 USD     | 1 EUR = (1 / 0.9180) 1.08932 USD | 1000 EUR = (1000 \* 1.08932) = 1.089,32 USD                |
 | Today’s date |                         | Exchange rate gain               | Revalued amount = 1,089.32 USD – 1,369.86 USD = 280.54 USD |
 
-1.  **Post** the journal.
+11.  **Post** the journal.
 ![Foreign currency revaluation preview page displaying the posted journal.](images/LP116.png)
 
 ## Exercise 4 Review the voucher and balance of the foreign currency bank account
