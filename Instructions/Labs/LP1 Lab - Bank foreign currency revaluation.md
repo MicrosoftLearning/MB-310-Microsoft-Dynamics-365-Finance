@@ -184,7 +184,7 @@ in USMF.
 
 ## Exercise 3 Execute the bank foreign currency revaluation
 
-1. Navigate to Cash and bank management > Periodic tasks > Foreign currency revaluation.
+1. Navigate to **Cash and bank management** > **Periodic tasks** > **Foreign currency revaluation**.
 2. On the Action Pane, select **Foreign currency revaluation**.
 3. In the **On date** field, enter **7/31/2024**.
 4. In the **Exchange rate date** field, enter **7/21/2024**.
