@@ -179,8 +179,7 @@ in USMF.
 | Today’s date |                         | Exchange rate gain               | Revalued amount = 1,089.32 USD – 1,369.86 USD = 280.54 USD |
 
 11.  **Post** the journal.
-![Foreign currency revaluation preview page displaying the posted journal.](images/LP116.png)
-~~
+![Foreign currency revaluation preview page displaying the posted journal.](images/LP116.png)~~
 
 ## Exercise 3 Execute the bank foreign currency revaluation
 
@@ -192,7 +191,7 @@ in USMF.
 6. Switch **Preview before posting** to **Yes**.
 7. Select **OK** to run the revaluation preview.
 8. When you see **“Operation completed”** in the message bar, select **Post** to record the unrealized gain or loss.
-9. 
+   
 ## Exercise 4 Review the voucher and balance of the foreign currency bank account
 
 1.  Select the **Voucher transactions** button in the Action Pane.
