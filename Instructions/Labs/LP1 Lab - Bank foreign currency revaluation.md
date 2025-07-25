@@ -16,6 +16,7 @@ lab:
 <tr><td>1.1</td><td>10 Dec 2024</td><td>Workaround for expired certificate</td></tr>
 <tr><td>1.2</td><td>13 Jan 2025</td><td>Added business scenario</td></tr>
 <tr><td>1.3</td><td>19 Feb 2025</td><td>Added The Why</td></tr>
+<tr><td>1.4</td><td>25 Jul 2025</td><td>Corrected exercise 3</td></tr>
 </table>
 </html>
 
@@ -139,7 +140,7 @@ in USMF.
 1.  Select **Save** in the Action Pane.
 
 2.  Close the form.
-
+~~
 ## Exercise 3 Execute the foreign currency revaluation
 
 1.  Navigate to **General Ledger** \> **Currencies** \> **Foreign currency
@@ -179,7 +180,19 @@ in USMF.
 
 11.  **Post** the journal.
 ![Foreign currency revaluation preview page displaying the posted journal.](images/LP116.png)
+~~
 
+## Exercise 3 Execute the bank foreign currency revaluation
+
+1. Navigate to Cash and bank management > Periodic tasks > Foreign currency revaluation.
+2. On the Action Pane, select **Foreign currency revaluation**.
+3. In the **On date** field, enter **7/31/2024**.
+4. In the **Exchange rate date** field, enter **7/21/2024**.
+5. In the bank‑accounts grid, select the line for **USMF EUR**.
+6. Switch **Preview before posting** to **Yes**.
+7. Select **OK** to run the revaluation preview.
+8. When you see **“Operation completed”** in the message bar, select **Post** to record the unrealized gain or loss.
+9. 
 ## Exercise 4 Review the voucher and balance of the foreign currency bank account
 
 1.  Select the **Voucher transactions** button in the Action Pane.
