@@ -140,8 +140,8 @@ in USMF.
 1.  Select **Save** in the Action Pane.
 
 2.  Close the form.
-~~
-## Exercise 3 Execute the foreign currency revaluation
+
+<del>## Exercise 3 Execute the foreign currency revaluation
 
 1.  Navigate to **General Ledger** \> **Currencies** \> **Foreign currency
     revaluation**.
@@ -179,7 +179,8 @@ in USMF.
 | Today’s date |                         | Exchange rate gain               | Revalued amount = 1,089.32 USD – 1,369.86 USD = 280.54 USD |
 
 11.  **Post** the journal.
-![Foreign currency revaluation preview page displaying the posted journal.](images/LP116.png)~~
+![Foreign currency revaluation preview page displaying the posted journal.](images/LP116.png)
+</del>
 
 ## Exercise 3 Execute the bank foreign currency revaluation
 
