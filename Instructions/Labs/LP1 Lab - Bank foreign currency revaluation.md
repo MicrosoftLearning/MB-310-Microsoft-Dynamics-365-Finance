@@ -186,7 +186,7 @@ in USMF.
 
 1. Navigate to **Cash and bank management** > **Periodic tasks** > **Foreign currency revaluation**.
 2. On the Action Pane, select **Foreign currency revaluation**.
-3. In the **On date** field, enter **7/31/2024**.
+3. In the **Revaluation date** field, enter **7/31/2024**.
 4. In the **Exchange rate date** field, enter **7/21/2024**.
 5. In the bank‑accounts grid, select the line for **USMF EUR**.
 6. Switch **Preview before posting** to **Yes**.
@@ -195,22 +195,22 @@ in USMF.
    
 ## Exercise 4 Review the voucher and balance of the foreign currency bank account
 
-1.  Select the **Voucher transactions** button in the Action Pane.
+1.  Select the **Voucher** or **Voucher transactions** button in the Action Pane.
 ![Foreign currency revaluation page with the Voucher transactions button highlighted.](images/LP117.png)
 
-1.  Review the voucher transactions.
+2.  Review the voucher transactions.
 ![Voucher transactions page with four posted voucher transactions](images/LP118.png)
 
 >   The currency EUR has decreased, which is an exchange rate gain for USMF.
 
-1.  Navigate to **General ledger** \> **Inquiries and reports** \> **Trial
+3.  Navigate to **General ledger** \> **Inquiries and reports** \> **Trial
     balance**.
 
-2.  In the **From date** field, enter **1/1/2024**.
+4.  In the **From date** field, enter **1/1/2024**.
 
-3.  In the **To date** field, enter **12/31/2024**.
+5.  In the **To date** field, enter **12/31/2024**.
 
-4.  Select **Calculate balances**.
+6.  Select **Calculate balances**.
 ![Trial balance page with the From date and To date fields and the Calculate balances button highlighted.](images/LP119.png)
 
 1.  View the balance of main account **110310**.
