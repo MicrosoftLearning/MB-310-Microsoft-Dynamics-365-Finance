@@ -16,6 +16,7 @@ lab:
 <tr><td>1.1</td><td>10 Dec 2024</td><td>Workaround for expired certificate</td></tr>
 <tr><td>1.2</td><td>13 Jan 2025</td><td>Added business scenario</td></tr>
 <tr><td>1.3</td><td>19 Feb 2025</td><td>Added The Why</td></tr>
+<tr><td>1.4</td><td>25 Jul 2025</td><td>Corrected exercise 3</td></tr>
 </table>
 </html>
 
@@ -140,7 +141,7 @@ in USMF.
 
 2.  Close the form.
 
-## Exercise 3 Execute the foreign currency revaluation
+<!-- ## Exercise 3 Execute the foreign currency revaluation
 
 1.  Navigate to **General Ledger** \> **Currencies** \> **Foreign currency
     revaluation**.
@@ -179,25 +180,37 @@ in USMF.
 
 11.  **Post** the journal.
 ![Foreign currency revaluation preview page displaying the posted journal.](images/LP116.png)
+ -->
 
+## Exercise 3 Execute the bank foreign currency revaluation
+
+1. Navigate to **Cash and bank management** > **Periodic tasks** > **Foreign currency revaluation**.
+2. On the Action Pane, select **Foreign currency revaluation**.
+3. In the **Revaluation date** field, enter **7/31/2024**.
+4. In the **Exchange rate date** field, enter **7/21/2024**.
+5. In the bank‑accounts grid, select the line for **USMF EUR**.
+6. Switch **Preview before posting** to **Yes**.
+7. Select **OK** to run the revaluation preview.
+8. When you see **“Operation completed”** in the message bar, select **Post** to record the unrealized gain or loss.
+   
 ## Exercise 4 Review the voucher and balance of the foreign currency bank account
 
-1.  Select the **Voucher transactions** button in the Action Pane.
+1.  Select the **Voucher** or **Voucher transactions** button in the Action Pane.
 ![Foreign currency revaluation page with the Voucher transactions button highlighted.](images/LP117.png)
 
-1.  Review the voucher transactions.
+2.  Review the voucher transactions.
 ![Voucher transactions page with four posted voucher transactions](images/LP118.png)
 
 >   The currency EUR has decreased, which is an exchange rate gain for USMF.
 
-1.  Navigate to **General ledger** \> **Inquiries and reports** \> **Trial
+3.  Navigate to **General ledger** \> **Inquiries and reports** \> **Trial
     balance**.
 
-2.  In the **From date** field, enter **1/1/2024**.
+4.  In the **From date** field, enter **1/1/2024**.
 
-3.  In the **To date** field, enter **12/31/2024**.
+5.  In the **To date** field, enter **12/31/2024**.
 
-4.  Select **Calculate balances**.
+6.  Select **Calculate balances**.
 ![Trial balance page with the From date and To date fields and the Calculate balances button highlighted.](images/LP119.png)
 
 1.  View the balance of main account **110310**.
