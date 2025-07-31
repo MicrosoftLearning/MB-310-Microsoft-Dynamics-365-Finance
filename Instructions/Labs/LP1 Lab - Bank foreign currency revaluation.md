@@ -141,7 +141,7 @@ in USMF.
 
 2.  Close the form.
 
-<s>## Exercise 3 Execute the foreign currency revaluation
+<!-- ## Exercise 3 Execute the foreign currency revaluation
 
 1.  Navigate to **General Ledger** \> **Currencies** \> **Foreign currency
     revaluation**.
@@ -180,7 +180,7 @@ in USMF.
 
 11.  **Post** the journal.
 ![Foreign currency revaluation preview page displaying the posted journal.](images/LP116.png)
-</s>
+ -->
 
 ## Exercise 3 Execute the bank foreign currency revaluation
 
