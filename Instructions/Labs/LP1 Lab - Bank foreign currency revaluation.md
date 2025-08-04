@@ -66,7 +66,7 @@ transaction that can be revalued.
 
 
 1.  Select **GenJrn** in the **Name** field.
-![General journals page with GenJrn selected in the Names list](images/LP101.png)
+![General journals page with GenJrn selected in the Names list](images/LP1E1S3.jpg)
 
 1.  Select the **Lines** button in the Action Pane.
 ![General journals page with GenJrn selected and the Lines button selected](images/LP103.png)
@@ -185,21 +185,29 @@ in USMF.
 ## Exercise 3 Execute the bank foreign currency revaluation
 
 1. Navigate to **Cash and bank management** > **Periodic tasks** > **Foreign currency revaluation**.
+
 2. On the Action Pane, select **Foreign currency revaluation**.
+![Foreign currency revaluation option.](images/LP1E3S2.jpg)
+
 3. In the **Revaluation date** field, enter **7/31/2024**.
+
 4. In the **Exchange rate date** field, enter **7/21/2024**.
+
 5. In the bank‑accounts grid, select the line for **USMF EUR**.
-6. Switch **Preview before posting** to **Yes**.
+
+6. Switch **Preview before posting** to **Yes**. ![Posting options.](images/LP1E3S6.jpg)
+
 7. Select **OK** to run the revaluation preview.
+
 8. When you see **“Operation completed”** in the message bar, select **Post** to record the unrealized gain or loss.
    
 ## Exercise 4 Review the voucher and balance of the foreign currency bank account
 
 1.  Select the **Voucher** or **Voucher transactions** button in the Action Pane.
-![Foreign currency revaluation page with the Voucher transactions button highlighted.](images/LP117.png)
+![Foreign currency revaluation page with the Voucher transactions button highlighted.](images/LP1E4S1.jpg)
 
 2.  Review the voucher transactions.
-![Voucher transactions page with four posted voucher transactions](images/LP118.png)
+![Voucher transactions page with four posted voucher transactions](images/LP1E4S2.jpg)
 
 >   The currency EUR has decreased, which is an exchange rate gain for USMF.
 
@@ -214,6 +222,7 @@ in USMF.
 ![Trial balance page with the From date and To date fields and the Calculate balances button highlighted.](images/LP119.png)
 
 1.  View the balance of main account **110310**.
-![Trial balance page with the balance information for main account 110310 displayed.](images/LP120.png)
+![Trial balance page with the balance information for main account 110310 displayed.](images/LP1E4S7.jpg)
 
 1.  Close the form.
+
