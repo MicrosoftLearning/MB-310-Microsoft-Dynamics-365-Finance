@@ -6,6 +6,7 @@ lab:
 
 **MB-310: Microsoft Dynamics 365 Financial Consultant**
 
+# Lab 2: Calculate risk scores
 
 # Change Record
 
@@ -16,6 +17,7 @@ lab:
 <tr><td>1.2</td><td>10 Dec 2024</td><td>Workaround for expired certificate</td></tr>
 <tr><td>1.3</td><td>13 Jan 2025</td><td>Added business scenario</td></tr>
 <tr><td>1.4</td><td>19 Feb 2025</td><td>Added The Why</td></tr>
+<tr><td>1.5</td><td>10 Feb 2026</td><td>Corrected and clarified steps</td></tr>
 </table>
 </html>
 
@@ -144,7 +146,7 @@ group that must be used to calculate the customer’s risk.
 ## Exercise 5 Update risk scores
 
 1.  Navigate to module **Credit and collections** \> **Periodic tasks** \>
-    Credit management \> **Update risk scores**, and then select Records to
+    **Credit management** \> **Update risk scores**, and then select Records to
     include \> **Filter**.
 ![The period task Update risk scores is open and the filter is selected.](images/LP213.png)
 
@@ -158,11 +160,11 @@ group that must be used to calculate the customer’s risk.
 1.  Navigate to **Accounts receivable** \> **Customers** \> **All customers**,
     select customer **US-027 Birch Company.**
 
-2.  Open the **Related information Pane** by pressing **Ctrl+F2**.
+2.  Open the **Related information Pane** if it's not already open by pressing **Ctrl+F2**.
 
 3.  Expand **Credit statistics**.
 
-4.  Select **Refresh**. Note that the risk group is changed to **Medium**.
+4.  Select **Refresh**. Note that the risk group is changed.
 ![The Customer page is open and in the Related information pane, the Risk group is highlighted.](images/LP215.png)
 
 1.  Select the **Credit management** tab in the Action Pane.
@@ -173,3 +175,4 @@ group that must be used to calculate the customer’s risk.
 ![The Vendor page is open and on the Credit management tab, Risk score is selected.](images/LP216.png)
 
 1.  Close the form.
+
