@@ -6,6 +6,7 @@ lab:
 
 **MB-310: Microsoft Dynamics 365 Financial Consultant**
 
+# Lab 5: Sell and purchase a fixed asset
 
 # Change Record
 
@@ -15,6 +16,7 @@ lab:
 <tr><td>1.1</td><td>10 Dec 2024</td><td>Workaround for expired certificate</td></tr>
 <tr><td>1.2</td><td>13 Jan 2025</td><td>Added business scenario</td></tr>
 <tr><td>1.3</td><td>19 Feb 2025</td><td>Added The Why</td></tr>
+<tr><td>1.4</td><td>10 Feb 2026</td><td>Corrected and clarified steps</td></tr>
 </table>
 </html>
 
@@ -179,7 +181,7 @@ using a purchase order, it is important to configure fixed asset parameters.
 
 4.  Select **Update match status** in the Action Pane.
 ![Vendor invoice page is open. Update match status is selected in the Action Pane.](images/LP519.png)
-The match status changed to **Passed**.
+The match status changes to **Passed**.
 ![Vendor invoice page with the Match status displaying Passed.](images/LP520.png)
 
 1.  Select **Post** in the Action Pane.
@@ -199,3 +201,4 @@ The match status changed to **Passed**.
 ![Fixed assets page with the acquisition amount for COMP-000008 posted.](images/LP523.png)
 
 Close the form. You’ve acquired and verified the asset.
+
