@@ -17,6 +17,7 @@ lab:
 <tr><td>1.2</td><td>13 Jan 2025</td><td>Added business scenario</td></tr>
 <tr><td>1.3</td><td>19 Feb 2025</td><td>Added The Why</td></tr>
 <tr><td>1.4</td><td>25 Jul 2025</td><td>Corrected exercise 3</td></tr>
+<tr><td>1.5</td><td>10 Feb 2026</td><td>Corrected and clarified steps</td></tr>
 </table>
 </html>
 
@@ -210,7 +211,6 @@ in USMF.
 ![Voucher transactions page with four posted voucher transactions](images/LP1E4S2.jpg)
 
 >   The currency EUR has decreased, which is an exchange rate gain for USMF.
-
 3.  Navigate to **General ledger** \> **Inquiries and reports** \> **Trial
     balance**.
 
@@ -221,8 +221,9 @@ in USMF.
 6.  Select **Calculate balances**.
 ![Trial balance page with the From date and To date fields and the Calculate balances button highlighted.](images/LP119.png)
 
-1.  View the balance of main account **110310**.
+1.  View the balance of main account **110310** and how it has changed.
 ![Trial balance page with the balance information for main account 110310 displayed.](images/LP1E4S7.jpg)
 
 1.  Close the form.
 
+By completing this lab, you validated how exchange rate changes affect foreign currency bank accounts by executing a revaluation and reviewing the resulting gain or loss in Dynamics 365 Finance.
