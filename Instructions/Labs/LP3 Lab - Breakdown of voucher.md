@@ -6,6 +6,7 @@ lab:
 
 **MB-310: Microsoft Dynamics 365 Financial Consultant**
 
+# Lab 3: Breakdown of voucher
 
 # Change Record
 
@@ -15,6 +16,7 @@ lab:
 <tr><td>1.1</td><td>10 Dec 2024</td><td>Workaround for expired certificate</td></tr>
 <tr><td>1.2</td><td>13 Jan 2025</td><td>Added business scenario</td></tr>
 <tr><td>1.3</td><td>19 Feb 2025</td><td>Added The Why</td></tr>
+<tr><td>1.4</td><td>10 Feb 2026</td><td>Corrected and clarified steps</td></tr>
 </table>
 </html>
 
@@ -95,10 +97,10 @@ on \$7,000 and 8.25 percent on \$3,000.
     the page.
 ![The Breakdown of voucher page is open. New is selected in the Action pane.](images/LP309.png)
 
-1.  In the **Sales tax group** field, select **CALA**.
+1.  In the **Sales tax group** field, select **CALA** (for Los Angeles, California).
 ![The Breakdown of voucher page is open. The sales tax group CALA is selected in the Sales tax group field.](images/LP310.png)
 
-1.  In the **Item sales tax group** field, select **AU/VI**.
+1.  In the **Item sales tax group** field, select **AU/VI** (for audio/visual).
 
 2.  Navigate to the lower part of the page and select **Add** to add a line in
     the lower part.
@@ -126,3 +128,6 @@ to the breakdown of the voucher.
 
 1.  After the message “Operation completed” appears, close the form.
 ![The Vendor invoice journal page is open. The message Operation completed appears in the message bar.](images/LP318.png)
+
+By doing this lab, you ensured accurate tax calculation and compliant financial posting by breaking down a vendor invoice into multiple voucher lines with correct tax rates in Dynamics 365 Finance.
+
