@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Lab 4: Budget planning'
-    module: 'Learning Path 04: Configure and use budget planning'
+  title: 'Lab 4: Budget planning'
+  module: 'Learning Path 04: Configure and use budget planning'
+  description: '**MB-310: Microsoft Dynamics 365 Financial Consultant**'
+  duration: 5 minutes
+  level: 100
+  islab: true
+  primarytopics:
+  - Dynamics 365
 ---
 
 **MB-310: Microsoft Dynamics 365 Financial Consultant**
