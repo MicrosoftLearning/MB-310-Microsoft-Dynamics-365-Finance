@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Lab 2: Calculate risk scores'
-    module: 'Learning Path 02: Configure credit and collections'
+  title: 'Lab 2: Calculate risk scores'
+  module: 'Learning Path 02: Configure credit and collections'
+  description: '**MB-310: Microsoft Dynamics 365 Financial Consultant**'
+  duration: 5 minutes
+  level: 100
+  islab: true
+  primarytopics:
+  - Dynamics 365
 ---
 
 **MB-310: Microsoft Dynamics 365 Financial Consultant**
