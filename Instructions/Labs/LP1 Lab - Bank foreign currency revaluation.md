@@ -1,7 +1,14 @@
 ---
 lab:
-    title: 'Lab 1: Bank foreign currency revaluation'
-    module: 'Learning Path 01: Set up and configure financial management; work with General Ledger'
+  title: 'Lab 1: Bank foreign currency revaluation'
+  module: 'Learning Path 01: Set up and configure financial management; work with
+    General Ledger'
+  description: '**MB-310: Microsoft Dynamics 365 Financial Consultant**'
+  duration: 5 minutes
+  level: 100
+  islab: true
+  primarytopics:
+  - Dynamics 365
 ---
 
 **MB-310: Microsoft Dynamics 365 Financial Consultant**
