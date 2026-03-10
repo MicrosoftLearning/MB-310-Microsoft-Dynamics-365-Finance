@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Lab 5: Sell and purchase a fixed asset'
-    module: 'Learning Path 05: Manage fixed assets'
+  title: 'Lab 5: Sell and purchase a fixed asset'
+  module: 'Learning Path 05: Manage fixed assets'
+  description: '**MB-310: Microsoft Dynamics 365 Financial Consultant**'
+  duration: 5 minutes
+  level: 100
+  islab: true
+  primarytopics:
+  - Dynamics 365
 ---
 
 **MB-310: Microsoft Dynamics 365 Financial Consultant**
