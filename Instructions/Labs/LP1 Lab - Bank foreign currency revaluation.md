@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Lab 1: Bank foreign currency revaluation'
-    module: 'Learning Path 01: Set up and configure financial management; work with General Ledger'
+  title: 'Lab 1: Bank foreign currency revaluation'
+  module: 'Learning Path 01: Set up and configure financial management; work with General Ledger'
+  description: During this lab, you will first enter a transaction in a bank journal that can be revalued. The second step is to prepare foreign currency revaluation. After you configure the foreign currency revaluation, you run the process and then review the results.
+  duration: 5 minutes
+  level: 100
+  islab: true
 ---
 
 **MB-310: Microsoft Dynamics 365 Financial Consultant**
