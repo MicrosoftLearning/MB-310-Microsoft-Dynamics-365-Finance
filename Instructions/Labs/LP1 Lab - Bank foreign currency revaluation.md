@@ -3,8 +3,8 @@ lab:
   title: 'Lab 1: Bank foreign currency revaluation'
   module: 'Learning Path 01: Set up and configure financial management; work with General Ledger'
   description: During this lab, you will first enter a transaction in a bank journal that can be revalued. The second step is to prepare foreign currency revaluation. After you configure the foreign currency revaluation, you run the process and then review the results.
-  duration: 5 minutes
-  level: 100
+  duration: 10 minutes
+  level: 300
   islab: true
 ---
 
@@ -231,3 +231,4 @@ in USMF.
 1.  Close the form.
 
 By completing this lab, you validated how exchange rate changes affect foreign currency bank accounts by executing a revaluation and reviewing the resulting gain or loss in Dynamics 365 Finance.
+
