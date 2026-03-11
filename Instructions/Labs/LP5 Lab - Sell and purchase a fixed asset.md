@@ -3,8 +3,8 @@ lab:
   title: 'Lab 5: Sell and purchase a fixed asset'
   module: 'Learning Path 05: Manage fixed assets'
   description: During this lab you will sell a fixed asset and purchase a fixed asset.
-  duration: 5 minutes
-  level: 100
+  duration: 15 minutes
+  level: 300
   islab: true
 ---
 
@@ -205,4 +205,5 @@ The match status changes to **Passed**.
 ![Fixed assets page with the acquisition amount for COMP-000008 posted.](images/LP523.png)
 
 Close the form. You’ve acquired and verified the asset.
+
 
