@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Lab 5: Sell and purchase a fixed asset'
-    module: 'Learning Path 05: Manage fixed assets'
+  title: 'Lab 5: Sell and purchase a fixed asset'
+  module: 'Learning Path 05: Manage fixed assets'
+  description: During this lab you will sell a fixed asset and purchase a fixed asset.
+  duration: 5 minutes
+  level: 100
+  islab: true
 ---
 
 **MB-310: Microsoft Dynamics 365 Financial Consultant**
