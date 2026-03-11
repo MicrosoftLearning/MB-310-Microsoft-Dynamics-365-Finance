@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Lab 3: Breakdown of voucher'
-    module: 'Learning Path 03: Perform accounts payable daily procedures'
+  title: 'Lab 3: Breakdown of voucher'
+  module: 'Learning Path 03: Perform accounts payable daily procedures'
+  description: Use the USMF company for the exercises in this lab.
+  duration: 5 minutes
+  level: 100
+  islab: true
 ---
 
 **MB-310: Microsoft Dynamics 365 Financial Consultant**
