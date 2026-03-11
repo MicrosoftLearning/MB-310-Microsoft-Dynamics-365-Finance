@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Lab 3: Breakdown of voucher'
-    module: 'Learning Path 03: Perform accounts payable daily procedures'
+  title: 'Lab 3: Breakdown of voucher'
+  module: 'Learning Path 03: Perform accounts payable daily procedures'
+  description: Use the USMF company for the exercises in this lab.
+  duration: 15 minutes
+  level: 300
+  islab: true
 ---
 
 **MB-310: Microsoft Dynamics 365 Financial Consultant**
@@ -130,4 +134,5 @@ to the breakdown of the voucher.
 ![The Vendor invoice journal page is open. The message Operation completed appears in the message bar.](images/LP318.png)
 
 By doing this lab, you ensured accurate tax calculation and compliant financial posting by breaking down a vendor invoice into multiple voucher lines with correct tax rates in Dynamics 365 Finance.
+
 

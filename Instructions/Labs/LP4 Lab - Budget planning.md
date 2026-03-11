@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Lab 4: Budget planning'
-    module: 'Learning Path 04: Configure and use budget planning'
+  title: 'Lab 4: Budget planning'
+  module: 'Learning Path 04: Configure and use budget planning'
+  description: Microsoft Dynamics 365 Finance can help you create different budget scenarios based on various assumptions. For example, you could create a base case scenario, an optimistic scenario, and a pessimistic scenario.
+  duration: 30 minutes
+  level: 300
+  islab: true
+  primarytopics:
+    - Dynamics 365
 ---
 
 **MB-310: Microsoft Dynamics 365 Financial Consultant**
@@ -462,4 +468,5 @@ from the General ledger.
 1.  Select **Submit**.
 
 >   The finance department will need to review and approve the budget plan.
+
 
