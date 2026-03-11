@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Lab 2: Calculate risk scores'
-    module: 'Learning Path 02: Configure credit and collections'
+  title: 'Lab 2: Calculate risk scores'
+  module: 'Learning Path 02: Configure credit and collections'
+  description: During this lab, you will configure a scoring group, add the new group to a customer, and calculate the risk group classification to determine how risky the customer is.
+  duration: 5 minutes
+  level: 100
+  islab: true
 ---
 
 **MB-310: Microsoft Dynamics 365 Financial Consultant**
